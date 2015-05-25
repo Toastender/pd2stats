@@ -40,7 +40,7 @@ $l['steamgroup'] = 'Grupo Steam';
 $l['feedback'] = 'Feedback';
 $l['notice'] = '¡Menú'; //Incluye al final un !
 $l['ads'] = 'Publicidad';
-$l['switch'] = 'Cambiar';gr
+$l['switch'] = 'Cambiar';
 $l['languagetex'] = 'Idioma';
 $l['detection'] = 'Advertencia';
 //Itemindex
@@ -213,6 +213,7 @@ $l['overkillpack'] = 'PACK OVERKILL';
 $l['compoverkillpack'] = 'PACK COMPLETAMENTE OVERKILL';
 $l['speedrunnersdlc'] = 'SPEEDRUNNERS';
 $l['bbq'] = 'PACK ARMAS BBQ';
+$l['westpack'] = 'PACK SALVAJE OESTE';
 ////Weapons
 ////Primary
 //Akimbo
@@ -247,6 +248,7 @@ $l['msr'] = 'Rattlesnake';
 $l['r93'] = 'R93';
 $l['m95'] = 'Thanatos .50 cal';
 $l['mosin'] = 'Nagant';
+$l['winchester1874'] = 'Repetidor 1874';
 //Shotguns
 $l['r870'] = 'Reinfeld 880';
 $l['saiga'] = 'Izhma 12G';
@@ -268,6 +270,7 @@ $l['m134'] = 'Ametralladora Pesada Gatling Vulcan';
 $l['gre_m79'] = 'GL40';
 $l['flamethrower_mk2'] = 'Lanzallamas';
 $l['m32'] = 'Piglet';
+$l['plainsrider'] = 'Arco del Llanero';
 ////Secondary
 //Pistols
 $l['usp'] = 'Interceptor 45';
@@ -283,6 +286,7 @@ $l['p226'] = 'Signature .40';
 $l['g26'] = 'Chimano Compact';
 $l['c96'] = 'Broomstick';
 $l['hs2000'] = 'LEO';
+$l['peacemaker'] = 'Pacificador .45';
 //Submachine Guns
 $l['mac10'] = 'Mark 10';
 $l['new_mp5'] = 'Compact-5';
@@ -381,12 +385,22 @@ $l['spatula'] = 'Espátula';
 $l['spatula-description'] = '';
 $l['tenderizer'] = 'Ablandador de Carne';
 $l['tenderizer-description'] = '';
+$l['bowie'] = 'Palillo de Arkansas';
+$l['bowie-description'] = '';
+$l['branding_iron'] = 'Eres mio';
+$l['branding_iron-description'] = '';
+$l['mining_pick'] = 'Fiebre del Oro';
+$l['mining_pick-description'] = '';
+$l['scalper'] = 'Tomahawk Cortacabelleras';
+$l['scalper-description'] = '';
 ////Grenades
 $l['grenades'] = 'Granada';
 $l['frag_grenade'] = 'Granada de Fragmentación';
 $l['frag_grenade-description'] = 'La granada de fragmentación es un invento que ha cambiado muy poco desde su invención. Es un objeto que se lanza y explota, mandando fragmentos y trozos con tanta fuerza que puede atravesar la carne, huesos y armadura ligeras. Barato y efectivo.';
 $l['molotov'] = 'Molotov';
 $l['molotov-description'] = 'El Cóctel Molotov puede ser el arma arrojadiza mas simple. Nada más que una botella con líquido inflamable con una mecha. Es barato, sencillo y altamente efectivo.';
+$l['dynamite'] = 'Dinamita';
+$l['dynamite-description'] = 'Alfred Nobel, ingeniero Sueco, inventó la dinamita y su efectivadad explotando rocas. El Viejo Kenneth, un buscador de oro borracho, inventó su efectividad explotando gente.';
 ////Gadgets
 $l['ammo_bag'] = 'Bolsa de munición';
 $l['ammo_bag-description'] = 'La bolsa de munición es una bolsa portátil cuyo objetivo es permitir que los soldados lleven munición extra. Para desplegar la bolsa de munición debes pulsar y mantener la tecla [G]. Una vez desplegada, no se puede cambiar de lugar. Puede ser usada por ti o tus compañeros pulsando y manteniendo la tecla [F]. Tiene un uso limitado y cuando se termina desaparece. Puedes saber cuánto le queda a la bolsa mirando su contenido.';
@@ -676,6 +690,18 @@ $l['firemask'] = 'Casco de Bombero';
 $l['firemask-description'] = 'Puede que la banda no muestre mucho respeto por la autoridad policial, pero tiene mucho respeto por aquellos hombres y mujeres que ponen en riesgo sus vidas para salvar a aquellos de las llamas. Ésta máscara es un tributo a ellos.';
 $l['gasmask'] = 'Máscara de Gas';
 $l['gasmask-description'] = 'La máscara de Gas puede parecer que está desfasada, pero es un objeto crcial para el combate urbano, donde el gas es utilizado. Además, te da un sonido respiratorio muy guay.';
+//Western
+$l['bandit'] = 'Clásico del Salvaje Oeste';
+$l['bandit-description'] = 'El sombrero de ala ancha, la mirada sombría y el pañuelo sobre su boca. Una combinación tan irónica, tan clásica y tan efectiva que recuerda a los gangsters y atracadores allá donde vaya.';
+$l['bullskull'] = 'Calavera del Desierto';
+$l['bullskull-description'] = 'Cuando se deambula por barrancos desolados, con sólo pensamientos de tener algo de compañia, la última cosa que te gustaría ver serían huesos demacrados de los que pasaron antes que tu. De repente esos pensamientos se convierten en gritos.';
+$l['kangee'] = 'Apache Místico';
+$l['kangee-description'] = 'El Oeste en el que los hombres blancos entraron era una tierra de misterios. Una tierra poblada de civilizaciones de guerreros, los cuales marcaron su terreno con sus mitologias y sus esculturas sagradas.';
+$l['lone'] = 'Atracador Solitario';
+$l['lone-description'] = 'Ya seas un asesino desperado o un solitario taciturno explorador, a veces tendrás que esconder tu identidad. ¿A que no hay nada mejor como una delgada mascara negra que te cubra un tercio de tu cara?';
+//Meltdown
+$l['grendel'] = 'Mutante Molón';
+$l['grendel-description'] = 'La mutación genética es la clave para la evolución. Asumiendo que nuestra evolución pase por un verde, escamoso, homicida e irradiada forma de ser.';
 //Champ
 $l['champion_dallas'] = 'Campeón';
 $l['champion_dallas-description'] = 'Ésta es la máscara del Campeón. Basada en un mal dia de Dallas. ¿Cómo de mal? Bueno, imagina estar en la última ronda de 13 con un boxeador profesional. Párpados hinchados, nariz rota, labios morados, ojo negro, contusiones, mandíbula dislocada, ésta máscara lo tiene todo. Y si, un muy mal dia para Dallas.';
@@ -899,6 +925,7 @@ $l['cookoff'] = 'Cocinar';
 $l['transp-train'] = 'Transporte Armado: Atraco al Tren';
 $l['carshop'] = 'Tienda de Coches';
 $l['hoxtonrevenge'] = 'La Venganza de Hoxton';
+$l['shoutout_raid'] = 'Fusión';
 //Escapes
 $l['escapeparknight'] = 'Parque (Noche)';
 $l['escapeparkday'] = 'Parque (Día)';

@@ -939,6 +939,7 @@ $l['carshop'] = 'Car Shop';
 $l['hoxtonrevenge'] = 'Hoxton Revenge';
 $l['shoutout_raid'] = 'Meltdown';
 $l['alesos'] = 'Alesso Heist';
+$l['kenaz'] = 'Golden Grin Casino';
 //Escapes
 $l['escapeparknight'] = 'Park (Night)';
 $l['escapeparkday'] = 'Park';

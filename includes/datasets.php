@@ -682,7 +682,8 @@ array( 'Name' => $l['transp-train'], 'Wiki' => 'Train', 'Image' => 'train', 'Win
 array( 'Name' => $l['carshop'], 'Wiki' => 'Car_Shop', 'Image' => 'carshop', 'Win' => $contract_cage_win, 'Dropin' => $contract_cage_win_dropin, 'Fail' => $contract_cage_fail, 'Quality' => 'community', 'deathwish' => $fort_1),
 array( 'Name' => $l['hoxtonrevenge'], 'Wiki' => 'Hoxton_Revenge', 'Image' => 'revenge', 'Win' => $contract_hox_3_win, 'Dropin' => $contract_hox_3_win_dropin, 'Fail' => $contract_hox_3_fail, 'Quality' => 'community', 'deathwish' => $payback_1),
 array( 'Name' => $l['shoutout_raid'], 'Wiki' => 'Meltdown', 'Image' => 'meltdown', 'Win' => $contract_shoutout_raid_win, 'Dropin' => $contract_shoutout_raid_win_dropin, 'Fail' => $contract_shoutout_raid_fail, 'Quality' => 'normal', 'deathwish' => $melt_1),
-array( 'Name' => $l['alesos'], 'Wiki' => 'The_Alesso_Heist', 'Image' => 'also', 'Win' => $contract_arena_win, 'Dropin' => $contract_arena_win_dropin, 'Fail' => $contract_arena_fail, 'Quality' => 'dlc', 'deathwish' => $live_1)
+array( 'Name' => $l['alesos'], 'Wiki' => 'The_Alesso_Heist', 'Image' => 'also', 'Win' => $contract_arena_win, 'Dropin' => $contract_arena_win_dropin, 'Fail' => $contract_arena_fail, 'Quality' => 'dlc', 'deathwish' => $live_1),
+array( 'Name' => $l['kenaz'], 'Wiki' => 'Golden_Grin_Casino', 'Image' => 'kenaz', 'Win' => $contract_kenaz_win, 'Dropin' => $contract_kenaz_win_dropin, 'Fail' => $contract_kenaz_fail, 'Quality' => 'dlc', 'deathwish' => $kenaz_1)
 );
 
 //Calculate Totals

@@ -311,7 +311,16 @@ array( 'Name' => $l['branding_iron'], 'Wiki' => 'You\'re_Mine', 'Image' => 'bran
 array( 'Name' => $l['mining_pick'], 'Wiki' => 'Gold_Fever', 'Image' => 'mining_pick', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Description' => $l['mining_pick-description'], 'Used' => $melee_used_mining_pick , 'Kills' => $melee_kills_mining_pick , 'Stats' => array(
 'Damage' => 35, 'DamageMAX' => 80, 'Knockdown' => 18, 'KnockdownMAX' => 48, 'Charge' => 3.0, 'Range' => 225, 'Concealment' => 20 )),
 array( 'Name' => $l['scalper'], 'Wiki' => 'Scalper_Tomahawk', 'Image' => 'scalper', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Description' => $l['scalper-description'], 'Used' => $melee_used_scalper , 'Kills' => $melee_kills_scalper , 'Stats' => array(
-'Damage' => 30, 'DamageMAX' => 90, 'Knockdown' => 60, 'KnockdownMAX' => 144, 'Charge' => 3.0, 'Range' => 185, 'Concealment' => 27 ))
+'Damage' => 30, 'DamageMAX' => 90, 'Knockdown' => 60, 'KnockdownMAX' => 144, 'Charge' => 3.0, 'Range' => 185, 'Concealment' => 27 )),
+array( 'Name' => $l['microphone'], 'Wiki' => 'Microphone', 'Image' => 'microphone', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['microphone-description'], 'Used' => $melee_used_microphone , 'Kills' => $melee_kills_microphone , 'Stats' => array(
+'Damage' => 15, 'DamageMAX' => 35, 'Knockdown' => 60, 'KnockdownMAX' => 105, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
+array( 'Name' => $l['detector'], 'Wiki' => 'Metal_Detector', 'Image' => 'detector', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['detector-description'], 'Used' => $melee_used_detector , 'Kills' => $melee_kills_detector , 'Stats' => array(
+'Damage' => 30, 'DamageMAX' => 55, 'Knockdown' => 90, 'KnockdownMAX' => 110, 'Charge' => 2.0, 'Range' => 225, 'Concealment' => 26 )),
+array( 'Name' => $l['micstand'], 'Wiki' => 'Microphone_Stand', 'Image' => 'micstand', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['micstand-description'], 'Used' => $melee_used_micstand , 'Kills' => $melee_kills_micstand , 'Stats' => array(
+'Damage' => 20, 'DamageMAX' => 30, 'Knockdown' => 30, 'KnockdownMAX' => 60, 'Charge' => 1.0, 'Range' => 250, 'Concealment' => 24 )),
+array( 'Name' => $l['oldbaton'], 'Wiki' => 'Classic_Baton', 'Image' => 'oldbaton', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['oldbaton-description'], 'Used' => $melee_used_oldbaton , 'Kills' => $melee_kills_oldbaton , 'Stats' => array(
+'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 27 ))
+
 );
 //
 //Grenades

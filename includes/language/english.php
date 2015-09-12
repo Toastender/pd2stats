@@ -405,6 +405,14 @@ $l['mining_pick'] = 'Gold Fever';
 $l['mining_pick-description'] = '';
 $l['scalper'] = 'Scalper Tomahawk';
 $l['scalper-description'] = '';
+$l['microphone'] = 'Microphone';
+$l['microphone-description'] = '';
+$l['detector'] = 'Metal Detector';
+$l['detector-description'] = '';
+$l['micstand'] = 'Microphone Stand';
+$l['micstand-description'] = '';
+$l['oldbaton'] = 'Classic Baton';
+$l['oldbaton-description'] = '';
 ////Grenades
 $l['grenades'] = 'Grenades';
 $l['frag_grenade'] = 'Frag Grenade';

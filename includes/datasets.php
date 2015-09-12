@@ -414,6 +414,13 @@ array( 'Name' => $l['combusto'], 'Image' => 'combusto', 'Quality' => 'community'
 array( 'Name' => $l['spackle'], 'Image' => 'spackle', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['spackle-description'], 'Used' => $mask_used_spackle),
 ////Lootbag
 array( 'Name' => $l['skull'], 'Image' => 'skull', 'Quality' => 'dlc', 'Extra' => $l['lootbagdlc'], 'Description' => $l['skull-description'], 'Used' => $mask_used_skull),
+array( 'Name' => $l['griefer'], 'Image' => 'griefer', 'Quality' => 'dlc', 'Extra' => $l['lootbagdlc'], 'Description' => $l['griefer-description'], 'Used' => $mask_used_griefer),
+array( 'Name' => $l['intuition'], 'Image' => 'intuition', 'Quality' => 'dlc', 'Extra' => $l['lootbagdlc'], 'Description' => $l['intuition-description'], 'Used' => $mask_used_intuition),
+////Card Set
+array( 'Name' => $l['card_jack'], 'Image' => 'card_jack', 'Quality' => 'event', 'Extra' => $l['e3_2015'], 'Description' => $l['card_jack-description'], 'Used' => $mask_used_card_jack),
+array( 'Name' => $l['card_queen'], 'Image' => 'card_queen', 'Quality' => 'event', 'Extra' => $l['e3_2015'], 'Description' => $l['card_queen-description'], 'Used' => $mask_used_card_queen),
+array( 'Name' => $l['card_king'], 'Image' => 'card_king', 'Quality' => 'event', 'Extra' => $l['e3_2015'], 'Description' => $l['card_king-description'], 'Used' => $mask_used_card_king),
+array( 'Name' => $l['card_joker'], 'Image' => 'card_joker', 'Quality' => 'event', 'Extra' => $l['e3_2015'], 'Description' => $l['card_joker-description'], 'Used' => $mask_used_card_joker),
 ////Merry Soundtrack
 array( 'Name' => $l['santa_mad'], 'Image' => 'santa_mad', 'Quality' => 'dlc', 'Extra' => $l['Xmas_soundtrack'], 'Description' => $l['santa_mad-description'], 'Used' => $mask_used_santa_mad),
 array( 'Name' => $l['santa_surprise'], 'Image' => 'santa_surprise', 'Quality' => 'dlc', 'Extra' => $l['Xmas_soundtrack'], 'Description' => $l['santa_surprise-description'], 'Used' => $mask_used_santa_surprise),
@@ -479,12 +486,18 @@ array( 'Name' => $l['baby_angry'], 'Image' => 'baby_angry', 'Quality' => 'event'
 array( 'Name' => $l['baby_cry'], 'Image' => 'baby_cry', 'Quality' => 'event', 'Extra' => $l['Halloween'], 'Description' => $l['baby_cry-description'], 'Used' => $mask_used_baby_cry),
 array( 'Name' => $l['baby_happy'], 'Image' => 'baby_happy', 'Quality' => 'event', 'Extra' => $l['Halloween'], 'Description' => $l['baby_happy-description'], 'Used' => $mask_used_baby_happy),
 array( 'Name' => $l['brazil_baby'], 'Image' => 'brazil_baby', 'Quality' => 'event', 'Extra' => $l['Halloween'], 'Description' => $l['brazil_baby-description'], 'Used' => $mask_used_brazil_baby),
-////Twitch Pack
-array( 'Name' => $l['the_one_below'], 'Image' => 'the_one_below', 'Quality' => 'event', 'Extra' => $l['humblehalloween_pack'], 'Description' => $l['the_one_below-description'], 'Used' => $mask_used_the_one_below),
-array( 'Name' => $l['werewolf'], 'Image' => 'lycan', 'Quality' => 'event', 'Extra' => $l['humblehalloween_pack'], 'Description' => $l['werewolf-description'], 'Used' => $mask_used_lycan),
-////Humble Halloween Pack
+////Humble Bundle Pack 1
 array( 'Name' => $l['ancient'], 'Image' => 'ancient', 'Quality' => 'event', 'Extra' => $l['Twitch_pack'], 'Description' => $l['ancient-description'], 'Used' => $mask_used_ancient),
 array( 'Name' => $l['twitch_orc'], 'Image' => 'twitch_orc', 'Quality' => 'event', 'Extra' => $l['Twitch_pack'], 'Description' => $l['twitch_orc-description'], 'Used' => $mask_used_twitch_orc),
+////Humble Bundle Pack 2
+array( 'Name' => $l['the_one_below'], 'Image' => 'the_one_below', 'Quality' => 'event', 'Extra' => $l['humblehalloween_pack'], 'Description' => $l['the_one_below-description'], 'Used' => $mask_used_the_one_below),
+array( 'Name' => $l['werewolf'], 'Image' => 'lycan', 'Quality' => 'event', 'Extra' => $l['humblehalloween_pack'], 'Description' => $l['werewolf-description'], 'Used' => $mask_used_lycan),
+////Humble Bundle Pack 3
+array( 'Name' => $l['titan'], 'Image' => 'titan', 'Quality' => 'event', 'Extra' => $l['humble3'], 'Description' => $l['titan-description'], 'Used' => $mask_used_titan),
+array( 'Name' => $l['pokachu'], 'Image' => 'pokachu', 'Quality' => 'event', 'Extra' => $l['humble3'], 'Description' => $l['pokachu-description'], 'Used' => $mask_used_pokachu),
+////Humble Bundle Pack 4
+array( 'Name' => $l['moon'], 'Image' => 'moon', 'Quality' => 'event', 'Extra' => $l['humble4'], 'Description' => $l['moon-description'], 'Used' => $mask_used_moon),
+array( 'Name' => $l['borsuk'], 'Image' => 'borsuk', 'Quality' => 'event', 'Extra' => $l['humble4'], 'Description' => $l['borsuk-description'], 'Used' => $mask_used_borsuk),
 ////Shadow Raid
 array( 'Name' => $l['samurai'], 'Image' => 'samurai', 'Quality' => 'infamous', 'Extra' => 'Infamous', 'Description' => $l['samurai-description'], 'Used' => $mask_used_samurai),
 ////Hotline Miami DLC

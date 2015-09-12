@@ -221,6 +221,9 @@ $l['westpack'] = 'WESTERN WEAPON PACK';
 $l['alessoheist'] = 'THE ALESSO HEIST DLC';
 $l['sokolpack'] = 'SOKOL CHARACTER PACK';
 $l['casinodlc'] = 'GOLDEN GRIN CASINO';
+$l['humble3'] = 'HUMBLE MASK PACK 3';
+$l['humble4'] = 'HUMBLE MASK PACK 4';
+$l['e3_2015'] = 'E3 2015 SECRET MASK';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -493,6 +496,19 @@ $l['spackle-description'] = 'Once a well renowned circus clown Spackle was the b
 //Lootbag
 $l['skull'] = 'Skull';
 $l['skull-description'] = 'An exclusive mask representing death and mortality.<br/><br/>Created in the heavens as a gift by the gods to men and women who believed in them early on, who built their shrines and spread their beliefs across the lands.<br/><br/>Thank you for believing in us! We salute you!';
+$l['griefer'] = 'Greifer';
+$l['griefer-description'] = 'The Griefer is a mystical beast, known to have been a part of this world long ago. The beast deliberately chased and harassed common folk in villages and towns, hunting them down in unsuspecting ways. The Griefer derived pleasure from these acts and was a threat to the peace until the King\'s men finally found him and destroyed him.';
+$l['intuition'] = 'Intuition';
+$l['intuition-description'] = 'This mask belonged to a mysterious warrior from far away place. He walked the lands, guided by his intuition, hunting evil forces across the world. He ventured to dungeons and slew thousands of evil beings he came across. In the end, he found peace, knowing that the next generation would continue as he did.';
+//Card-Masks
+$l['card_jack'] = 'Jack of Cards';
+$l['card_jack-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
+$l['card_queen'] = 'Queen of Cards';
+$l['card_queen-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
+$l['card_king'] = 'King of Cards';
+$l['card_king-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
+$l['card_joker'] = 'Joker of Cards';
+$l['card_joker-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
 //Merry Soundtrack
 $l['santa_mad'] = 'Furious Santa';
 $l['santa_mad-description'] = 'Santa, more known as Santa Claus, Saint Nicholas, Father Christmas and Kris Kringle (?) is a man of epic proportions. Words like legendary, mythical, historical and folkloric best describe this beast of a man.<br/><br/>This particular mask is the Furious Santa mask. It\'s worn by angry internet users and bad children who didn\'t get the presents they wanted.';
@@ -610,11 +626,6 @@ $l['baby_happy'] = 'Happy Baby';
 $l['baby_happy-description'] = 'Ffff, gaga, bo, gaga bo GAGA GAGA? GAGAGAGA? GAGA? Gagag GOGOGO GAGA? GAGA! GOGO! Bah. Gaga bah gogo go.<br/><br/>GAGA? GAGA! GOGO! Bah. GAGAGA? GAGA GOGO GAGAGA? GAGA! Gagaga gogoga. Fff.';
 $l['brazil_baby'] = 'Brazil Baby';
 $l['brazil_baby-description'] = 'GAGA? GAGA! GOGO! Boo! GAGAGA? GAGA GOGO GAGAGA? GAGA? GAGA! GAGAGA? GAGA GAGAGA?<br/><br/>GAGAGA? GAGAGAGOGO? Boo! BOOO! Gagagaga boo gaga.';
-//Twitch Pack
-$l['ancient'] = 'Crossbreed';
-$l['ancient-description'] = 'A powerful alien race, described by some as the most advanced beings in the universe. Different races that have come in contact with them have different names for the Crossbreed.<br/><br/>Strong, lean and intelligent, the Crossbreed takes the best from the DNA of each alien race that it meets, always making sure it evolves in the right direction.';
-$l['twitch_orc'] = 'Orc';
-$l['twitch_orc-description'] = 'Brutish, aggressive and generally repulsive, the orcs have always been a hated race. Orcs are larger stronger than their goblin cousins but smaller and less powerful than their ogre brethren.<br/><br/>This particular purple-skinned orc came from the Stonetremble clan who were known for their fierce warriors and overpowered, hybrid shamans.';
 //AK/CAR Pack
 $l['velociraptor'] = 'Vincent';
 $l['velociraptor-description'] = 'Vincent the Velociraptor and his best friend Andreas Häll Penninger the Protoceratops were out and about one day in the jungle when they got in a fight. It wasn\'t a big thing really but Vincent just wouldn\'t let it go. Andreas, being the stubborn Protoceratops he was, continued to mouth off to Vincent. Violent fighting ensured and to this day, no one is sure who actually won.';
@@ -624,11 +635,26 @@ $l['triceratops'] = 'Timothy';
 $l['triceratops-description'] = 'Timothy the Triceratops is one of the most popular dinosaurs at the Jurassic High. He had a huge grudge with Teddy the Tyrannosaurus though. Even though they were massive and lived together during the last epoch of the age of dinosaurs, they couldn\'t find it  in them to be friends. Especially not since that one time when they went to that cabin during Spring Break and Teddy and his pals pranked Timothy with that horror movie and the phone call about seven days left before the meteorite would hit. Timothy did not think that was funny at all.';
 $l['carnotaurus'] = 'Alfred';
 $l['carnotaurus-description'] = 'Alfred the Carnotaurus was a very fast dinosaur when he was alive and kicking. His distinctive horn and his muscular neck made him stand out next to all the dinosaurs. His large head along with his horn working as shock absorbers made him particularly skilled at head butting other dinosaurs in order to show who had the largest prehistoric d-peen.';
-//Humble Halloween
+//Humble Bundle Pack 1
+$l['ancient'] = 'Crossbreed';
+$l['ancient-description'] = 'A powerful alien race, described by some as the most advanced beings in the universe. Different races that have come in contact with them have different names for the Crossbreed.<br/><br/>Strong, lean and intelligent, the Crossbreed takes the best from the DNA of each alien race that it meets, always making sure it evolves in the right direction.';
+$l['twitch_orc'] = 'Orc';
+$l['twitch_orc-description'] = 'Brutish, aggressive and generally repulsive, the orcs have always been a hated race. Orcs are larger stronger than their goblin cousins but smaller and less powerful than their ogre brethren.<br/><br/>This particular purple-skinned orc came from the Stonetremble clan who were known for their fierce warriors and overpowered, hybrid shamans.';
+//Humble Bundle Pack 2
 $l['the_one_below'] = 'The One Below';
 $l['the_one_below-description'] = 'The head is what remains of this aquatic horror from the old days, when dark lords ruled the lands and good men grew up only to die; when the summer was short and the winter felt like an eternity; when the One Below stepped out of the ocean and walked the earth.';
 $l['werewolf'] = 'Lycanwulf';
 $l['werewolf-description'] = '"Lycanwulf, Lycanwulf!" they yelled, the frightened villagers, as they laid eyes upon this abomination known as the Lycanwulf. The petty humans were now prisoners of the beast, in a prison without walls, ceilings or a key, where the only escape was death.';
+//Humble Bundle Pack 3
+$l['titan'] = 'Titan';
+$l['titan-description'] = 'Once, they strode amongs us. Cyclopean beings, tall as towers. They were old, even when our primate ancestors howled at fire. Now, they are gone, and only their shades come to us in half-dreamt race memories.';
+$l['pokachu'] = 'Electarodent';
+$l['pokachu-description'] = 'Untrained, the Electarodent can be found nibbling sweet carrots or frolicking across Alpine meadows. However, fully trained, the Electarodent is most often found wielding Bernetti 9\'s and eating through the face-plates of Skulldozers';
+//Humble Bundle Pack 4
+$l['moon'] = 'Mask of the Moon';
+$l['moon-description'] = 'Legend speaks of an entity so malevolent it tried to smash the Moon into the Earth. Though defeated by four masked warriors, the entity escaped and inhabited... something. We hope it will never return, but remember: sometimes the man wears the mask, and sometimes the mask wears the man.';
+$l['borsuk'] = 'Borsuk';
+$l['borsuk-description'] = 'There is more to being a world-class heister than picking up a gun. It requires training, conditioning and a singular focus on developing far beyond the norm. Such heisters are near mutants, who wade into furious battle and always emerge victorious.';
 //Hotline Miami DLC
 $l['pig'] = 'Aubrey';
 $l['pig-description'] = 'Aubrey is a real gun lover.<br/><br/>Large headed and long snouted Aubrey is a master of arms and knows nothing better than to kill using some fine weaponry.<br/><br/>Pigs have pretty small lungs though so Aubrey can\'t run that far.';

@@ -938,6 +938,7 @@ $l['transp-train'] = 'Armored Transport: Train Heist';
 $l['carshop'] = 'Car Shop';
 $l['hoxtonrevenge'] = 'Hoxton Revenge';
 $l['shoutout_raid'] = 'Meltdown';
+$l['alesos'] = 'Alesso Heist';
 //Escapes
 $l['escapeparknight'] = 'Park (Night)';
 $l['escapeparkday'] = 'Park';

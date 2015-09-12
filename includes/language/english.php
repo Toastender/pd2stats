@@ -218,6 +218,7 @@ $l['lootbagdlc'] = 'LOOT BAG';
 $l['speedrunnersdlc'] = 'SPEEDRUNNERS';
 $l['bbq'] = 'BBQ WEAPON PACK';
 $l['westpack'] = 'WESTERN WEAPON PACK';
+$l['alessoheist'] = 'THE ALESSO HEIST DLC';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -277,6 +278,7 @@ $l['x_g22c'] = 'Akimbo Chimano Custom';
 $l['x_usp'] = ' Akimbo Interceptor 45';
 ////Secondary
 //Pistols
+$l['mateba'] = 'Matever .357';
 $l['usp'] = 'Interceptor 45';
 $l['g22c'] = 'Chimano Custom';
 $l['glock_17'] = 'Chimano 88';

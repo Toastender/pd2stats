@@ -171,6 +171,8 @@ array( 'Name' => $l['hs2000'], 'Wiki' => 'LEO', 'Image' => 'hs2000', 'Quality' =
 'Magazine' => 19, 'Ammo' => 133, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 29, 'Threat' => 9)),
 array( 'Name' => $l['peacemaker'], 'Wiki' => 'Peacemaker_.45', 'Image' => 'peacemaker', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Used' => $weapon_used_peacemaker , 'Kills' => $weapon_kills_peacemaker, 'Stats' => array(
 'Magazine' => 6, 'Ammo' => 36, 'Firerate' => 240, 'Damage' => 151, 'Accuracy' => 14, 'Stability' => 15, 'Concealment' => 26, 'Threat' => 28)),
+array( 'Name' => $l['mateba'], 'Wiki' => 'Matever_.357', 'Image' => 'mateba', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Used' => $weapon_used_mateba , 'Kills' => $weapon_kills_mateba, 'Stats' => array(
+'Magazine' => 6, 'Ammo' => 30, 'Firerate' => 286, 'Damage' => 95, 'Accuracy' => 16, 'Stability' => 20, 'Concealment' => 20, 'Threat' => 24)),
 ////Submachine Guns
 array( 'Name' => $l['mac10'], 'Wiki' => 'Mark_10', 'Image' => 'mac10', 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $weapon_used_mac10 , 'Kills' => $weapon_kills_mac10, 'Stats' => array(
 'Magazine' => 40, 'Ammo' => 80, 'Firerate' => 1000, 'Damage' => 25, 'Accuracy' => 8, 'Stability' => 15, 'Concealment' => 27, 'Threat' => 10)),

@@ -219,6 +219,7 @@ $l['speedrunnersdlc'] = 'SPEEDRUNNERS';
 $l['bbq'] = 'BBQ WEAPON PACK';
 $l['westpack'] = 'WESTERN WEAPON PACK';
 $l['alessoheist'] = 'THE ALESSO HEIST DLC';
+$l['sokolpack'] = 'SOKOL CHARACTER PACK';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -240,6 +241,7 @@ $l['galil'] = 'Gecko 7.62';
 $l['g3'] = 'Gewehr 3';
 $l['l85a2'] = 'Queen\'s Wrath';
 $l['vhs'] = 'Lion\'s Roar';
+$l['asval'] = 'Valkyria';
 //Sniper Rifles
 $l['msr'] = 'Rattlesnake';
 $l['r93'] = 'R93';

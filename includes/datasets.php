@@ -522,12 +522,17 @@ array( 'Name' => $l['grizel_clean'], 'Image' => 'grizel_clean', 'Quality' => 'dl
 ////Bonnie Character Pack
 array( 'Name' => $l['bonnie'], 'Image' => 'bonnie', 'Quality' => 'infamous', 'Extra' => 'Infamous', 'Description' => $l['bonnie-description'], 'Used' => $mask_used_bonnie),
 array( 'Name' => $l['bonnie_begins'], 'Image' => 'bonnie_begins', 'Quality' => 'infamous', 'Extra' => 'Infamous', 'Description' => $l['bonnie_begins-description'], 'Used' => $mask_used_bonnie_begins),
+////Sokol Character Pack
+array( 'Name' => $l['sokol'], 'Image' => 'sokol', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['sokol-description'], 'Used' => $mask_used_sokol),
+array( 'Name' => $l['sokol_begins'], 'Image' => 'sokol_begins', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['sokol_begins-description'], 'Used' => $mask_used_sokol_begins),
 ////GOTY
 array( 'Name' => $l['robo_arnold'], 'Image' => 'robo_arnold', 'Quality' => 'dlc', 'Extra' => $l['weaponbundledlc'], 'Description' => $l['robo_arnold-description'], 'Used' => $mask_used_robo_arnold),
 array( 'Name' => $l['nun_town'], 'Image' => 'nun_town', 'Quality' => 'dlc', 'Extra' => $l['heistbundle'], 'Description' => $l['nun_town-description'], 'Used' => $mask_used_nun_town),
 array( 'Name' => $l['arch_nemesis'], 'Image' => 'arch_nemesis', 'Quality' => 'dlc', 'Extra' => $l['gotyeddlc'], 'Description' => $l['arch_nemesis-description'], 'Used' => $mask_used_arch_nemesis),
 ////Champ
 array( 'Name' => $l['champion_dallas'], 'Image' => 'champion_dallas', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['champion_dallas-description'], 'Used' => $mask_used_champion_dallas),
+////StarVR
+array( 'Name' => $l['starvr'], 'Image' => 'starvr', 'Quality' => 'infamous', 'Extra' => 'Infamous', 'Description' => $l['starvr-description'], 'Used' => $mask_used_starvr),
 ////Dragan Char Pack
 array( 'Name' => $l['dragan'], 'Image' => 'dragan1', 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Description' => $l['dragan-description'], 'Used' => $mask_used_dragan),
 array( 'Name' => $l['dragan_begins'], 'Image' => 'dragan_begins', 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Description' => $l['dragan_begins-description'], 'Used' => $mask_used_dragan_begins),
@@ -536,6 +541,11 @@ array( 'Name' => $l['butcher'], 'Image' => 'butcher', 'Quality' => 'dlc', 'Extra
 array( 'Name' => $l['doctor'], 'Image' => 'doctor', 'Quality' => 'dlc', 'Extra' => $l['thebombpack'], 'Description' => $l['doctor-description'], 'Used' => $mask_used_doctor),
 array( 'Name' => $l['lady_butcher'], 'Image' => 'lady_butcher', 'Quality' => 'dlc', 'Extra' => $l['thebombpack'], 'Description' => $l['lady_butcher-description'], 'Used' => $mask_used_lady_butcher),
 array( 'Name' => $l['tech_lion'], 'Image' => 'tech_lion', 'Quality' => 'dlc', 'Extra' => $l['thebombpack'], 'Description' => $l['tech_lion-description'], 'Used' => $mask_used_tech_lion),
+////Golden Grin Casino
+array( 'Name' => $l['croupier_hat'], 'Image' => 'croupier_hat', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['croupier_hat-description'], 'Used' => $mask_used_croupier_hat),
+array( 'Name' => $l['gladiator_helmet'], 'Image' => 'gladiator_helmet', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['gladiator_helmet-description'], 'Used' => $mask_used_gladiator_helmet),
+array( 'Name' => $l['the_king_mask'], 'Image' => 'the_king_mask', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['the_king_mask-description'], 'Used' => $mask_used_the_king_mask),
+array( 'Name' => $l['sports_utility_mask'], 'Image' => 'sports_utility_mask', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['sports_utility_mask-description'], 'Used' => $mask_used_sports_utility_mask),
 ////Overkill Pack
 array( 'Name' => $l['the_overkill_mask'], 'Image' => 'the_overkill_mask', 'Quality' => 'dlc', 'Extra' => $l['overkillpack'], 'Description' => $l['the_overkill_mask-description'], 'Used' => $mask_used_the_overkill_mask),
 array( 'Name' => $l['dallas_glow'], 'Image' => 'dallas_glow', 'Quality' => 'dlc', 'Extra' => $l['compoverkillpack'], 'Description' => $l['dallas_glow-description'], 'Used' => $mask_used_dallas_glow),

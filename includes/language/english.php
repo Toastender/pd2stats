@@ -597,6 +597,18 @@ $l['optimist_prime'] = 'Optimist';
 $l['optimist_prime-description'] = '"Be the change you want to see in the world."<br/><br/>That\'s what the Optimist believes.<br/><br/>As the leader of a peaceful group of robots, he feels it is his responsibility to combat rival bands of robots obsessed with negativity and extermination. His prime weapon: rolling out positivity <br/><br/>through constructive reasoning and unbiased logic.<br/><br/>Or through forced upgrades. Which are compulsory.';
 $l['surprise'] = 'War Face';
 $l['surprise-description'] = 'You got a war face! AAAAAAAAHH! That\'s a war face, let me see your war face!<br/><br/>...<br/><br/>Bullshit. You didn\'t convince me, let me see your REAL war face!<br/><br/>...Actually, that one\'s pretty good...';
+//StarVR
+$l['starvr'] = 'StarVR';
+$l['starvr-description'] = 'Real life is dirty, uncomfortable, sticky, sweaty, stinky, it tastes bad and leaves you old and broken. Screw that. The StarVR Headset lets you immerse yourself in a virtual world of incredible realism.';
+//Golden Grin Casino
+$l['croupier_hat'] = 'Wheeler Dealer';
+$l['croupier_hat-description'] = 'Spruce up your glamorous neon 80\'s look! This kind of mint-green headwear has been in use since the 19th century as a method of preventing eyestrain from intense light sources. Coked out gamblers and gonzo journalists have propelled the croupier\'s hat into the focus of the mainstream. They are also perfect for beach-front raves, picking up hotties on the beach, signing a contract on the 18th hole of your nearest country club and generally looking like an octogenarian.';
+$l['gladiator_helmet'] = 'Murmillo Galea Helmet';
+$l['gladiator_helmet-description'] = 'Gladiators were members of a brutal caste in Ancient Rome whose sole duty was to entertain by way of public exhibitions of horrific violence. This style of helmet with its high crest resembles a fish. It was worn by a Murmillo - a heavy class of gladiator that fought with a sword and tower shield. They symbolize Vulcan - the roman god of fire, and they stand for strength and honor.';
+$l['the_king_mask'] = 'King';
+$l['the_king_mask-description'] = 'Mercy! Are you bad enough of a dude or dudette to rock the royal trifecta of slick aviators ,bad-ass pompadour and tactical sideburns? Summon forth the indomitable spirit of various used-car dealers and shotgun-wedding ministers all around Vegas who wore this thing all the way to success. Or at least mild public awkwardness. Hail to the king!';
+$l['sports_utility_mask'] = 'Sports Utility Mask';
+$l['sports_utility_mask-description'] = 'Forget bulky and unfashionable helmets, this glorious sucker is the best friend of every adrenaline junkie. The face-guard is made out of tough ABS plastic and it provides solid protection against snow, sand blasts and hail drops. Just avoid heavy blows to the head. Be the envy of your air-boarding friends, brah!';
 //Big Bank
 $l['lincoln'] = '16th';
 $l['lincoln-description'] = 'Lawyer, Commander-In-Chief, father. Had an ambition to serve this great nation for 8 years.<br/><br/> Consistently ranked by scholars and the public as one of the greatest U.S. presidents of all time.<br/><br/> The 16th is one of the most beloved presidents in history. Among criminals, he remains well respected.';
@@ -607,7 +619,7 @@ $l['washington-description'] = 'General of the Armies, Commander-In-Chief,  Foun
 $l['franklin'] = 'First American';
 $l['franklin-description'] = 'Worlds-renowned polymath, author, printer, political theorist, postmaster, scientist, inventor, civic activist, statesman, diplomat, Founding Father.<br/><br/> Titled as "The First American" and the face of the $100 bill.<br/><br/>Among criminals, he remains extremely popular.';
 //Twisted Metal
-$l['sweettooth'] = 'Sweet ooth';
+$l['sweettooth'] = 'Sweet Tooth';
 $l['sweettooth-description'] = 'Sweet Tooth, real name Marcus "Needles" Kane is a character from the Twisted Metal video game series. Sweet Tooth is best known for being a killer clown that drives a combat ice cream truck.<br/><br/>It\'s said that he once had escaped from a mental institution. He now leads a life of crime.';
 //Halloween 2013
 $l['frank'] = 'Frank';
@@ -739,6 +751,11 @@ $l['grizel_clean-description'] = 'This is a clean version of Clover\'s iconic ma
 $l['bonnie-description'] = 'Few nations have contributed to humanity as Scotland has. In every field of endeavour - science, arts, cuisine - it is the people of this blessed land that give freely and generously. With this mask, Bonnie is determined to reverse this trend.';
 $l['bonnie_begins'] = 'Bonnie Begins';
 $l['bonnie_begins-description'] = 'This is a clean version of the iconic Bonnie mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//Sokol Character Pack
+$l['sokol'] = 'Sokol';
+$l['sokol-description'] = 'If playing as a grinder for the St Petersburg Bombers hockey team taught Sokol the value of one thing, it was the importance of a terrifying mask that protects his handsome Russian face.';
+$l['sokol_begins'] = 'Sokol Begins';
+$l['sokol_begins-description'] = 'This is a clean version of Sokol\'s iconic mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
 //GOTY
 $l['robo_arnold'] = 'Robo-Arnold';
 $l['robo_arnold-description'] = 'Iconic, time-travelling cyborg star of the \'Exterminator\' movie series. In the first movie, he was sent to kill the mother of the leader of the future rebellion before she can steal the chop left by her son who was also her father... In the past. Noted for his deadpan delivery of the catchphrase "Await my return".';

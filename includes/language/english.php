@@ -527,6 +527,15 @@ $l['gage_blade'] = 'Gage Blade';
 $l['gage_blade-description'] = 'The Gage Blade is one of Gage\'s own personal favourite ballistic face masks. It will protect your face from one or two 9mm bullets before your head explodes.<br/><br/>Without this mask, Gage wouldn\'t be the wonderful human being he is today.';
 $l['gage_rambo'] = 'Troubled War Veteran';
 $l['gage_rambo-description'] = 'The Troubled War Veteran is a mask that Gage has worked on for some time. Back in the Vietnam war Gage met this big-muscled guy who went nuts and started to use a bow instead of modern weapons.<br/><br/>He died pretty early in the war, but for some strange reason Gage couldn\'t forget his face.';
+//Alesso Heist
+$l['concert_male'] = 'Male Concert Goer';
+$l['concert_male-description'] = 'Tie-dyed shirts are so 70\'s. Holding up a lighter went out in the 80\'s. Whistles and glow sticks were left behind in the 90\'s, and the 00\'s, well, the less said the better. The modern concert goer, however, favours the mask.';
+$l['concert_female'] = 'Female Concert Goer';
+$l['concert_female-description'] = 'When you descend into the roiling whirlpool that is the ecstasy of an Alesso concert, you better be wearing your best face. The Female Concert Goer is impassive and detached, because nothing matters but the music.';
+$l['boombox'] = 'Boombox';
+$l['boombox-description'] = 'According to the brochure, Alesso\'s Boom Box features include "No batteries to slay your vibe, sound insulation to keep suckas from hearing your beats and full-face armor to keep cops from checking your clock."';
+$l['cantus'] = 'Cantus';
+$l['cantus-description'] = 'Whether you\'re on the bus or in the boardroom, when Alesso is filling your ears with heavenly tunes, it\'s important to show the world a suitable face. Presenting Cantus - the Angel of Music and Song. Let your spirit soar!';
 //Gage Sniper
 $l['robberfly'] = 'Asilidae';
 $l['robberfly-description'] = 'The Asilidae, also known as robber fly or assassin fly, are powerfully built, bristly flies who are known for their notoriously aggressive predatory habits. They feed on other insects and as a rule, they wait in ambush and catch their prey in flight.';

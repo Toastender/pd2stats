@@ -320,7 +320,6 @@ array( 'Name' => $l['micstand'], 'Wiki' => 'Microphone_Stand', 'Image' => 'micst
 'Damage' => 20, 'DamageMAX' => 30, 'Knockdown' => 30, 'KnockdownMAX' => 60, 'Charge' => 1.0, 'Range' => 250, 'Concealment' => 24 )),
 array( 'Name' => $l['oldbaton'], 'Wiki' => 'Classic_Baton', 'Image' => 'oldbaton', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['oldbaton-description'], 'Used' => $melee_used_oldbaton , 'Kills' => $melee_kills_oldbaton , 'Stats' => array(
 'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 27 )),
-
 array( 'Name' => $l['hockey'], 'Wiki' => 'Hockey_Stick', 'Image' => 'hockey', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['hockey-description'], 'Used' => $melee_used_hockey , 'Kills' => $melee_kills_hockey , 'Stats' => array(
 'Damage' => 35, 'DamageMAX' => 60, 'Knockdown' => 140, 'KnockdownMAX' => 192, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 24 )),
 array( 'Name' => $l['switchblade'], 'Wiki' => 'Switchblade', 'Image' => 'switchblade', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['switchblade-description'], 'Used' => $melee_used_switchblade , 'Kills' => $melee_kills_switchblade , 'Stats' => array(
@@ -331,7 +330,6 @@ array( 'Name' => $l['slot_lever'], 'Wiki' => 'Jackpot', 'Image' => 'slot_lever',
 'Damage' => 30, 'DamageMAX' => 61, 'Knockdown' => 96, 'KnockdownMAX' => 98, 'Charge' => 2.0, 'Range' => 225, 'Concealment' => 20 )),
 array( 'Name' => $l['croupier_rake'], 'Wiki' => 'Croupier\'s_Rake', 'Image' => 'croupier_rake', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['croupier_rake-description'], 'Used' => $melee_used_croupier_rake , 'Kills' => $melee_kills_croupier_rake , 'Stats' => array(
 'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 28 ))
-
 );
 //
 //Grenades
@@ -440,6 +438,11 @@ array( 'Name' => $l['robberfly'], 'Image' => 'robberfly', 'Quality' => 'dlc', 'E
 array( 'Name' => $l['mantis'], 'Image' => 'mantis', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'Description' => $l['mantis-description'], 'Used' => $mask_used_mantis),
 array( 'Name' => $l['spider'], 'Image' => 'spider', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'Description' => $l['spider-description'], 'Used' => $mask_used_spider),
 array( 'Name' => $l['wasp'], 'Image' => 'wasp', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'Description' => $l['wasp-description'], 'Used' => $mask_used_wasp),
+////Alesso Heist
+array( 'Name' => $l['concert_male'], 'Image' => 'concert_male', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['concert_male-description'], 'Used' => $mask_used_concert_male),
+array( 'Name' => $l['concert_female'], 'Image' => 'concert_female', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['concert_female-description'], 'Used' => $mask_used_concert_female),
+array( 'Name' => $l['boombox'], 'Image' => 'boombox', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['boombox-description'], 'Used' => $mask_used_boombox),
+array( 'Name' => $l['cantus'], 'Image' => 'cantus', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['cantus-description'], 'Used' => $mask_used_cantus),
 ////Gage Shotgun
 array( 'Name' => $l['orangutang'], 'Image' => 'orangutang', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'Description' => $l['orangutang-description'], 'Used' => $mask_used_orangutang),
 array( 'Name' => $l['silverback'], 'Image' => 'silverback', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'Description' => $l['silverback-description'], 'Used' => $mask_used_silverback),

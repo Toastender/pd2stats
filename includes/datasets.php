@@ -319,7 +319,18 @@ array( 'Name' => $l['detector'], 'Wiki' => 'Metal_Detector', 'Image' => 'detecto
 array( 'Name' => $l['micstand'], 'Wiki' => 'Microphone_Stand', 'Image' => 'micstand', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['micstand-description'], 'Used' => $melee_used_micstand , 'Kills' => $melee_kills_micstand , 'Stats' => array(
 'Damage' => 20, 'DamageMAX' => 30, 'Knockdown' => 30, 'KnockdownMAX' => 60, 'Charge' => 1.0, 'Range' => 250, 'Concealment' => 24 )),
 array( 'Name' => $l['oldbaton'], 'Wiki' => 'Classic_Baton', 'Image' => 'oldbaton', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['oldbaton-description'], 'Used' => $melee_used_oldbaton , 'Kills' => $melee_kills_oldbaton , 'Stats' => array(
-'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 27 ))
+'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 27 )),
+
+array( 'Name' => $l['hockey'], 'Wiki' => 'Hockey_Stick', 'Image' => 'hockey', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['hockey-description'], 'Used' => $melee_used_hockey , 'Kills' => $melee_kills_hockey , 'Stats' => array(
+'Damage' => 35, 'DamageMAX' => 60, 'Knockdown' => 140, 'KnockdownMAX' => 192, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 24 )),
+array( 'Name' => $l['switchblade'], 'Wiki' => 'Switchblade', 'Image' => 'switchblade', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['switchblade-description'], 'Used' => $melee_used_switchblade , 'Kills' => $melee_kills_switchblade , 'Stats' => array(
+'Damage' => 30, 'DamageMAX' => 50, 'Knockdown' => 6, 'KnockdownMAX' => 50, 'Charge' => 2.0, 'Range' => 175, 'Concealment' => 30 )),
+array( 'Name' => $l['taser'], 'Wiki' => 'Buzzer', 'Image' => 'taser', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['taser-description'], 'Used' => $melee_used_taser , 'Kills' => $melee_kills_taser , 'Stats' => array(
+'Damage' => 20, 'DamageMAX' => 20, 'Knockdown' => 20, 'KnockdownMAX' => 20, 'Charge' => 4.0, 'Range' => 200, 'Concealment' => 30 )),
+array( 'Name' => $l['slot_lever'], 'Wiki' => 'Jackpot', 'Image' => 'slot_lever', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['slot_lever-description'], 'Used' => $melee_used_slot_lever , 'Kills' => $melee_kills_slot_lever , 'Stats' => array(
+'Damage' => 30, 'DamageMAX' => 61, 'Knockdown' => 96, 'KnockdownMAX' => 98, 'Charge' => 2.0, 'Range' => 225, 'Concealment' => 20 )),
+array( 'Name' => $l['croupier_rake'], 'Wiki' => 'Croupier\'s_Rake', 'Image' => 'croupier_rake', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['croupier_rake-description'], 'Used' => $melee_used_croupier_rake , 'Kills' => $melee_kills_croupier_rake , 'Stats' => array(
+'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 28 ))
 
 );
 //

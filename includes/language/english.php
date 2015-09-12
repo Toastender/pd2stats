@@ -413,6 +413,16 @@ $l['micstand'] = 'Microphone Stand';
 $l['micstand-description'] = '';
 $l['oldbaton'] = 'Classic Baton';
 $l['oldbaton-description'] = '';
+$l['hockey'] = 'Hockey Stick';
+$l['hockey-description'] = '';
+$l['switchblade'] = 'Switchblade';
+$l['switchblade-description'] = '';
+$l['taser'] = 'Buzzer';
+$l['taser-description'] = 'Device that electrocutes and interrupts targets on touch.';
+$l['slot_lever'] = 'Jackpot';
+$l['slot_lever-description'] = '';
+$l['croupier_rake'] = 'Croupier\'s Rake';
+$l['croupier_rake-description'] = '';
 ////Grenades
 $l['grenades'] = 'Grenades';
 $l['frag_grenade'] = 'Frag Grenade';

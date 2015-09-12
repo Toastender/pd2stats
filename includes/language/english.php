@@ -220,6 +220,7 @@ $l['bbq'] = 'BBQ WEAPON PACK';
 $l['westpack'] = 'WESTERN WEAPON PACK';
 $l['alessoheist'] = 'THE ALESSO HEIST DLC';
 $l['sokolpack'] = 'SOKOL CHARACTER PACK';
+$l['casinodlc'] = 'GOLDEN GRIN CASINO';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -242,6 +243,7 @@ $l['g3'] = 'Gewehr 3';
 $l['l85a2'] = 'Queen\'s Wrath';
 $l['vhs'] = 'Lion\'s Roar';
 $l['asval'] = 'Valkyria';
+$l['sub2000'] = 'Cavity 9mm';
 //Sniper Rifles
 $l['msr'] = 'Rattlesnake';
 $l['r93'] = 'R93';

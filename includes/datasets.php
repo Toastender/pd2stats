@@ -74,6 +74,8 @@ array( 'Name' => $l['vhs'], 'Wiki' => 'Lion\'s_Roar', 'Image' => 'vhs', 'Quality
 'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 860, 'Damage' => 33, 'Accuracy' => 16, 'Stability' => 8, 'Concealment' => 17, 'Threat' => 12)),
 array( 'Name' => $l['asval'], 'Wiki' => 'Valkyria', 'Image' => 'asval', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Used' => $weapon_used_asval , 'Kills' => $weapon_kills_asval, 'Stats' => array(
 'Magazine' => 20, 'Ammo' => 160, 'Firerate' => 900, 'Damage' => 40, 'Accuracy' => 16, 'Stability' => 15, 'Concealment' => 26, 'Threat' => 0)),
+array( 'Name' => $l['sub2000'], 'Wiki' => 'Cavity_9mm', 'Image' => 'sub2000', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Used' => $weapon_used_sub2000 , 'Kills' => $weapon_kills_sub2000, 'Stats' => array(
+'Magazine' => 33, 'Ammo' => 66, 'Firerate' => 710, 'Damage' => 89, 'Accuracy' => 14, 'Stability' => 8, 'Concealment' => 25, 'Threat' => 31)),
 ////Sniper Rifles
 array( 'Name' => $l['msr'], 'Wiki' => 'Rattlesnake', 'Image' => 'msr', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'Used' => $weapon_used_msr , 'Kills' => $weapon_kills_msr, 'Stats' => array(
 'Magazine' => 10, 'Ammo' => 50, 'Firerate' => 60, 'Damage' => 130, 'Accuracy' => 18, 'Stability' => 3, 'Concealment' => 5, 'Threat' => 78)),

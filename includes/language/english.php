@@ -224,6 +224,7 @@ $l['casinodlc'] = 'GOLDEN GRIN CASINO';
 $l['humble3'] = 'HUMBLE MASK PACK 3';
 $l['humble4'] = 'HUMBLE MASK PACK 4';
 $l['e3_2015'] = 'E3 2015 SECRET MASK';
+$l['ninjapack'] = 'GAGE NINJA PACK';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -253,6 +254,7 @@ $l['r93'] = 'R93';
 $l['m95'] = 'Thanatos .50 cal';
 $l['mosin'] = 'Nagant';
 $l['winchester1874'] = 'Repeater 1874';
+$l['wa2000'] = 'Lebensauger .308';
 //Shotguns
 $l['r870'] = 'Reinfeld 880';
 $l['saiga'] = 'Izhma 12G';
@@ -315,12 +317,14 @@ $l['uzi'] = 'Uzi';
 $l['sterling'] = 'Patchett L2A1';
 $l['m1928'] = 'Chicago Typewriter';
 $l['cobray'] = 'Jacket\'s Piece';
+$l['polymer'] = 'Kross Vertex';
 //Shotguns
 $l['judge'] = 'The Judge';
 $l['serbu'] = 'Locomotive 12G';
 $l['striker'] = 'Street Sweeper';
 //Special
 $l['rpg7'] = 'HRL-7';
+$l['hunter'] = 'Pistol Crossbow';
 ////Melee
 $l['butt'] = 'Weapon Butt';
 $l['butt-description'] = 'In armed robberies, beating the victims with firearms is usually more common than to shoot or stab them. You usually either butt-stroke someone with a rifle or Pistol-whip them with a handgun.<br/><br/>This is the quickest melee attack.';
@@ -426,14 +430,24 @@ $l['slot_lever'] = 'Jackpot';
 $l['slot_lever-description'] = '';
 $l['croupier_rake'] = 'Croupier\'s Rake';
 $l['croupier_rake-description'] = '';
-////Grenades
-$l['grenades'] = 'Grenades';
+$l['twins'] = 'Okinawan Style Sai';
+$l['twins-description'] = '';
+$l['tiger'] = 'Talons';
+$l['tiger-description'] = '';
+$l['fight'] = 'Empty Palm Kata';
+$l['fight-description'] = '';
+$l['cqc'] = 'Kunai Knife';
+$l['cqc-description'] = 'Knife with a poisoned tip that deals damage over time and has a chance to interrupt enemies.';
+////Throwables
+$l['grenades'] = 'Throwables';
 $l['frag_grenade'] = 'Frag Grenade';
 $l['frag_grenade-description'] = 'The frag grenade is a concept that has changed little from its inception. It is a thrown casing that explodes, sending shards and splinters away with such force they can slice through flesh, bone and light armor. Cheap and effective.';
 $l['molotov'] = 'Molotov';
 $l['molotov-description'] = 'The Molotov cocktail is perhaps the simplest weapon that can call itself a grenade. Nothing more than a breakable bottle of flammable liquid with a \'fuse\' replace by burning rag. It is cheap, simple and highly effective.';
 $l['dynamite'] = 'Dynamite';
 $l['dynamite-description'] = 'Swedish engineer, Alfred Nobel, discovered dynamite and its effectiveness in blasting rock. Bit it was drunk prospector, Ol\'Kenneth, who discovered its effectiveness in blasting people.';
+$l['wpn_prj_four'] = 'Shuriken';
+$l['wpn_prj_four-description'] = 'Like a sword hidden in the user\'s hand the shuriken is a deadly weapon and perfectly silent. First made of nails and needles, the throwing star has had a long history filled with blood and battle. These modern stars of stainless steel will pose a lethal threat to anyone in front of you, and as long as you can find them there will be no stopping you.<br/><br/>The Shurikens have been coated in poison which deals damage over time and has a chance to interrupt enemies.';
 ////Gadgets
 $l['ammo_bag'] = 'Ammo Bag';
 $l['ammo_bag-description'] = 'The ammo bag is a portable bag, originally intended to allow soldiers to carry extra ammunition.<br/><br/>To use the ammo bag, you need to place it by holding [G]. Once placed it cannot be moved, but it can be used by you and your crew by holding [F] to gain more ammunition.<br/><br/>The ammo bag has limited uses and when it is consumed, it disappears. You can see how many uses are left by looking at the ammo bag.';
@@ -561,6 +575,15 @@ $l['spider'] = 'Tarantula';
 $l['spider-description'] = 'Eight legs strong, tarantula sizes range from as small as a fingernail to as large as a handgun when the legs are fully extended. The name originally comes from the name Lycosa tarantula, a species of wolf spider. Tarantulas generally hunt in trees, on or near the ground. They\'re also popular as pets.';
 $l['wasp'] = 'Vespula';
 $l['wasp-description'] = 'Two pairs of wings, an ovipositor or stinger, no thickened hairs and a pair of talons. That\'s the wasp for you. Almost every pest insect species has at least one wasp species that preys upon it or parasites it. This makes the wasps very important in natural control of their numbers.';
+//Gage Ninja
+$l['ninja_hood'] = 'Kuro Zuki';
+$l['ninja_hood-description'] = 'A simple piece of cloth tied around their heads will transform anyone, be it beggar, farmer or common man into a ninja. A shadow among shadows, a dagger in the dark. He can be fierce or stealthy and can be anyone in a crowd. He does what he sets out to do and then disappears.';
+$l['shirai'] = 'Shirai';
+$l['shirai-description'] = 'Get over here! And let me tell you about the most badass ninjas you ever heard about. They are the protectors of our world and they only accept the best warriors. They are given the most kickass mask to show that they are better than everyone else. Here is your mask, welcome to the clan.';
+$l['kage'] = 'Kage';
+$l['kage-description'] = 'The kage mask was said to be haunted, originally from a kabuki theater in Osaka where the actor fell down dead on stage while wearing the mask. The last thing he said was "No, I will not kill them, I will not". Legend says that the kage mask will kill whoever wears it if its thirst for blood is not satisfied.';
+$l['slicer'] = 'Slicer';
+$l['slicer-description'] = 'After his brother\'s murder, Ikas joined an underground clan of ninjas to train and become their deadliest warrior. Ikas quickly proved himself and was put in charge of the whole American branch of the clan. His signature mask now inspires fear and respect and anyone who wears a mask like this will be seen as a brother of the Achilles Clan.';
 //Gage Shotgun
 $l['orangutang'] = 'Rutger';
 $l['orangutang-description'] = 'Rutger the motherfucking Orang-utan. If you\'re strolling down the jungle and suddenly face an orang-utan, you\'re in trouble. Statistics show that one orang-utan is more dangerous than ten hobos with shotguns<br/><br/>You remember that movie about dinosaurs with the big dinosaur in the end saving the kids? Know who killed the dinosaur after the credits? The kids did, but you know who killed the kids? Rutger the motherfucking orangutan did.';

@@ -87,6 +87,8 @@ array( 'Name' => $l['mosin'], 'Wiki' => 'Nagant', 'Image' => 'mosin', 'Quality' 
 'Magazine' => 5, 'Ammo' => 25, 'Firerate' => 60, 'Damage' => 280, 'Accuracy' => 18, 'Stability' => 6, 'Concealment' => 6, 'Threat' => 84)),
 array( 'Name' => $l['winchester1874'], 'Wiki' => 'Repeater_1874', 'Image' => 'winchester1874', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Used' => $weapon_used_winchester1874 , 'Kills' => $weapon_kills_winchester1874, 'Stats' => array(
 'Magazine' => 15, 'Ammo' => 45, 'Firerate' => 90, 'Damage' => 175, 'Accuracy' => 16, 'Stability' => 12, 'Concealment' => 12, 'Threat' => 84)),
+array( 'Name' => $l['wa2000'], 'Wiki' => 'Lebensauger_.308', 'Image' => 'wa2000', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Used' => $weapon_used_wa2000, 'Kills' => $weapon_kills_wa2000, 'Stats' => array(
+'Magazine' => 10, 'Ammo' => 63, 'Firerate' => 120, 'Damage' => 184, 'Accuracy' => 19, 'Stability' => 21, 'Concealment' => 16, 'Threat' => 36)),
 ////Shotguns
 array( 'Name' => $l['r870'], 'Wiki' => 'Reinfeld_880', 'Image' => 'r870', 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $weapon_used_r870 , 'Kills' => $weapon_kills_r870, 'Stats' => array(
 'Magazine' => 6, 'Ammo' => 48, 'Firerate' => 100, 'Damage' => 60, 'Accuracy' => 14, 'Stability' => 6, 'Concealment' => 11, 'Threat' => 28)),
@@ -206,16 +208,20 @@ array( 'Name' => $l['m1928'], 'Wiki' => 'Chicago_Typewriter', 'Image' => 'm1928'
 'Magazine' => 50, 'Ammo' => 150, 'Firerate' => 720, 'Damage' => 23, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 18, 'Threat' => 12)),
 array( 'Name' => $l['cobray'], 'Wiki' => 'Jacket\'s_Piece', 'Image' => 'cobray', 'Quality' => 'collaboration', 'Extra' => $l['hotline_miami_2_deluxe'], 'Used' => $weapon_used_cobray , 'Kills' => $weapon_kills_cobray, 'Stats' => array(
 'Magazine' => 32, 'Ammo' => 128, 'Firerate' => 1200, 'Damage' => 25, 'Accuracy' => 6, 'Stability' => 19, 'Concealment' => 25, 'Threat' => 10)),
+array( 'Name' => $l['polymer'], 'Wiki' => 'Kross_Vertex', 'Image' => 'polymer', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Used' => $weapon_used_polymer , 'Kills' => $weapon_kills_polymer, 'Stats' => array(
+'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 1200, 'Damage' => 29, 'Accuracy' => 8, 'Stability' => 20, 'Concealment' => 20, 'Threat' => 10)),
 ////Special
 array( 'Name' => $l['rpg7'], 'Wiki' => 'HRL-7', 'Image' => 'rpg7', 'Quality' => 'dlc', 'Extra' => $l['overkillpack'], 'Used' => $weapon_used_rpg7 , 'Kills' => $weapon_kills_rpg7, 'Stats' => array(
 'Magazine' => 1, 'Ammo' => 4, 'Firerate' => 30, 'Damage' => 10000, 'Accuracy' => 18, 'Stability' => 9, 'Concealment' => 5, 'Threat' => 37)),
+array( 'Name' => $l['hunter'], 'Wiki' => 'Pistol_Crossbow', 'Image' => 'hunter', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Used' => $weapon_used_hunter , 'Kills' => $weapon_kills_hunter, 'Stats' => array(
+'Magazine' => 1, 'Ammo' => 31, 'Firerate' => 50, 'Damage' => 100, 'Accuracy' => 18, 'Stability' => 19, 'Concealment' => 26, 'Threat' => 10)),
 ////Shotguns
 array( 'Name' => $l['judge'], 'Wiki' => 'The_Judge', 'Image' => 'judge', 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $weapon_used_judge , 'Kills' => $weapon_kills_judge, 'Stats' => array(
 'Magazine' => 5, 'Ammo' => 20, 'Firerate' => 500, 'Damage' => 95, 'Accuracy' => 6, 'Stability' => 3, 'Concealment' => 29, 'Threat' => 28)),
 array( 'Name' => $l['serbu'], 'Wiki' => 'Locomotive_12G_(Payday_2)', 'Image' => 'serbu', 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $weapon_used_serbu , 'Kills' => $weapon_kills_serbu, 'Stats' => array(
 'Magazine' => 6, 'Ammo' => 30, 'Firerate' => 160, 'Damage' => 65, 'Accuracy' => 8, 'Stability' => 6, 'Concealment' => 23, 'Threat' => 28)),
 array( 'Name' => $l['striker'], 'Wiki' => 'Street_Sweeper', 'Image' => 'striker', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'Used' => $weapon_used_striker , 'Kills' => $weapon_kills_striker, 'Stats' => array(
-'Magazine' => 12, 'Ammo' => 48, 'Firerate' => 430, 'Damage' => 35, 'Accuracy' => 10, 'Stability' => 8, 'Concealment' => 21, 'Threat' => 28)),
+'Magazine' => 12, 'Ammo' => 48, 'Firerate' => 430, 'Damage' => 35, 'Accuracy' => 10, 'Stability' => 8, 'Concealment' => 21, 'Threat' => 28))
 );
 
 if($skill_enforcer_carbon_blade_ace == 1){
@@ -329,7 +335,15 @@ array( 'Name' => $l['taser'], 'Wiki' => 'Buzzer', 'Image' => 'taser', 'Quality' 
 array( 'Name' => $l['slot_lever'], 'Wiki' => 'Jackpot', 'Image' => 'slot_lever', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['slot_lever-description'], 'Used' => $melee_used_slot_lever , 'Kills' => $melee_kills_slot_lever , 'Stats' => array(
 'Damage' => 30, 'DamageMAX' => 61, 'Knockdown' => 96, 'KnockdownMAX' => 98, 'Charge' => 2.0, 'Range' => 225, 'Concealment' => 20 )),
 array( 'Name' => $l['croupier_rake'], 'Wiki' => 'Croupier\'s_Rake', 'Image' => 'croupier_rake', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['croupier_rake-description'], 'Used' => $melee_used_croupier_rake , 'Kills' => $melee_kills_croupier_rake , 'Stats' => array(
-'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 28 ))
+'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 28 )),
+array( 'Name' => $l['twins'], 'Wiki' => 'Okinawan_Style_Sai', 'Image' => 'twins', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['twins-description'], 'Used' => $melee_used_twins , 'Kills' => $melee_kills_twins , 'Stats' => array(
+'Damage' => 30, 'DamageMAX' => 40, 'Knockdown' => 15, 'KnockdownMAX' => 20, 'Charge' => 1.0, 'Range' => 200, 'Concealment' => 28 )),
+array( 'Name' => $l['tiger'], 'Wiki' => 'Talons', 'Image' => 'tiger', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['tiger-description'], 'Used' => $melee_used_tiger , 'Kills' => $melee_kills_tiger , 'Stats' => array(
+'Damage' => 35, 'DamageMAX' => 50, 'Knockdown' => 11, 'KnockdownMAX' => 15, 'Charge' => 2.0, 'Range' => 150, 'Concealment' => 27 )),
+array( 'Name' => $l['fight'], 'Wiki' => 'Empty_Palm_Kata', 'Image' => 'fight', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['fight-description'], 'Used' => $melee_used_fight , 'Kills' => $melee_kills_fight , 'Stats' => array(
+'Damage' => 15, 'DamageMAX' => 30, 'Knockdown' => 45, 'KnockdownMAX' => 90, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
+array( 'Name' => $l['cqc'], 'Wiki' => 'Kunai_Knife', 'Image' => 'cqc', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['cqc-description'], 'Used' => $melee_used_cqc , 'Kills' => $melee_kills_cqc , 'Stats' => array(
+'Damage' => 20, 'DamageMAX' => 40, 'Knockdown' => 10, 'KnockdownMAX' => 20, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 ))
 );
 //
 //Grenades
@@ -337,7 +351,8 @@ array( 'Name' => $l['croupier_rake'], 'Wiki' => 'Croupier\'s_Rake', 'Image' => '
 $weapons_grenades = array(
 array( 'Name' => $l['frag_grenade'], 'Wiki' => 'Frag_Grenade', 'Image' => 'frag', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'Description' => $l['frag_grenade-description'], 'Used' => $grenade_used_frag , 'Kills' => $grenade_kills_frag),
 array( 'Name' => $l['dynamite'], 'Wiki' => 'Dynamite', 'Image' => 'dynamite', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Description' => $l['dynamite-description'], 'Used' => $grenade_used_dynamite , 'Kills' => $grenade_kills_dynamite),
-array( 'Name' => $l['molotov'], 'Wiki' => 'Molotov_Cocktail', 'Image' => 'molotov', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'Description' => $l['molotov-description'], 'Used' => $grenade_used_molotov , 'Kills' => $grenade_kills_molotov)
+array( 'Name' => $l['molotov'], 'Wiki' => 'Molotov_Cocktail', 'Image' => 'molotov', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'Description' => $l['molotov-description'], 'Used' => $grenade_used_molotov , 'Kills' => $grenade_kills_molotov),
+array( 'Name' => $l['wpn_prj_four'], 'Wiki' => 'Shuriken', 'Image' => 'wpn_prj_four', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['wpn_prj_four-description'], 'Used' => $grenade_used_wpn_prj_four , 'Kills' => $grenade_kills_wpn_prj_four)
 );
 //
 //Gadgets
@@ -346,7 +361,7 @@ $gadgets = array(
 array( 'Name' => $l['ammo_bag'], 'Wiki' => 'Ammo_bag_(Payday_2)', 'Image' => 'ammobag', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['ammo_bag-description'], 'Used' => $gadget_used_ammo_bag),
 array( 'Name' => $l['doctor_bag'], 'Wiki' => 'Doctor_bag_(Payday_2)', 'Image' => 'doctorbag', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['doctor_bag-description'], 'Used' => $gadget_used_doctor_bag),
 array( 'Name' => $l['trip_mine'], 'Wiki' => 'Trip_mine_(Payday_2)', 'Image' => 'tripmine', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['trip_mine-description'], 'Used' => $gadget_used_trip_mine),
-array( 'Name' => $l['sentry_gun'], 'Wiki' => 'Sentry_gun_(Payday_2)', 'Image' => 'sentrygun', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['sentry_gun-description'], 'Used' => $gadget_used_sentry_gun),
+array( 'Name' => $l['sentry_gun'], 'Wiki' => Like a sword hidden in the user's hand the shuriken is a deadly weapon and perfectly silent. First made of nails and needles, the throwing star has had a long history filled with blood and battle. These modern stars of stainless steel will pose a lethal threat to anyone in front of you, and as long as you can find them there will be no stopping you.'Sentry_gun_(Payday_2)', 'Image' => 'sentrygun', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['sentry_gun-description'], 'Used' => $gadget_used_sentry_gun),
 array( 'Name' => $l['ecm_jammer'], 'Wiki' => 'ECM_jammer', 'Image' => 'ecmjammer', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['ecm_jammer-description'], 'Used' => $gadget_used_ecm_jammer),
 array( 'Name' => $l['armor_kit'], 'Wiki' => 'Armor_Bag', 'Image' => 'armor_kit', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['armor_kit-description'], 'Used' => $gadget_used_armor_bag),
 array( 'Name' => $l['bodybags_bag'], 'Wiki' => 'Body_Bag_Case', 'Image' => 'bodybags_bag', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['bodybags_bag-description'], 'Used' => $gadget_used_body_bag),
@@ -460,6 +475,11 @@ array( 'Name' => $l['crowgoblin'], 'Image' => 'crowgoblin', 'Quality' => 'dlc', 
 array( 'Name' => $l['evil'], 'Image' => 'evil', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'Description' => $l['evil-description'], 'Used' => $mask_used_evil),
 array( 'Name' => $l['galax'], 'Image' => 'galax', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'Description' => $l['galax-description'], 'Used' => $mask_used_galax),
 array( 'Name' => $l['volt'], 'Image' => 'volt', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'Description' => $l['volt-description'], 'Used' => $mask_used_volt),
+////Gage Ninja Pack
+array( 'Name' => $l['ninja_hood'], 'Image' => 'ninja_hood', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['ninja_hood-description'], 'Used' => $mask_used_ninja_hood),
+array( 'Name' => $l['shirai'], 'Image' => 'shirai', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['shirai-description'], 'Used' => $mask_used_shirai),
+array( 'Name' => $l['kage'], 'Image' => 'kage', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['kage-description'], 'Used' => $mask_used_kage),
+array( 'Name' => $l['slicer'], 'Image' => 'slicer', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['slicer-description'], 'Used' => $mask_used_slicer),
 ////Gage Historical Pack
 array( 'Name' => $l['churchill'], 'Image' => 'churchill', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'Description' => $l['churchill-description'], 'Used' => $mask_used_churchill),
 array( 'Name' => $l['de_gaulle'], 'Image' => 'de_gaulle', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'Description' => $l['de_gaulle-description'], 'Used' => $mask_used_de_gaulle),

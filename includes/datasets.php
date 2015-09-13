@@ -142,7 +142,13 @@ array( 'Name' => $l['m32'], 'Wiki' => 'Piglet', 'Image' => 'm32', 'Quality' => '
 array( 'Name' => $l['gre_m79'], 'Wiki' => 'GL40_(Payday_2)', 'Image' => 'gre_m79', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'Used' => $weapon_used_gre_m79 , 'Kills' => $weapon_kills_gre_m79, 'Stats' => array(
 'Magazine' => 1, 'Ammo' => 6, 'Firerate' => 30, 'Damage' => 340, 'Accuracy' => 12, 'Stability' => 6, 'Concealment' => 18, 'Threat' => 37)),
 array( 'Name' => $l['plainsrider'], 'Wiki' => 'Plainsrider_Bow', 'Image' => 'plainsrider', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Used' => $weapon_used_plainsrider , 'Kills' => $weapon_kills_plainsrider, 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 50, 'Firerate' => 300, 'Damage' => 195, 'Accuracy' => 18, 'Stability' => 24, 'Concealment' => 30, 'Threat' => 37))
+'Magazine' => 1, 'Ammo' => 50, 'Firerate' => 300, 'Damage' => 195, 'Accuracy' => 18, 'Stability' => 24, 'Concealment' => 30, 'Threat' => 37)),
+array( 'Name' => $l['arblast'], 'Wiki' => 'Heavy_Crossbow', 'Image' => 'arblast', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Used' => $weapon_used_arblast , 'Kills' => $weapon_kills_arblast, 'Stats' => array(
+'Magazine' => 1, 'Ammo' => 35, 'Firerate' => 20, 'Damage' => 525, 'Accuracy' => 18, 'Stability' => 19, 'Concealment' => 28, 'Threat' => 10)),
+array( 'Name' => $l['long'], 'Wiki' => 'English_Longbow', 'Image' => 'long', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Used' => $weapon_used_long , 'Kills' => $weapon_kills_long, 'Stats' => array(
+'Magazine' => 1, 'Ammo' => 35, 'Firerate' => 300, 'Damage' => 650, 'Accuracy' => 18, 'Stability' => 24, 'Concealment' => 29, 'Threat' => 37)),
+array( 'Name' => $l['frankish'], 'Wiki' => 'Light_Crossbow', 'Image' => 'frankish', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Used' => $weapon_used_frankish , 'Kills' => $weapon_kills_frankish, 'Stats' => array(
+'Magazine' => 1, 'Ammo' => 50, 'Firerate' => 40, 'Damage' => 240, 'Accuracy' => 18, 'Stability' => 19, 'Concealment' => 29, 'Threat' => 10))
 );
 //
 //SECONDARY
@@ -210,6 +216,8 @@ array( 'Name' => $l['cobray'], 'Wiki' => 'Jacket\'s_Piece', 'Image' => 'cobray',
 'Magazine' => 32, 'Ammo' => 128, 'Firerate' => 1200, 'Damage' => 25, 'Accuracy' => 6, 'Stability' => 19, 'Concealment' => 25, 'Threat' => 10)),
 array( 'Name' => $l['polymer'], 'Wiki' => 'Kross_Vertex', 'Image' => 'polymer', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Used' => $weapon_used_polymer , 'Kills' => $weapon_kills_polymer, 'Stats' => array(
 'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 1200, 'Damage' => 29, 'Accuracy' => 8, 'Stability' => 20, 'Concealment' => 20, 'Threat' => 10)),
+array( 'Name' => $l['baka'], 'Wiki' => 'Micro_Uzi', 'Image' => 'baka', 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'Used' => $weapon_used_baka , 'Kills' => $weapon_kills_baka, 'Stats' => array(
+'Magazine' => 32, 'Ammo' => 128, 'Firerate' => 1200, 'Damage' => 26, 'Accuracy' => 6, 'Stability' => 8, 'Concealment' => 29, 'Threat' => 10)),
 ////Special
 array( 'Name' => $l['rpg7'], 'Wiki' => 'HRL-7', 'Image' => 'rpg7', 'Quality' => 'dlc', 'Extra' => $l['overkillpack'], 'Used' => $weapon_used_rpg7 , 'Kills' => $weapon_kills_rpg7, 'Stats' => array(
 'Magazine' => 1, 'Ammo' => 4, 'Firerate' => 30, 'Damage' => 10000, 'Accuracy' => 18, 'Stability' => 9, 'Concealment' => 5, 'Threat' => 37)),
@@ -326,7 +334,7 @@ array( 'Name' => $l['micstand'], 'Wiki' => 'Microphone_Stand', 'Image' => 'micst
 'Damage' => 20, 'DamageMAX' => 30, 'Knockdown' => 30, 'KnockdownMAX' => 60, 'Charge' => 1.0, 'Range' => 250, 'Concealment' => 24 )),
 array( 'Name' => $l['oldbaton'], 'Wiki' => 'Classic_Baton', 'Image' => 'oldbaton', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'Description' => $l['oldbaton-description'], 'Used' => $melee_used_oldbaton , 'Kills' => $melee_kills_oldbaton , 'Stats' => array(
 'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 27 )),
-array( 'Name' => $l['hockey'], 'Wiki' => 'Hockey_Stick', 'Image' => 'hockey', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['hockey-description'], 'Used' => $melee_used_hockey , 'Kills' => $melee_kills_hockey , 'Stats' => array(
+array( 'Name' => $l['hockeyst'], 'Wiki' => 'Hockey_Stick', 'Image' => 'hockey', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['hockeyst-description'], 'Used' => $melee_used_hockey , 'Kills' => $melee_kills_hockey , 'Stats' => array(
 'Damage' => 35, 'DamageMAX' => 60, 'Knockdown' => 140, 'KnockdownMAX' => 192, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 24 )),
 array( 'Name' => $l['switchblade'], 'Wiki' => 'Switchblade', 'Image' => 'switchblade', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'Description' => $l['switchblade-description'], 'Used' => $melee_used_switchblade , 'Kills' => $melee_kills_switchblade , 'Stats' => array(
 'Damage' => 30, 'DamageMAX' => 50, 'Knockdown' => 6, 'KnockdownMAX' => 50, 'Charge' => 2.0, 'Range' => 175, 'Concealment' => 30 )),
@@ -343,7 +351,17 @@ array( 'Name' => $l['talons'], 'Wiki' => 'Talons', 'Image' => 'tiger', 'Quality'
 array( 'Name' => $l['fight'], 'Wiki' => 'Empty_Palm_Kata', 'Image' => 'fight', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['fight-description'], 'Used' => $melee_used_fight , 'Kills' => $melee_kills_fight , 'Stats' => array(
 'Damage' => 15, 'DamageMAX' => 30, 'Knockdown' => 45, 'KnockdownMAX' => 90, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
 array( 'Name' => $l['cqc'], 'Wiki' => 'Kunai_Knife', 'Image' => 'cqc', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['cqc-description'], 'Used' => $melee_used_cqc , 'Kills' => $melee_kills_cqc , 'Stats' => array(
-'Damage' => 20, 'DamageMAX' => 40, 'Knockdown' => 10, 'KnockdownMAX' => 20, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 ))
+'Damage' => 20, 'DamageMAX' => 40, 'Knockdown' => 10, 'KnockdownMAX' => 20, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
+array( 'Name' => $l['sandsteel'], 'Wiki' => 'Shinsakuto_Katana', 'Image' => 'sandsteel', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['sandsteel-description'], 'Used' => $melee_used_sandsteel , 'Kills' => $melee_kills_sandsteel , 'Stats' => array(
+'Damage' => 70, 'DamageMAX' => 450, 'Knockdown' => 7, 'KnockdownMAX' => 45, 'Charge' => 4.0, 'Range' => 275, 'Concealment' => 26 )),
+array( 'Name' => $l['buck'], 'Wiki' => 'Buckler_Shield', 'Image' => 'buck', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['buck-description'], 'Used' => $melee_used_buck , 'Kills' => $melee_kills_buck , 'Stats' => array(
+'Damage' => 35, 'DamageMAX' => 60, 'Knockdown' => 140, 'KnockdownMAX' => 192, 'Charge' => 2.0, 'Range' => 175, 'Concealment' => 30 )),
+array( 'Name' => $l['beardy'], 'Wiki' => 'Bearded_Axe', 'Image' => 'beardy', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['beardy-description'], 'Used' => $melee_used_beardy , 'Kills' => $melee_kills_beardy , 'Stats' => array(
+'Damage' => 90, 'DamageMAX' => 140, 'Knockdown' => 90, 'KnockdownMAX' => 140, 'Charge' => 4.0, 'Range' => 250, 'Concealment' => 26 )),
+array( 'Name' => $l['great'], 'Wiki' => 'Great_Sword', 'Image' => 'great', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['great-description'], 'Used' => $melee_used_great , 'Kills' => $melee_kills_great , 'Stats' => array(
+'Damage' => 70, 'DamageMAX' => 450, 'Knockdown' => 70, 'KnockdownMAX' => 450, 'Charge' => 4.0, 'Range' => 275, 'Concealment' => 25 )),
+array( 'Name' => $l['morning'], 'Wiki' => 'Morning_Star', 'Image' => 'morning', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['morning-description'], 'Used' => $melee_used_morning , 'Kills' => $melee_kills_morning , 'Stats' => array(
+'Damage' => 40, 'DamageMAX' => 66, 'Knockdown' => 160, 'KnockdownMAX' => 212, 'Charge' => 4.0, 'Range' => 225, 'Concealment' => 26 ))
 );
 //
 //Grenades
@@ -352,7 +370,9 @@ $weapons_grenades = array(
 array( 'Name' => $l['frag_grenade'], 'Wiki' => 'Frag_Grenade', 'Image' => 'frag', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'Description' => $l['frag_grenade-description'], 'Used' => $grenade_used_frag , 'Kills' => $grenade_kills_frag),
 array( 'Name' => $l['dynamite'], 'Wiki' => 'Dynamite', 'Image' => 'dynamite', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Description' => $l['dynamite-description'], 'Used' => $grenade_used_dynamite , 'Kills' => $grenade_kills_dynamite),
 array( 'Name' => $l['molotov'], 'Wiki' => 'Molotov_Cocktail', 'Image' => 'molotov', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'Description' => $l['molotov-description'], 'Used' => $grenade_used_molotov , 'Kills' => $grenade_kills_molotov),
-array( 'Name' => $l['wpn_prj_four'], 'Wiki' => 'Shuriken', 'Image' => 'wpn_prj_four', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['wpn_prj_four-description'], 'Used' => $grenade_used_wpn_prj_four , 'Kills' => $grenade_kills_wpn_prj_four)
+array( 'Name' => $l['wpn_prj_four'], 'Wiki' => 'Shuriken', 'Image' => 'wpn_prj_four', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['wpn_prj_four-description'], 'Used' => $grenade_used_wpn_prj_four , 'Kills' => $grenade_kills_wpn_prj_four),
+array( 'Name' => $l['wpn_prj_ace'], 'Wiki' => 'Ace_of_Spades', 'Image' => 'wpn_prj_ace', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['wpn_prj_ace-description'], 'Used' => $grenade_used_wpn_prj_ace , 'Kills' => $grenade_kills_wpn_prj_ace),
+array( 'Name' => $l['wpn_prj_jav'], 'Wiki' => 'Javelin', 'Image' => 'wpn_prj_jav', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['wpn_prj_jav-description'], 'Used' => $grenade_used_wpn_prj_jav , 'Kills' => $grenade_kills_wpn_prj_jav)
 );
 //
 //Gadgets
@@ -920,7 +940,7 @@ array( 'Name' => $l['perk-yakuza-1'], 'Image' => 'perk_irezumi1', 'Description' 
 array( 'Name' => $l['perk-common-1'], 'Image' => 'perk_headshot', 'Description' => $l['perk-common-1-desc']),
 array( 'Name' => $l['perk-yakuza-2'], 'Image' => 'perk_irezumi2', 'Description' => $l['perk-yakuza-2-desc']),
 array( 'Name' => $l['perk-common-2'], 'Image' => 'perk_blender', 'Description' => $l['perk-common-2-desc']),
-array( 'Name' => $l['perk-yakuza-3'], 'Image' => 'perk_ire3zumi', 'Description' => $l['perk-yakuza-3-desc']),
+array( 'Name' => $l['perk-yakuza-3'], 'Image' => 'perk_irezumi3', 'Description' => $l['perk-yakuza-3-desc']),
 array( 'Name' => $l['perk-common-3'], 'Image' => 'perk_closet', 'Description' => $l['perk-common-3-desc']),
 array( 'Name' => $l['perk-yakuza-4'], 'Image' => 'perk_irezumi4', 'Description' => $l['perk-yakuza-4-desc']),
 array( 'Name' => $l['perk-common-4'], 'Image' => 'perk_fast', 'Description' => $l['perk-common-4-desc']),

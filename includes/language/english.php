@@ -226,6 +226,8 @@ $l['humble4'] = 'HUMBLE MASK PACK 4';
 $l['e3_2015'] = 'E3 2015 SECRET MASK';
 $l['ninjapack'] = 'GAGE NINJA PACK';
 $l['merchandise'] = 'MERCHANDISE';
+$l['chivalrypack'] = 'GAGE CHIVALRY PACK';
+$l['yakuzapack'] = 'YAKUZA CHARACTER PACK';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -276,6 +278,9 @@ $l['m134'] = 'Vulcan';
 $l['flamethrower_mk2'] = 'Flamethrower';
 $l['m32'] = 'Piglet';
 $l['plainsrider'] = 'Plainsrider Bow';
+$l['arblast'] = 'Heavy Crossbow';
+$l['long'] = 'English Longbow';
+$l['frankish'] = 'Light Crossbow';
 //Grenade Launcher
 $l['gre_m79'] = 'GL40';
 //Akimbo
@@ -319,6 +324,7 @@ $l['sterling'] = 'Patchett L2A1';
 $l['m1928'] = 'Chicago Typewriter';
 $l['cobray'] = 'Jacket\'s Piece';
 $l['polymer'] = 'Kross Vertex';
+$l['baka'] = 'Micro Uzi';
 //Shotguns
 $l['judge'] = 'The Judge';
 $l['serbu'] = 'Locomotive 12G';
@@ -421,8 +427,8 @@ $l['micstand'] = 'Microphone Stand';
 $l['micstand-description'] = '';
 $l['oldbaton'] = 'Classic Baton';
 $l['oldbaton-description'] = '';
-$l['hockey'] = 'Hockey Stick';
-$l['hockey-description'] = '';
+$l['hockeyst'] = 'Hockey Stick';
+$l['hockeyst-description'] = '';
 $l['switchblade'] = 'Switchblade';
 $l['switchblade-description'] = '';
 $l['taser'] = 'Buzzer';
@@ -439,6 +445,16 @@ $l['fight'] = 'Empty Palm Kata';
 $l['fight-description'] = '';
 $l['cqc'] = 'Kunai Knife';
 $l['cqc-description'] = 'Knife with a poisoned tip that deals damage over time and has a chance to interrupt enemies.';
+$l['sandsteel'] = 'Shinsakuto Katana';
+$l['sandsteel-description'] = '';
+$l['buck'] = 'Buckler Shield';
+$l['buck-description'] = '';
+$l['beardy'] = 'Bearded Axe';
+$l['beardy-description'] = '';
+$l['great'] = 'Great Sword';
+$l['great-description'] = '';
+$l['morning'] = 'Morning Star';
+$l['morning-description'] = '';
 ////Throwables
 $l['grenades'] = 'Throwables';
 $l['frag_grenade'] = 'Frag Grenade';
@@ -449,6 +465,10 @@ $l['dynamite'] = 'Dynamite';
 $l['dynamite-description'] = 'Swedish engineer, Alfred Nobel, discovered dynamite and its effectiveness in blasting rock. Bit it was drunk prospector, Ol\'Kenneth, who discovered its effectiveness in blasting people.';
 $l['wpn_prj_four'] = 'Shuriken';
 $l['wpn_prj_four-description'] = 'Like a sword hidden in the user\'s hand the shuriken is a deadly weapon and perfectly silent. First made of nails and needles, the throwing star has had a long history filled with blood and battle. These modern stars of stainless steel will pose a lethal threat to anyone in front of you, and as long as you can find them there will be no stopping you.<br/><br/>The Shurikens have been coated in poison which deals damage over time and has a chance to interrupt enemies.';
+$l['wpn_prj_ace'] = 'Ace of Spades';
+$l['wpn_prj_ace-description'] = 'Throwing cards are generally associated with magicians splitting watermelons across a stage, but add weight and razor edges and you have a silent killer. Have one of these steel aces in your sleeves and you will always be ready to deal yourself into the game, regardless of the circumstances.<br/><br/>The Ace of Spades is a free throwable given to the community to celebrate two years of PAYDAY 2!';
+$l['wpn_prj_jav'] = 'Javelin';
+$l['wpn_prj_jav-description'] = 'With its origins lost in murky pre-history, the javelin is a simple weapon. After all, it\'s a thrown stick with a pointy end that ruins someone\'s day. Despite this simplicity, it still requires skill and strength to use.';
 ////Gadgets
 $l['ammo_bag'] = 'Ammo Bag';
 $l['ammo_bag-description'] = 'The ammo bag is a portable bag, originally intended to allow soldiers to carry extra ammunition.<br/><br/>To use the ammo bag, you need to place it by holding [G]. Once placed it cannot be moved, but it can be used by you and your crew by holding [F] to gain more ammunition.<br/><br/>The ammo bag has limited uses and when it is consumed, it disappears. You can see how many uses are left by looking at the ammo bag.';

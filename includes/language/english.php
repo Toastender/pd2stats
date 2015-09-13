@@ -1084,8 +1084,8 @@ $l['escapegarage'] = 'Garage';
 ////Skilltrees
 //Mastermind
 $l['controlfreak'] = 'Hostage Taker';
-$l['controlfreak-normal'] = 'Having at least one hostage makes you regenerate <div class="bluein">0.6%</div> health every <div class="bluein">5</div> seconds.';
-$l['controlfreak-ace'] = 'Having at least one hostage makes you regenerate <div class="bluein">2%</div> health every <div class="bluein">5</div> seconds.';
+$l['controlfreak-normal'] = 'Having at least one hostage makes you regenerate <div class="bluein">1.5%</div> health every <div class="bluein">5</div> seconds.';
+$l['controlfreak-ace'] = 'Having at least one hostage makes you regenerate <div class="bluein">4.5%</div> health every <div class="bluein">5</div> seconds.';
 $l['pistolmessiah'] = 'Pistol Messiah';
 $l['pistolmessiah-normal'] = 'When in bleed-out, you are instantly revived if you kill an enemy with a pistol. You only have <div class="bluein">1</div> charge. You will replenish your charge when you get out of custody.';
 $l['pistolmessiah-ace'] = 'You gain an additional <div class="bluein">2</div> charges. You will replenish your charges when you get out of custody.';
@@ -1114,8 +1114,8 @@ $l['spotter'] = 'Spotter';
 $l['spotter-normal'] = 'Special enemies marked by you take <div class="bluein">15%</div> additional damage.';
 $l['spotter-ace'] = 'Unlocks the Spotter asset in the Job Overview menu.<br/><br/>During stealth the Spotter will highlight guards for you and your crew.<br/><br/>If stealth is not an option, the Spotter will highlight special enemies for you and your crew.';
 $l['equilibrium'] = 'Equilibrium';
-$l['equilibrium-normal'] = 'Increases accuracy with pistols by <div class="bluein">10%</div> and decreases the time it takes to pull and put away pistols by <div class="bluein">50%</div>.';
-$l['equilibrium-ace'] = 'Increases your rate of fire with pistols by <div class="bluein">100%</div>.';
+$l['equilibrium-normal'] = 'Increases accuracy with pistols and akimbo weapons by <div class="bluein">10%</div> and decreases the time it takes to pull and put them away by <div class="bluein">50%</div>.';
+$l['equilibrium-ace'] = 'Increases your rate of fire with pistols and akimbo weapons by <div class="bluein">100%</div>.';
 $l['dominator'] = 'Dominator';
 $l['dominator-normal'] = 'You and your crew can now intimidate a non-special enemy. Less well trained enemies are easier to intimidate.';
 $l['dominator-ace'] = 'The power and range of your intimidation is increased by <div class="bluein">50%</div>.';
@@ -1312,8 +1312,8 @@ $l['unlockghost'] = 'Unlocking the Ghost';
 $l['unlockghost-normal'] = 'The Ghost is a stealth artist, capable of grand theft without force or violence.<br/><br/>Spending the first point in the Ghost skill tree unlocks the ability to use the electronic countermeasure equipment, also known as the ECM jammer. When used, the ECM jammer can open ATM machines and temporarily cancel out electronic devices such as cell phones and cameras.<br/><br/><div class="bluein">1</div> ECM jammer is added to your inventory. An ECM jammer lasts <div class="bluein">20</div> seconds.';
 //Fugitive
 $l['bullseye'] = 'Bullseye';
-$l['bullseye-normal'] = 'You regenerate <div class="bluein">16</div> armor for each successful headshot. This can not occur more than once every <div class="bluein">3</div> seconds.';
-$l['bullseye-ace'] = 'You regenerate an additional <div class="bluein">16</div> armor for each successful headshot.';
+$l['bullseye-normal'] = 'You regenerate <div class="bluein">15</div> armor for each successful headshot. This can not occur more than once every <div class="bluein">2</div> seconds.';
+$l['bullseye-ace'] = 'You regenerate an additional <div class="bluein">30</div> armor for each successful headshot.';
 $l['sneakybastard'] = 'Sneaky Bastard';
 $l['sneakybastard-normal'] = 'You gain a <div class="bluein">1%</div> dodge chance for every <div class="bluein">3</div> points of concealment under <div class="bluein">35</div> up to <div class="bluein">10%</div>.';
 $l['sneakybastard-ace'] = 'You gain a <div class="bluein">1%</div> dodge chance for every <div class="bluein">1</div> point of concealment under <div class="bluein">35</div> up to <div class="bluein">10%</div>.';
@@ -1390,7 +1390,7 @@ $l['perk-crew-chief-3-desc'] = 'You and your crew gains <div class="bluein">15%<
 $l['perk-crew-chief-4'] = 'Testudo';
 $l['perk-crew-chief-4-desc'] = 'You gain <div class="bluein">10%</div> more armor and your crew gains an additional <div class="bluein">5%</div> more armor.<br/><br/>Note: Crew perks do not stack.';
 $l['perk-crew-chief-5'] = 'Hostage Situation';
-$l['perk-crew-chief-5-desc'] = 'You and your crew gains <div class="bluein">2%</div> max health and <div class="bluein">4%</div> stamina for each hostage up to <div class="bluein">10</div> times.<br/><br/>Note: Crew perks do no stack.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+$l['perk-crew-chief-5-desc'] = 'You and your crew gains <div class="bluein">2%</div> max health and <div class="bluein">4%</div> stamina for each hostage up to <div class="bluein">10</div> times.<br/><br/>You and your crew will gain <div class="bluein">8%</div> damage reduction for having an hostage.<br/><br/>Note: Crew perks do no stack.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Deck Muscle
 $l['perk-muscle'] = 'Muscle';
 $l['perk-muscle-desc'] = 'The Muscle is a though guy who uses violence to send messages from his Mafia superiors. They are the backbone of any criminal organisation.<br/><br/>The Muscle is called in whenever you need to rough someone up, break some legs, crush a skull or remind people who\'s boss.';  
@@ -1403,16 +1403,16 @@ $l['perk-muscle-3-desc'] = 'You gain an additional <div class="bluein">30%</div>
 $l['perk-muscle-4'] = 'Disturbing the Peace';
 $l['perk-muscle-4-desc'] = 'You can use light machine guns, submachine guns and sniper rifles to spread panic among your enemies.<br/><br/>Panic will make enemies go into short bursts of uncontrollable fear.';
 $l['perk-muscle-5'] = '800-pound Gorilla';
-$l['perk-muscle-5-desc'] = 'You gain an additional <div class="bluein">40%</div> more health.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+$l['perk-muscle-5-desc'] = 'You gain an additional <div class="bluein">40%</div> more health.<br/><br/>You regenerate <div class="bluein">4%</div> of your life every <div class="bluein">5</div> seconds.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Deck Armorer
 $l['perk-armorer'] = 'Armorer';
 $l['perk-armorer-desc'] = 'The Armorer was formerly a profession within the military. The armorer\'s job is to maintain, repair and improve armors.<br/><br/>Any self-respecting crime syndicate needs someone who can make sure the soldiers have the necessary protection to do their jobs.';
 $l['perk-armorer-1'] = 'Type I Armor';
-$l['perk-armorer-1-desc'] = 'You gain <div class="bluein">5%</div> more armor.';
+$l['perk-armorer-1-desc'] = 'You gain <div class="bluein">10%</div> more armor.';
 $l['perk-armorer-2'] = 'Type II Armor';
-$l['perk-armorer-2-desc'] = 'You gain an additional <div class="bluein">5%</div> more armor.';
+$l['perk-armorer-2-desc'] = 'You gain an additional <div class="bluein">10%</div> more armor.';
 $l['perk-armorer-3'] = 'Type III Armor';
-$l['perk-armorer-3-desc'] = 'You gain an additional <div class="bluein">5%</div> more armor.';
+$l['perk-armorer-3-desc'] = 'You gain an additional <div class="bluein">10%</div> more armor.';
 $l['perk-armorer-4'] = 'Reinforced Armor';
 $l['perk-armorer-4-desc'] = 'You armor recovery rate is increased by <div class="bluein">10%</div>.';
 $l['perk-armorer-5'] = 'Liquid Armor';
@@ -1421,7 +1421,7 @@ $l['perk-armorer-5-desc'] = 'You gain an additional <div class="bluein">5%</div>
 $l['perk-rouge'] = 'Rogue';
 $l['perk-rouge-desc'] = 'The Rogue is a stealthy criminal, capable of sneaky tricks and deadly force, Versatile and deceptive, the Rogue is hired to do anything from pickpocketing, to burglaries and con jobs.<br/><br/>The trademark of Rouge is his versatility - what he lacks in strength he make up for in skill.';
 $l['perk-rouge-1'] = 'Suble';
-$l['perk-rouge-1-desc'] = 'Your change to dodge is increased by <div class="bluein">10%</div>.';
+$l['perk-rouge-1-desc'] = 'Your change to dodge is increased by <div class="bluein">5%</div>.';
 $l['perk-rouge-2'] = 'Elusive';
 $l['perk-rouge-2-desc'] = 'You are <div class="bluein">15%</div> less likely to be targeted when you are close to your crew members.';
 $l['perk-rouge-3'] = 'Evasive';
@@ -1447,13 +1447,13 @@ $l['perk-hitman-5-desc'] = 'Your armor recovery rate is increased by an addition
 $l['perk-crook'] = 'Crook';
 $l['perk-crook-desc'] = 'The Crook is a versatile criminal. The term is as old as crime itself.<br/><br/>Truly, the crook is a jack of all trades and a master of none. He steals, lies, cheats and does any and every dishonest or illegal work necessary to get by.';
 $l['perk-crook-1'] = 'Suble';
-$l['perk-crook-1-desc'] = 'Your change to dodge is increased by <div class="bluein">10%</div>.';
+$l['perk-crook-1-desc'] = 'Your change to dodge is increased by <div class="bluein">5%</div>.';
 $l['perk-crook-2'] = 'Basic Composure';
-$l['perk-crook-2-desc'] = 'Your chance to dodge is increased by <div class="bluein">10%</div> for ballistic vests.';
+$l['perk-crook-2-desc'] = 'Your chance to dodge is increased by <div class="bluein">10%</div> for ballistic vests.<br/><br/>Your armor is increased by <div class="bluein">20%</div> for ballistic vests.';
 $l['perk-crook-3'] = 'Advanced Composure';
-$l['perk-crook-3-desc'] = 'Your chance to dodge is increased by <div class="bluein">10%</div> for ballistic vests.';
+$l['perk-crook-3-desc'] = 'Your chance to dodge is increased by <div class="bluein">10%</div> for ballistic vests.<br/><br/>Your armor is increased by <div class="bluein">20%</div> for ballistic vests.';
 $l['perk-crook-4'] = 'Expert Composure';
-$l['perk-crook-4-desc'] = 'Your chance to dodge is increased by <div class="bluein">15%</div> for ballistic vests.';
+$l['perk-crook-4-desc'] = 'Your chance to dodge is increased by <div class="bluein">15%</div> for ballistic vests.<br/><br/>Your armor is increased by <div class="bluein">25%</div> for ballistic vests.';
 $l['perk-crook-5'] = 'Master Recovery';
 $l['perk-crook-5-desc'] = 'Your armor recovery rate is increased by <div class="bluein">10%</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Deck Burglar
@@ -1473,41 +1473,41 @@ $l['perk-burglar-5-desc'] = 'Standing still and crouch increases your armor reco
 $l['perk-infiltrator'] = 'Infiltrator';
 $l['perk-infiltrator-desc'] = 'The Infiltrator is an agent hired by a government or large criminal organisation to obtain industrial secrets from its competitors.<br/><br/>The Infiltrator is a close combat specialist who knows how to use the environment in order to get the upper hand.';
 $l['perk-infiltrator-1'] = 'Basic Close Combat';
-$l['perk-infiltrator-1-desc'] = 'When you are close to an enemy, you receive <div class="bluein">4%</div> less damage from enemies.';
+$l['perk-infiltrator-1-desc'] = 'When you are medium to an enemy, you receive <div class="bluein">8%</div> less damage from enemies.';
 $l['perk-infiltrator-2'] = 'Advanced Close Combat';
-$l['perk-infiltrator-2-desc'] = 'When you are close to an enemy, you receive an additional <div class="bluein">4%</div> less damage from enemies.';
+$l['perk-infiltrator-2-desc'] = 'When you are medium to an enemy, you receive an additional <div class="bluein">8%</div> less damage from enemies.';
 $l['perk-infiltrator-3'] = 'Expert Close Combat';
-$l['perk-infiltrator-3-desc'] = 'When you are close to an enemy, you receive <div class="bluein">4%</div> less damage from enemies.<br/><br/>Each successful melee hit grants an additional <div class="bluein">10%</div> melee damage boost for <div class="bluein">6</div> seconds and can stack up to <div class="bluein">4</div> times.';
+$l['perk-infiltrator-3-desc'] = 'When you are medium to an enemy, you receive <div class="bluein">8%</div> less damage from enemies.<br/><br/>Each successful melee hit grants an additional <div class="bluein">10%</div> melee damage boost for <div class="bluein">7</div> seconds and can stack up to <div class="bluein">4</div> times.';
 $l['perk-infiltrator-4'] = 'Overdog';
-$l['perk-infiltrator-4-desc'] = 'When you are surrounded by three enemies or more, you receive an additional <div class="bluein">8%</div> less damage from enemies.<br/><br/>Each successful melee hit grants an additional <div class="bluein">10%</div> melee damage boost for <div class="bluein">6</div> seconds and can stack up to <div class="bluein">4</div> times.';
+$l['perk-infiltrator-4-desc'] = 'When you are surrounded by three enemies or more, you receive an additional <div class="bluein">8%</div> less damage from enemies.<br/><br/>Each successful melee hit grants an additional <div class="bluein">10%</div> melee damage boost for <div class="bluein">7</div> seconds and can stack up to <div class="bluein">4</div> times.';
 $l['perk-infiltrator-5'] = 'Life Drain';
-$l['perk-infiltrator-5-desc'] = 'Striking an enemy with your melee weapon regenerates <div class="bluein">10%</div> of your health. This cannot occur more than once every <div class="bluein">15</div> seconds.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+$l['perk-infiltrator-5-desc'] = 'Striking an enemy with your melee weapon regenerates <div class="bluein">20%</div> of your health. This cannot occur more than once every <div class="bluein">10</div> seconds.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Deck Sociopath
 $l['perk-sociopath'] = 'Sociopath';
 $l['perk-sociopath-desc'] = 'The Sociopath is known to be one of the most effective type of criminals. Where he is effective, he is also difficult to deal with, which is why larger organizations avoid him.<br/><br/>Bold, uninhibited and mean, the Sociopath excels in the most violent of jobs. Unable to feel guilt for the crimes he commits, he is a dangerous enemy.';
 $l['perk-sociopath-1'] = 'No Talk';
-$l['perk-sociopath-1-desc'] = 'When you are close to an enemy, you receive <div class="bluein">4%</div> less damage from enemies.';
+$l['perk-sociopath-1-desc'] = 'When you are medium to an enemy, you receive <div class="bluein">8%</div> less damage from enemies.';
 $l['perk-sociopath-2'] = 'Tension';
-$l['perk-sociopath-2-desc'] = 'Killing an enemy regenerates <div class="bluein">10</div> armor.<br/><br/>This cannot occur more than once every <div class="bluein">3</div> seconds.';
+$l['perk-sociopath-2-desc'] = 'Killing an enemy regenerates <div class="bluein">30</div> armor.<br/><br/>This cannot occur more than once every <div class="bluein">2</div> seconds.';
 $l['perk-sociopath-3'] = 'Clean Hit';
-$l['perk-sociopath-3-desc'] = 'Killing an enemy with a melee weapon regenerates <div class="bluein">5%</div> health.<br/><br/>This cannot occur more than once every <div class="bluein">3</div> seconds.';
+$l['perk-sociopath-3-desc'] = 'Killing an enemy with a melee weapon regenerates <div class="bluein">10%</div> health.<br/><br/>This cannot occur more than once every <div class="bluein">2</div> seconds.';
 $l['perk-sociopath-4'] = 'Overdose';
-$l['perk-sociopath-4-desc'] = 'Killing an enemy at close range regenerates <div class="bluein">10</div> armor.<br/><br/>This cannot occur more than once every <div class="bluein">3</div> seconds.';
+$l['perk-sociopath-4-desc'] = 'Killing an enemy at medium range regenerates <div class="bluein">30</div> armor.<br/><br/>This cannot occur more than once every <div class="bluein">2</div> seconds.';
 $l['perk-sociopath-5'] = 'Showdown';
-$l['perk-sociopath-5-desc'] = 'Killing an enemy at close range has a <div class="bluein">20%</div> chance to spread panic among your enemies.<br/><br/>Panic will make enemies go into short bursts of uncontrollable fear.<br/><br/>This cannot occur more than once every <div class="bluein">3</div> seconds.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+$l['perk-sociopath-5-desc'] = 'Killing an enemy at medium range has a <div class="bluein">75%</div> chance to spread panic among your enemies.<br/><br/>Panic will make enemies go into short bursts of uncontrollable fear.<br/><br/>This cannot occur more than once every <div class="bluein">2</div> seconds.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Deck Gambler
 $l['perk-gambler'] = 'Gambler';
 $l['perk-gambler-desc'] = 'Heading into the furnace of battle requires skill, hardness and more than a little luck. Some people just have it.<br/><br/>Luck is an elusive quality. The ancient Greeks believed it was the design of the Gods. It isn\'t. It certainly exists, but it\'s something you can earn. It requires preparation and forethought to get your pieces in place, and maximize your chances of a return. It\'s counting cards, rather than the blessing of Fortuna';
 $l['perk-gambler-1'] = 'Medical Supplies';
-$l['perk-gambler-1-desc'] = 'Ammo packs you pick up also yield medical supplies and heals you for <div class="bluein">4</div> to <div class="bluein">8</div> health.<br/><br/>Cannot occur more than once every <div class="bluein">15</div> seconds.';
+$l['perk-gambler-1-desc'] = 'Ammo packs you pick up also yield medical supplies and heals you for <div class="bluein">8</div> to <div class="bluein">12</div> health.<br/><br/>Cannot occur more than once every <div class="bluein">4</div> seconds.';
 $l['perk-gambler-2'] = 'Ammo Give Out';
 $l['perk-gambler-2-desc'] = 'When you pick up ammo, you trigger an ammo pickup for <div class="bluein">50%</div> of normal pickup to other players in your team.<br/><br/>Cannot occur more than once every <div class="bluein">5</div> seconds.';
 $l['perk-gambler-3'] = 'Sharing Is Caring';
-$l['perk-gambler-3-desc'] = 'When you get healed from picking up ammo packs, your team-mates also get healed for <div class="bluein">50%</div> of the amount.';
+$l['perk-gambler-3-desc'] = 'When you get healed from picking up ammo packs, your team-mates also get healed for <div class="bluein">100%</div> of the amount.';
 $l['perk-gambler-4'] = 'More Healing 1';
-$l['perk-gambler-4-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">2</div>.';
+$l['perk-gambler-4-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">4</div>.';
 $l['perk-gambler-5'] = 'More Healing 2';
-$l['perk-gambler-5-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">2</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+$l['perk-gambler-5-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">4</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Deck Grinder
 $l['perk-grinder'] = 'Grinder';
 $l['perk-grinder-desc'] = 'A typical grinder is a hard working individual, able take control of difficult situations and turn them around. The grinder relies heavily on always being in the front and dishing out punishment, being able to survive due to the fact that he does damage to enemies regardless of how much damage he has sustained.';

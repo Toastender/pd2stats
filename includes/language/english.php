@@ -225,6 +225,7 @@ $l['humble3'] = 'HUMBLE MASK PACK 3';
 $l['humble4'] = 'HUMBLE MASK PACK 4';
 $l['e3_2015'] = 'E3 2015 SECRET MASK';
 $l['ninjapack'] = 'GAGE NINJA PACK';
+$l['merchandise'] = 'MERCHANDISE';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -432,8 +433,8 @@ $l['croupier_rake'] = 'Croupier\'s Rake';
 $l['croupier_rake-description'] = '';
 $l['twins'] = 'Okinawan Style Sai';
 $l['twins-description'] = '';
-$l['tiger'] = 'Talons';
-$l['tiger-description'] = '';
+$l['talons'] = 'Talons';
+$l['talons-description'] = '';
 $l['fight'] = 'Empty Palm Kata';
 $l['fight-description'] = '';
 $l['cqc'] = 'Kunai Knife';
@@ -507,6 +508,9 @@ $l['combusto'] = 'Firestarter';
 $l['combusto-description'] = 'This clown used to be a master of pyrotechnics, having a fire breathing number that no one could top. His competitors in the not-so-known-fire-breathing-clown-scene were unhappy with his success... And spiked his cocktail. With third degree burns on his face and an evil look in his eyes he fought fire with fire and set the other clown ablaze. But he didn\'t stop there, the fiery hatred in him burned too bright. Now he seeks to set the world on fire.';
 $l['spackle'] = 'Spackle';
 $l['spackle-description'] = 'Once a well renowned circus clown Spackle was the best make-up artist in the scene. Known for her skill and ability to make people look so unlike themselves, she became obsessed with art. With her own face as canvas she tirelessly applied layer after layer, each becoming more twisted. She was sent to an asylum after killing five people during their make-up process.';
+//Merchandise
+$l['bobblehead_dozer'] = 'Dozer Mask';
+$l['bobblehead_dozer-description'] = '"Senpai Noticed Me!!! :3"<br/><br/>A big thank you to community member Far2close for making a hilarious version of an otherwise intimidating dozer face plate.<br/><br/>This mask can only be obtained from a code accompanying the PAYDAY 2 DOZER BOBBLEHEAD bought from the online OVERKILL merchandise store.';
 //Lootbag
 $l['skull'] = 'Skull';
 $l['skull-description'] = 'An exclusive mask representing death and mortality.<br/><br/>Created in the heavens as a gift by the gods to men and women who believed in them early on, who built their shrines and spread their beliefs across the lands.<br/><br/>Thank you for believing in us! We salute you!';

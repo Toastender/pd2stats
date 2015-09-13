@@ -338,7 +338,7 @@ array( 'Name' => $l['croupier_rake'], 'Wiki' => 'Croupier\'s_Rake', 'Image' => '
 'Damage' => 7, 'DamageMAX' => 17, 'Knockdown' => 82, 'KnockdownMAX' => 148, 'Charge' => 2.0, 'Range' => 250, 'Concealment' => 28 )),
 array( 'Name' => $l['twins'], 'Wiki' => 'Okinawan_Style_Sai', 'Image' => 'twins', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['twins-description'], 'Used' => $melee_used_twins , 'Kills' => $melee_kills_twins , 'Stats' => array(
 'Damage' => 30, 'DamageMAX' => 40, 'Knockdown' => 15, 'KnockdownMAX' => 20, 'Charge' => 1.0, 'Range' => 200, 'Concealment' => 28 )),
-array( 'Name' => $l['tiger'], 'Wiki' => 'Talons', 'Image' => 'tiger', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['tiger-description'], 'Used' => $melee_used_tiger , 'Kills' => $melee_kills_tiger , 'Stats' => array(
+array( 'Name' => $l['talons'], 'Wiki' => 'Talons', 'Image' => 'tiger', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['talons-description'], 'Used' => $melee_used_tiger , 'Kills' => $melee_kills_tiger , 'Stats' => array(
 'Damage' => 35, 'DamageMAX' => 50, 'Knockdown' => 11, 'KnockdownMAX' => 15, 'Charge' => 2.0, 'Range' => 150, 'Concealment' => 27 )),
 array( 'Name' => $l['fight'], 'Wiki' => 'Empty_Palm_Kata', 'Image' => 'fight', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['fight-description'], 'Used' => $melee_used_fight , 'Kills' => $melee_kills_fight , 'Stats' => array(
 'Damage' => 15, 'DamageMAX' => 30, 'Knockdown' => 45, 'KnockdownMAX' => 90, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
@@ -361,7 +361,7 @@ $gadgets = array(
 array( 'Name' => $l['ammo_bag'], 'Wiki' => 'Ammo_bag_(Payday_2)', 'Image' => 'ammobag', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['ammo_bag-description'], 'Used' => $gadget_used_ammo_bag),
 array( 'Name' => $l['doctor_bag'], 'Wiki' => 'Doctor_bag_(Payday_2)', 'Image' => 'doctorbag', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['doctor_bag-description'], 'Used' => $gadget_used_doctor_bag),
 array( 'Name' => $l['trip_mine'], 'Wiki' => 'Trip_mine_(Payday_2)', 'Image' => 'tripmine', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['trip_mine-description'], 'Used' => $gadget_used_trip_mine),
-array( 'Name' => $l['sentry_gun'], 'Wiki' => Like a sword hidden in the user's hand the shuriken is a deadly weapon and perfectly silent. First made of nails and needles, the throwing star has had a long history filled with blood and battle. These modern stars of stainless steel will pose a lethal threat to anyone in front of you, and as long as you can find them there will be no stopping you.'Sentry_gun_(Payday_2)', 'Image' => 'sentrygun', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['sentry_gun-description'], 'Used' => $gadget_used_sentry_gun),
+array( 'Name' => $l['sentry_gun'], 'Wiki' => 'Sentry_gun_(Payday_2)', 'Image' => 'sentrygun', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['sentry_gun-description'], 'Used' => $gadget_used_sentry_gun),
 array( 'Name' => $l['ecm_jammer'], 'Wiki' => 'ECM_jammer', 'Image' => 'ecmjammer', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['ecm_jammer-description'], 'Used' => $gadget_used_ecm_jammer),
 array( 'Name' => $l['armor_kit'], 'Wiki' => 'Armor_Bag', 'Image' => 'armor_kit', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['armor_kit-description'], 'Used' => $gadget_used_armor_bag),
 array( 'Name' => $l['bodybags_bag'], 'Wiki' => 'Body_Bag_Case', 'Image' => 'bodybags_bag', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['bodybags_bag-description'], 'Used' => $gadget_used_body_bag),
@@ -424,6 +424,8 @@ array( 'Name' => $l['crazy_lion'], 'Image' => 'crazy_lion', 'Quality' => 'commun
 ////Alienware Alpha
 array( 'Name' => $l['area51'], 'Image' => 'area51', 'Quality' => 'event', 'Extra' => $l['Humble2Pack'], 'Description' => $l['area51-description'], 'Used' => $mask_used_area51),
 array( 'Name' => $l['alien_helmet'], 'Image' => 'alien_helmet', 'Quality' => 'event', 'Extra' => $l['Humble2Pack'], 'Description' => $l['alien_helmet-description'], 'Used' => $mask_used_alien_helmet),
+////Merchandise
+array( 'Name' => $l['bobblehead_dozer'], 'Image' => 'bobblehead_dozer', 'Quality' => 'event', 'Extra' => $l['merchandise'], 'Description' => $l['bobblehead_dozer-description'], 'Used' => $mask_used_bobblehead_dozer),
 ////Crimefest
 array( 'Name' => $l['combusto'], 'Image' => 'combusto', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['combusto-description'], 'Used' => $mask_used_combusto),
 array( 'Name' => $l['spackle'], 'Image' => 'spackle', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['spackle-description'], 'Used' => $mask_used_spackle),

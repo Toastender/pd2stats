@@ -1018,8 +1018,9 @@ array( 'Name' => $l['houston'], 'Wiki' => 'Houston', 'Image' => 'hoxton', 'Descr
 array( 'Name' => $l['wolf'], 'Wiki' => 'Wolf', 'Image' => 'wolf', 'Description' => $l['wolf-char'], 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $character_used_german ),
 array( 'Name' => $l['wick'], 'Wiki' => 'John_Wick', 'Image' => 'jowi', 'Description' => $l['wick-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_jowi ),
 array( 'Name' => $l['hoxton'], 'Wiki' => 'Hoxton', 'Image' => 'old_hoxton', 'Description' => $l['hoxton-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_old_hoxton ),
-array( 'Name' => $l['clover'], 'Wiki' => 'Clover', 'Image' => 'female_1', 'Description' => $l['clover-char'], 'Quality' => 'dlc', 'Used' => $character_used_female_1 ),
-array( 'Name' => $l['dragan'], 'Wiki' => 'Dragan', 'Image' => 'dragan1', 'Description' => $l['dragan-char'], 'Quality' => 'dlc', 'Used' => $character_used_dragan ),
+array( 'Name' => $l['clover'], 'Wiki' => 'Clover', 'Image' => 'female_1', 'Description' => $l['clover-char'], 'Quality' => 'dlc', 'Extra' => $l['cloverpack'], 'Used' => $character_used_female_1 ),
+array( 'Name' => $l['dragan'], 'Wiki' => 'Dragan', 'Image' => 'dragan1', 'Description' => $l['dragan-char'], 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Used' => $character_used_dragan ),
+array( 'Name' => $l['sokol'], 'Wiki' => 'Sokol', 'Image' => 'sokol', 'Description' => $l['sokol-char'], 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Used' => $character_used_sokol ),
 array( 'Name' => $l['jacket'], 'Wiki' => 'Jacket', 'Image' => 'jacket', 'Description' => $l['jacket-char'], 'Quality' => 'collaboration', 'Extra' => $l['hotline_miami_2_deluxe'], 'Used' => $character_used_jacket ),
 array( 'Name' => $l['bonnie'], 'Wiki' => 'Bonnie', 'Image' => 'bonnie', 'Description' => $l['bonnie-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_bonnie )
 );

@@ -1464,6 +1464,7 @@ $l['bonnie'] = 'Bonnie';
 $l['bonnie-char'] = 'Nationality: Scottish<br/>Age: 43<br/><br/>Bonnie is from Glasgow. That should be enough to strike fear into a man\'s heart, but Bonnie is also from 1980\'s Glasgow. These years, the Thatcher era, made already tough towns even harder, and bred a generation of determined, unforgiving Scots. Bonnie is cut from this cloth.';
 $l['jacket'] = 'Jacket';
 $l['jacket-char'] = 'Nationality: American<br/>Age: 20s<br/><br/>Allegedly, he once wiped out the entire Russian Mafia in Miami on his own. His background in the military and his unflinching attitude towards over-the-top violence has made him an excellent hitman - or "messenger" as some like to call it. For unknown reasons he is completely mute and chooses to communicate only with the help of a tape recorder - playing back bits and pieces of language learning tapes, PAs and documentary narrations instead of speaking.';
+$l['sokol-char'] = 'Nationality: Russian<br/>Age: 25<br/><br/>Though young, Sokol has everything to become a legendary heister. A gifted athlete, Sokol also possesses keen intelligence and understands his role in a team. He is fearless and physical, and uses this to get amongst the enemy, whether that be a team of hockey players or a team of SWAT.';
 //Enemies
 $l['e-cop'] = 'Metropolitan Police';
 $l['e-cop_heavy'] = 'Heavy Police Officer';

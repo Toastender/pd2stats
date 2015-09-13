@@ -1445,6 +1445,21 @@ $l['perk-gambler-4'] = 'More Healing 1';
 $l['perk-gambler-4-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">2</div>.';
 $l['perk-gambler-5'] = 'More Healing 2';
 $l['perk-gambler-5-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">2</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+
+//Deck Grinder
+$l['perk-grinder'] = 'Grinder';
+$l['perk-grinder-desc'] = 'A typical grinder is a hard working individual, able take control of difficult situations and turn them around. The grinder relies heavily on always being in the front and dishing out punishment, being able to survive due to the fact that he does damage to enemies regardless of how much damage he has sustained.';
+$l['perk-grinder-1'] = 'Histamine';
+$l['perk-grinder-1-desc'] = 'Damaging an enemy heals <div class="bluein">1</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">5</div> seconds.<br/><br/>This effect stacks, but cannot occur more than once every <div class="bluein">1.5</div> seconds, and only while wearing the Two-Piece Suit or Lightweight Ballistic Vest.';
+$l['perk-grinder-2'] = 'Adrenaline';
+$l['perk-grinder-2-desc'] = 'Damaging an enemy now heals <div class="bluein">2</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">5</div> seconds.<br/><br/>You gain <div class="bluein">20%</div> more health.';
+$l['perk-grinder-3'] = 'Endorphins';
+$l['perk-grinder-3-desc'] = 'Damaging an enemy now heals <div class="bluein">3</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">5</div> seconds.<br/><br/>Increases your chance to pierce enemy armor by <div class="bluein">10%</div>.';
+$l['perk-grinder-4'] = 'Dopamine';
+$l['perk-grinder-4-desc'] = 'Damaging an enemy now heals <div class="bluein">4</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">5</div> seconds.<br/><br/>You gain <div class="bluein">20%</div> more health.';
+$l['perk-grinder-5'] = 'Euphoria';
+$l['perk-grinder-5-desc'] = 'Damaging an enemy now heals <div class="bluein">4</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">6</div> seconds.<br/><br/>Increases your chance to pierce enemy armor by <div class="bluein">20%</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
+
 //Characters
 $l['chars'] = 'Characters';
 $l['houston'] = 'Houston';

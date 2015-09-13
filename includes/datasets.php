@@ -881,6 +881,18 @@ array( 'Name' => $l['perk-common-4'], 'Image' => 'perk_fast', 'Description' => $
 array( 'Name' => $l['perk-sociopath-5'], 'Image' => 'perk_exclam', 'Description' => $l['perk-sociopath-5-desc'])
 );
 
+$deck_grinder = array(
+array( 'Name' => $l['perk-grinder-1'], 'Image' => 'perk_heartplus1', 'Description' => $l['perk-grinder-1-desc']),
+array( 'Name' => $l['perk-common-1'], 'Image' => 'perk_headshot', 'Description' => $l['perk-common-1-desc']),
+array( 'Name' => $l['perk-grinder-2'], 'Image' => 'perk_heartplus2', 'Description' => $l['perk-grinder-2-desc']),
+array( 'Name' => $l['perk-common-2'], 'Image' => 'perk_blender', 'Description' => $l['perk-common-2-desc']),
+array( 'Name' => $l['perk-grinder-3'], 'Image' => 'perk_heartplus3', 'Description' => $l['perk-grinder-3-desc']),
+array( 'Name' => $l['perk-common-3'], 'Image' => 'perk_closet', 'Description' => $l['perk-common-3-desc']),
+array( 'Name' => $l['perk-grinder-4'], 'Image' => 'perk_heartplus4', 'Description' => $l['perk-grinder-4-desc']),
+array( 'Name' => $l['perk-common-4'], 'Image' => 'perk_fast', 'Description' => $l['perk-common-4-desc']),
+array( 'Name' => $l['perk-grinder-5'], 'Image' => 'perk_heartplus5', 'Description' => $l['perk-grinder-5-desc'])
+);
+
 //
 //Skilltrees
 //

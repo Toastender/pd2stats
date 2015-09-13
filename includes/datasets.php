@@ -219,7 +219,7 @@ array( 'Name' => $l['striker'], 'Wiki' => 'Street_Sweeper', 'Image' => 'striker'
 );
 
 if($skill_enforcer_carbon_blade_ace == 1){
-array_push($weapons_secondary, array( 'Name' => $l['saw'], 'Wiki' => 'OVE9000', 'Image' => 'saw', 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $weapon_used_saw , 'Kills' => $weapon_kills_saw, 'Stats' => array(
+array_push($weapons_secondary, array( 'Name' => $l['saw'], 'Wiki' => 'OVE9000', 'Image' => 'saw', 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $weapon_used_saw_secondary , 'Kills' => $weapon_kills_saw_secondary, 'Stats' => array(
 'Magazine' => 150, 'Ammo' => 300, 'Firerate' => 400, 'Damage' => 23, 'Accuracy' => 4, 'Stability' => 17, 'Concealment' => 16, 'Threat' => 24)));
 }
 //

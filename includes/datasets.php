@@ -507,6 +507,11 @@ array( 'Name' => $l['churchill'], 'Image' => 'churchill', 'Quality' => 'dlc', 'E
 array( 'Name' => $l['de_gaulle'], 'Image' => 'de_gaulle', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'Description' => $l['de_gaulle-description'], 'Used' => $mask_used_de_gaulle),
 array( 'Name' => $l['patton'], 'Image' => 'patton', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'Description' => $l['patton-description'], 'Used' => $mask_used_patton),
 array( 'Name' => $l['red_hurricane'], 'Image' => 'red_hurricane', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'Description' => $l['red_hurricane-description'], 'Used' => $mask_used_red_hurricane),
+////Gage Chivalry Pack
+array( 'Name' => $l['agatha_knight'], 'Image' => 'agatha_knight', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['agatha_knight-description'], 'Used' => $mask_used_agatha_knight),
+array( 'Name' => $l['agatha_vanguard_veteran'], 'Image' => 'agatha_vanguard_veteran', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['agatha_vanguard_veteran-description'], 'Used' => $mask_used_agatha_vanguard_veteran),
+array( 'Name' => $l['mason_knight_veteran'], 'Image' => 'mason_knight_veteran', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['mason_knight_veteran-description'], 'Used' => $mask_used_mason_knight_veteran),
+array( 'Name' => $l['mason_vanguard_veteran'], 'Image' => 'mason_vanguard_veteran', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['mason_vanguard_veteran-description'], 'Used' => $mask_used_mason_vanguard_veteran),
 ////Official Soundtrack
 array( 'Name' => $l['tcn'], 'Image' => 'tcn', 'Quality' => 'dlc', 'Extra' => $l['Poetry_jam'], 'Description' => $l['tcn-description'], 'Used' => $mask_used_tcn),
 array( 'Name' => $l['metalhead'], 'Image' => 'metalhead', 'Quality' => 'dlc', 'Extra' => $l['Poetry_jam'], 'Description' => $l['metalhead-description'], 'Used' => $mask_used_metalhead),
@@ -567,12 +572,17 @@ array( 'Name' => $l['bonnie_begins'], 'Image' => 'bonnie_begins', 'Quality' => '
 ////Sokol Character Pack
 array( 'Name' => $l['sokol'], 'Image' => 'sokol', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['sokol-description'], 'Used' => $mask_used_sokol),
 array( 'Name' => $l['sokol_begins'], 'Image' => 'sokol_begins', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Description' => $l['sokol_begins-description'], 'Used' => $mask_used_sokol_begins),
+////Yakuza Character Pack
+array( 'Name' => $l['jiro'], 'Image' => 'jiro', 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'Description' => $l['jiro-description'], 'Used' => $mask_used_jiro),
+array( 'Name' => $l['jiro_begins'], 'Image' => 'jiro_begins', 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'Description' => $l['jiro_begins-description'], 'Used' => $mask_used_jiro_begins),
 ////GOTY
 array( 'Name' => $l['robo_arnold'], 'Image' => 'robo_arnold', 'Quality' => 'dlc', 'Extra' => $l['weaponbundledlc'], 'Description' => $l['robo_arnold-description'], 'Used' => $mask_used_robo_arnold),
 array( 'Name' => $l['nun_town'], 'Image' => 'nun_town', 'Quality' => 'dlc', 'Extra' => $l['heistbundle'], 'Description' => $l['nun_town-description'], 'Used' => $mask_used_nun_town),
 array( 'Name' => $l['arch_nemesis'], 'Image' => 'arch_nemesis', 'Quality' => 'dlc', 'Extra' => $l['gotyeddlc'], 'Description' => $l['arch_nemesis-description'], 'Used' => $mask_used_arch_nemesis),
 ////Champ
 array( 'Name' => $l['champion_dallas'], 'Image' => 'champion_dallas', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['champion_dallas-description'], 'Used' => $mask_used_champion_dallas),
+////Paydaycon 2015
+array( 'Name' => $l['king_of_jesters'], 'Image' => 'king_of_jesters', 'Quality' => 'event', 'Extra' => $l['paydaycon2015'], 'Description' => $l['king_of_jesters-description'], 'Used' => $mask_used_king_of_jesters),
 ////StarVR
 array( 'Name' => $l['starvr'], 'Image' => 'starvr', 'Quality' => 'infamous', 'Extra' => 'Infamous', 'Description' => $l['starvr-description'], 'Used' => $mask_used_starvr),
 ////Dragan Char Pack
@@ -1088,7 +1098,8 @@ array( 'Name' => $l['clover'], 'Wiki' => 'Clover', 'Image' => 'female_1', 'Descr
 array( 'Name' => $l['dragan'], 'Wiki' => 'Dragan', 'Image' => 'dragan1', 'Description' => $l['dragan-char'], 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Used' => $character_used_dragan ),
 array( 'Name' => $l['sokol'], 'Wiki' => 'Sokol', 'Image' => 'sokol', 'Description' => $l['sokol-char'], 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Used' => $character_used_sokol ),
 array( 'Name' => $l['jacket'], 'Wiki' => 'Jacket', 'Image' => 'jacket', 'Description' => $l['jacket-char'], 'Quality' => 'collaboration', 'Extra' => $l['hotline_miami_2_deluxe'], 'Used' => $character_used_jacket ),
-array( 'Name' => $l['bonnie'], 'Wiki' => 'Bonnie', 'Image' => 'bonnie', 'Description' => $l['bonnie-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_bonnie )
+array( 'Name' => $l['bonnie'], 'Wiki' => 'Bonnie', 'Image' => 'bonnie', 'Description' => $l['bonnie-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_bonnie ),
+array( 'Name' => $l['jiro'], 'Wiki' => 'Jiro', 'Image' => 'jiro', 'Description' => $l['jiro-char'], 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'Used' => $character_used_dragon )
 );
 
 $enemies = array(

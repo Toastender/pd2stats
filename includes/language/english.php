@@ -228,6 +228,7 @@ $l['ninjapack'] = 'GAGE NINJA PACK';
 $l['merchandise'] = 'MERCHANDISE';
 $l['chivalrypack'] = 'GAGE CHIVALRY PACK';
 $l['yakuzapack'] = 'YAKUZA CHARACTER PACK';
+$l['paydaycon2015'] = 'PAYDAYCON 2015 SECRET MASK';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -581,6 +582,15 @@ $l['gage_blade'] = 'Gage Blade';
 $l['gage_blade-description'] = 'The Gage Blade is one of Gage\'s own personal favourite ballistic face masks. It will protect your face from one or two 9mm bullets before your head explodes.<br/><br/>Without this mask, Gage wouldn\'t be the wonderful human being he is today.';
 $l['gage_rambo'] = 'Troubled War Veteran';
 $l['gage_rambo-description'] = 'The Troubled War Veteran is a mask that Gage has worked on for some time. Back in the Vietnam war Gage met this big-muscled guy who went nuts and started to use a bow instead of modern weapons.<br/><br/>He died pretty early in the war, but for some strange reason Gage couldn\'t forget his face.';
+//Gage Chivalry Pack
+$l['agatha_knight'] = 'Agatha Knight Veteran';
+$l['agatha_knight-description'] = 'Excavated from the arid wastelands of Tenosia, the helmet of this Agathian Knight could protect him from swords and arrows, but not from the bloody ambitions of a leader as delusional as King Alphonso.';
+$l['agatha_vanguard_veteran'] = 'Agatha Vanguard Veteran';
+$l['agatha_vanguard_veteran-description'] = 'When you\'re trying to reclaim your homeland and King\'s law from the upstart Masons, you need strength, support and a fearsome visage. This Vanguard helm provides all three.';
+$l['mason_knight_veteran'] = 'Mason Knight Veteran';
+$l['mason_knight_veteran-description'] = 'The helmet of the Knight Veterans of the Masons were effectively symbols of this powerful, upstart order. When peasants saw this helm, they knew that Malric\'s new order was close behind.';
+$l['mason_vanguard_veteran'] = 'Mason Vanguard Veteran';
+$l['mason_vanguard_veteran-description'] = 'This helmet was unearthed in an elaborate barrow, indicating that the wearer enjoyed prestige in the Mason army. These great warriors appear to have been Malric\'s elite troops, perhaps having served with him in the failed Tenosian crusade.';
 //Alesso Heist
 $l['concert_male'] = 'Male Concert Goer';
 $l['concert_male-description'] = 'Tie-dyed shirts are so 70\'s. Holding up a lighter went out in the 80\'s. Whistles and glow sticks were left behind in the 90\'s, and the 00\'s, well, the less said the better. The modern concert goer, however, favours the mask.';
@@ -799,10 +809,16 @@ $l['bonnie-description'] = 'Few nations have contributed to humanity as Scotland
 $l['bonnie_begins'] = 'Bonnie Begins';
 $l['bonnie_begins-description'] = 'This is a clean version of the iconic Bonnie mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
 //Sokol Character Pack
-$l['sokol'] = 'Sokol';
 $l['sokol-description'] = 'If playing as a grinder for the St Petersburg Bombers hockey team taught Sokol the value of one thing, it was the importance of a terrifying mask that protects his handsome Russian face.';
 $l['sokol_begins'] = 'Sokol Begins';
 $l['sokol_begins-description'] = 'This is a clean version of Sokol\'s iconic mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//Yakuza Character Pack
+$l['jiro-description'] = 'Japan is a land of tradition. A land of warriors. Jiro\'s mask reflects this. The mask expresses Jiro\'s love for a traditional Japan, while the bared snarl represents his unshakable determination.';
+$l['jiro_begins'] = 'Jiro Begins';
+$l['jiro_begins-description'] = 'This is a clean version of Jiro\'s iconic mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//Paydaycon 2015
+$l['king_of_jesters'] = 'King of Jesters';
+$l['king_of_jesters-description'] = 'Wearing brightly coloured clothes and eccentric hats in a motley pattern, jesters have always had a place in these parts.<br/><br/>Whether walking on stilts, performing with fire or telling jokes; their sole purpose is to spread joy in our hearts.<br/><br/>However, this is your time to shine so why not put on the mask and spread some joy.<br/><br/>So, pull out your gun, rob your guests and tell them it was all a big ploy.';
 //GOTY
 $l['robo_arnold'] = 'Robo-Arnold';
 $l['robo_arnold-description'] = 'Iconic, time-travelling cyborg star of the \'Exterminator\' movie series. In the first movie, he was sent to kill the mother of the leader of the future rebellion before she can steal the chop left by her son who was also her father... In the past. Noted for his deadpan delivery of the catchphrase "Await my return".';
@@ -1537,7 +1553,10 @@ $l['bonnie'] = 'Bonnie';
 $l['bonnie-char'] = 'Nationality: Scottish<br/>Age: 43<br/><br/>Bonnie is from Glasgow. That should be enough to strike fear into a man\'s heart, but Bonnie is also from 1980\'s Glasgow. These years, the Thatcher era, made already tough towns even harder, and bred a generation of determined, unforgiving Scots. Bonnie is cut from this cloth.';
 $l['jacket'] = 'Jacket';
 $l['jacket-char'] = 'Nationality: American<br/>Age: 20s<br/><br/>Allegedly, he once wiped out the entire Russian Mafia in Miami on his own. His background in the military and his unflinching attitude towards over-the-top violence has made him an excellent hitman - or "messenger" as some like to call it. For unknown reasons he is completely mute and chooses to communicate only with the help of a tape recorder - playing back bits and pieces of language learning tapes, PAs and documentary narrations instead of speaking.';
+$l['sokol'] = 'Sokol';
 $l['sokol-char'] = 'Nationality: Russian<br/>Age: 25<br/><br/>Though young, Sokol has everything to become a legendary heister. A gifted athlete, Sokol also possesses keen intelligence and understands his role in a team. He is fearless and physical, and uses this to get amongst the enemy, whether that be a team of hockey players or a team of SWAT.';
+$l['jiro'] = 'Jiro';
+$l['jiro-char'] = 'Nationality: Japanese<br/>Age: 52<br/><br/>In his youth, Jiro was never accepted, until he found his way into the yakuza. Yet even here, despite his loyalty and ability, he was never fully embraced and was ultimately betrayed. Following a lengthy prison term, Jiro has come to America to find his long-lost son, Kento.';
 //Enemies
 $l['e-cop'] = 'Metropolitan Police';
 $l['e-cop_heavy'] = 'Heavy Police Officer';

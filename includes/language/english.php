@@ -1472,7 +1472,6 @@ $l['perk-gambler-4'] = 'More Healing 1';
 $l['perk-gambler-4-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">2</div>.';
 $l['perk-gambler-5'] = 'More Healing 2';
 $l['perk-gambler-5-desc'] = 'Increase health gained from ammo packs by additional <div class="bluein">2</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
-
 //Deck Grinder
 $l['perk-grinder'] = 'Grinder';
 $l['perk-grinder-desc'] = 'A typical grinder is a hard working individual, able take control of difficult situations and turn them around. The grinder relies heavily on always being in the front and dishing out punishment, being able to survive due to the fact that he does damage to enemies regardless of how much damage he has sustained.';
@@ -1486,7 +1485,19 @@ $l['perk-grinder-4'] = 'Dopamine';
 $l['perk-grinder-4-desc'] = 'Damaging an enemy now heals <div class="bluein">4</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">5</div> seconds.<br/><br/>You gain <div class="bluein">20%</div> more health.';
 $l['perk-grinder-5'] = 'Euphoria';
 $l['perk-grinder-5-desc'] = 'Damaging an enemy now heals <div class="bluein">4</div> life points every <div class="bluein">0.5</div> seconds for <div class="bluein">6</div> seconds.<br/><br/>Increases your chance to pierce enemy armor by <div class="bluein">20%</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
-
+//Deck Yakuza
+$l['perk-yakuza'] = 'Yakuza';
+$l['perk-yakuza-desc'] = 'The Yakuza are one of the most feared crime syndicates in the world. Ruled by the ninkyo and lead by the Oyabun, the Yakuza are known for their strict code of conduct, organized nature and the tattoos that cover their entire bodies.<br/><br/>An outcast and a dropout from society, the Yakuza knows how it is to fend for himself. While he appears gentle, he is not to be taken lightly.';
+$l['perk-yakuza-1'] = 'Koi Irezumi';
+$l['perk-yakuza-1-desc'] = 'The lower your health, the more armor recovery rate you have. When your health is below <div class="bluein">25%</div>, you will gain up to <div class="bluein">20%</div> armor recovery rate.<br/><br/>Note: Entering this state negates regeneration effects.';
+$l['perk-yakuza-2'] = 'Hebi Irezumi';
+$l['perk-yakuza-2-desc'] = 'The lower your health, the more movement speed you gain. When your health is below <div class="bluein">25%</div>, you will gain up to <div class="bluein">20%</div> movement speed.';
+$l['perk-yakuza-3'] = 'Tora Irezumi';
+$l['perk-yakuza-3-desc'] = 'The lower your health, the more armor recovery rate you have. When your health is below <div class="bluein">25%</div>, you will gain up to an additional <div class="bluein">20%</div> armor recovery rate.';
+$l['perk-yakuza-4'] = 'Ryu Irezumi';
+$l['perk-yakuza-4-desc'] = 'The lower your health, the more armor recovery rate you have. When your health is below <div class="bluein">25%</div>, you will gain up to an additional <div class="bluein">20%</div> armor recovery rate.';
+$l['perk-yakuza-5'] = 'Oni Irezumi';
+$l['perk-yakuza-5-desc'] = 'All berserker effects in this perk deck will start at <div class="bluein">50%</div> health instead of <div class="bluein">25%</div>.<br/><br/>Deck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by <div class="bluein">10%</div>.';
 //Characters
 $l['chars'] = 'Characters';
 $l['houston'] = 'Houston';

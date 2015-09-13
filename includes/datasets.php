@@ -915,6 +915,18 @@ array( 'Name' => $l['perk-common-4'], 'Image' => 'perk_fast', 'Description' => $
 array( 'Name' => $l['perk-grinder-5'], 'Image' => 'perk_heartplus5', 'Description' => $l['perk-grinder-5-desc'])
 );
 
+$deck_yakuza = array(
+array( 'Name' => $l['perk-yakuza-1'], 'Image' => 'perk_irezumi1', 'Description' => $l['perk-yakuza-1-desc']),
+array( 'Name' => $l['perk-common-1'], 'Image' => 'perk_headshot', 'Description' => $l['perk-common-1-desc']),
+array( 'Name' => $l['perk-yakuza-2'], 'Image' => 'perk_irezumi2', 'Description' => $l['perk-yakuza-2-desc']),
+array( 'Name' => $l['perk-common-2'], 'Image' => 'perk_blender', 'Description' => $l['perk-common-2-desc']),
+array( 'Name' => $l['perk-yakuza-3'], 'Image' => 'perk_ire3zumi', 'Description' => $l['perk-yakuza-3-desc']),
+array( 'Name' => $l['perk-common-3'], 'Image' => 'perk_closet', 'Description' => $l['perk-common-3-desc']),
+array( 'Name' => $l['perk-yakuza-4'], 'Image' => 'perk_irezumi4', 'Description' => $l['perk-yakuza-4-desc']),
+array( 'Name' => $l['perk-common-4'], 'Image' => 'perk_fast', 'Description' => $l['perk-common-4-desc']),
+array( 'Name' => $l['perk-yakuza-5'], 'Image' => 'perk_irezumi5', 'Description' => $l['perk-yakuza-5-desc'])
+);
+
 //
 //Skilltrees
 //

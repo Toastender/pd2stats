@@ -352,7 +352,7 @@ array( 'Name' => $l['fight'], 'Wiki' => 'Empty_Palm_Kata', 'Image' => 'fight', '
 'Damage' => 15, 'DamageMAX' => 30, 'Knockdown' => 45, 'KnockdownMAX' => 90, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
 array( 'Name' => $l['cqc'], 'Wiki' => 'Kunai_Knife', 'Image' => 'cqc', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['cqc-description'], 'Used' => $melee_used_cqc , 'Kills' => $melee_kills_cqc , 'Stats' => array(
 'Damage' => 20, 'DamageMAX' => 40, 'Knockdown' => 10, 'KnockdownMAX' => 20, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),
-array( 'Name' => $l['sandsteel'], 'Wiki' => 'Shinsakuto_Katana', 'Image' => 'sandsteel', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['sandsteel-description'], 'Used' => $melee_used_sandsteel , 'Kills' => $melee_kills_sandsteel , 'Stats' => array(
+array( 'Name' => $l['sandsteel'], 'Wiki' => 'Shinsakuto_Katana', 'Image' => 'sandsteel', 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'Description' => $l['sandsteel-description'], 'Used' => $melee_used_sandsteel , 'Kills' => $melee_kills_sandsteel , 'Stats' => array(
 'Damage' => 70, 'DamageMAX' => 450, 'Knockdown' => 7, 'KnockdownMAX' => 45, 'Charge' => 4.0, 'Range' => 275, 'Concealment' => 26 )),
 array( 'Name' => $l['buck'], 'Wiki' => 'Buckler_Shield', 'Image' => 'buck', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['buck-description'], 'Used' => $melee_used_buck , 'Kills' => $melee_kills_buck , 'Stats' => array(
 'Damage' => 35, 'DamageMAX' => 60, 'Knockdown' => 140, 'KnockdownMAX' => 192, 'Charge' => 2.0, 'Range' => 175, 'Concealment' => 30 )),

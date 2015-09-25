@@ -1600,4 +1600,4 @@ $l['e-fbi-fieldagent'] = 'FBI Field-Agent';
 $l['e-hector'] = 'Traitor (Armored)';
 $l['e-hector-no-armor'] = 'Traitor';
 $l['e-phalanx_vip'] = 'Captain Winters';
-$l['e-phalanx_minion'] = 'Winters SWAT';
+$l['e-phalanx_minion'] = 'Phalanx SWAT';

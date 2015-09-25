@@ -1108,12 +1108,13 @@ array( 'Name' => $l['e-cop_heavy'], 'Wiki' => '', 'Description' => '', 'Value' =
 array( 'Name' => $l['e-cop_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_cop_swat ),
 array( 'Name' => $l['e-city_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_city_swat ),
 array( 'Name' => $l['e-fbi'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi ),
+array( 'Name' => $l['e-fbi-host'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hostage_rescue ),
 array( 'Name' => $l['e-fbi_office'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi_office ),
 array( 'Name' => $l['e-fbi_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi_swat ),
 array( 'Name' => $l['e-fbi_heavy_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi_heavy_swat ),
 array( 'Name' => $l['e-swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_swat ),
 array( 'Name' => $l['e-heavy_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_heavy_swat ),
-array( 'Name' => $l['e-murky_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_murky_swat ),
+array( 'Name' => $l['e-murky_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_murkywater ),
 array( 'Name' => $l['e-security'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_security ),
 array( 'Name' => $l['e-gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_gensec ),
 array( 'Name' => $l['e-gensec_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_gensec_swat ),
@@ -1131,8 +1132,8 @@ array( 'Name' => $l['e-spooc'], 'Wiki' => '', 'Description' => '', 'Value' => $e
 array( 'Name' => $l['e-spooc_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_spooc_gensec ),
 array( 'Name' => $l['e-tank'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank ),
 array( 'Name' => $l['e-tank_black'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_black ),
-array( 'Name' => $l['e-tank_skull'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_gensec ),
-array( 'Name' => $l['e-tank_hw'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_hw ),
+array( 'Name' => $l['e-tank_skull'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_skull ),
+array( 'Name' => $l['e-tank_hw'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_green ),
 array( 'Name' => $l['e-taser'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_taser ),
 array( 'Name' => $l['e-taser_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_taser_gensec ),
 array( 'Name' => $l['e-civilian'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_civilian ),
@@ -1140,7 +1141,9 @@ array( 'Name' => $l['e-civilian_female'], 'Wiki' => '', 'Description' => '', 'Va
 array( 'Name' => $l['e-turret_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_turret_gensec ),
 array( 'Name' => $l['e-fbi-fieldagent'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_fbi ),
 array( 'Name' => $l['e-hector'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_boss ),
-array( 'Name' => $l['e-hector-no-armor'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_boss_no_armor )
+array( 'Name' => $l['e-hector-no-armor'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_boss_no_armor ),
+array( 'Name' => $l['e-phalanx_vip'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_phalanx_vip ),
+array( 'Name' => $l['e-phalanx_minion'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_phalanx_minion )
 );
 
 //Temporary

@@ -393,12 +393,12 @@ array( 'Name' => $l['first_aid_kit'], 'Wiki' => 'First_Aid_Kit', 'Image' => 'fir
 $kills_total = 0;
 $i=0;
 while($weapons_primary[$i] != NULL){
-$kills_total = $kills_total + $weapons_primary[$i]['Kills'];
+$kills_total = $kills_total + ${'weapon_kills_'.$weapons_primary[$i]['Var']};
 $i++;
 }
 $i=0;
 while($weapons_secondary[$i] != NULL){
-$kills_total = $kills_total + $weapons_secondary[$i]['Kills'];
+$kills_total = $kills_total + ${'weapon_kills_'.$weapons_secondary[$i]['Var']};
 $i++;
 }
 $i=0;

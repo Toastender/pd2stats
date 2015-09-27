@@ -233,14 +233,14 @@ array( 'Name' => $l['striker'], 'Wiki' => 'Street_Sweeper', 'Image' => 'striker'
 );
 
 if($skill_enforcer_carbon_blade_ace == 1){
-array_push($weapons_secondary, array( 'Name' => $l['saw'], 'Wiki' => 'OVE9000', 'Image' => 'saw', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'saw_secondary', 'Stats' => array(
+array_push($weapons_secondary, array( 'Name' => $l['saw'], 'Wiki' => 'OVE9000', 'Image' => 'saw_secondary', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'saw_secondary', 'Stats' => array(
 'Magazine' => 150, 'Ammo' => 300, 'Firerate' => 400, 'Damage' => 23, 'Accuracy' => 4, 'Stability' => 17, 'Concealment' => 16, 'Threat' => 24)));
 }
 //
 //Melee
 //
 $weapons_melee = array(
-array( 'Name' => $l['butt'], 'Wiki' => 'Weapon_Butt', 'Image' => 'butt', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['butt-description'], 'Used' => $melee_used_weapon , 'Kills' => $melee_kills_weapon , 'Stats' => array(
+array( 'Name' => $l['butt'], 'Wiki' => 'Weapon_Butt', 'Image' => 'weapon', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['butt-description'], 'Used' => $melee_used_weapon , 'Kills' => $melee_kills_weapon , 'Stats' => array(
 'Damage' => 15, 'DamageMAX' => 15, 'Knockdown' => 26, 'KnockdownMAX' => 26, 'Charge' => 0.0, 'Range' => 150, 'Concealment' => 30 )),
 array( 'Name' => $l['fists'], 'Wiki' => 'Fists', 'Image' => 'fists', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['fists-description'], 'Used' => $melee_used_fists , 'Kills' => $melee_kills_fists , 'Stats' => array(
 'Damage' => 10, 'DamageMAX' => 30, 'Knockdown' => 54, 'KnockdownMAX' => 87, 'Charge' => 1.0, 'Range' => 150, 'Concealment' => 30 )),

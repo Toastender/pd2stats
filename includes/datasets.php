@@ -627,7 +627,7 @@ array( 'Name' => $l['king_of_jesters'], 'Image' => 'king_of_jesters', 'Quality' 
 ////StarVR
 array( 'Name' => $l['starvr'], 'Image' => 'starvr', 'Quality' => 'infamous', 'Extra' => 'Infamous', 'Description' => $l['starvr-description'], 'Used' => $mask_used_starvr),
 ////Dragan Char Pack
-array( 'Name' => $l['dragan'], 'Image' => 'dragan1', 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Description' => $l['dragan-description'], 'Used' => $mask_used_dragan),
+array( 'Name' => $l['dragan'], 'Image' => 'dragan', 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Description' => $l['dragan-description'], 'Used' => $mask_used_dragan),
 array( 'Name' => $l['dragan_begins'], 'Image' => 'dragan_begins', 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Description' => $l['dragan_begins-description'], 'Used' => $mask_used_dragan_begins),
 ////The Bomb
 array( 'Name' => $l['butcher'], 'Image' => 'butcher', 'Quality' => 'dlc', 'Extra' => $l['thebombpack'], 'Description' => $l['butcher-description'], 'Used' => $mask_used_butcher),

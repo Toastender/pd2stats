@@ -763,7 +763,7 @@ array( 'Name' => $l['jw_shades'], 'Image' => 'jw_shades', 'Quality' => 'normal',
 ////Car Shop Heist
 array( 'Name' => $l['simpson'], 'Image' => 'simpson', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['simpson-description'], 'Used' => $mask_used_simpson),
 ////Default Masks
-array( 'Name' => $l['pref'], 'Image' => 'pref', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['pref-description'], 'Used' => $mask_used_character_locked),
+array( 'Name' => $l['pref'], 'Image' => 'character_locked', 'Quality' => 'normal', 'Extra' => 'Normal', 'Description' => $l['pref-description'], 'Used' => $mask_used_character_locked),
 ////Future Content
 array( 'Name' => $l['twister'], 'Image' => 'twister', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['twister-description'], 'Used' => $mask_used_twister),
 ////Thespian Mask Pack
@@ -1133,12 +1133,12 @@ array( 'Name' => $l['dallas'], 'Wiki' => 'Dallas', 'Image' => 'dallas', 'Descrip
 array( 'Name' => $l['chains'], 'Wiki' => 'Chains', 'Image' => 'chains', 'Description' => $l['chains-char'], 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $character_used_spanish ),
 array( 'Name' => $l['houston'], 'Wiki' => 'Houston', 'Image' => 'hoxton', 'Description' => $l['houston-char'], 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $character_used_american ),
 array( 'Name' => $l['wolf'], 'Wiki' => 'Wolf', 'Image' => 'wolf', 'Description' => $l['wolf-char'], 'Quality' => 'normal', 'Extra' => 'Normal', 'Used' => $character_used_german ),
-array( 'Name' => $l['wick'], 'Wiki' => 'John_Wick', 'Image' => 'jowi', 'Description' => $l['wick-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_jowi ),
+array( 'Name' => $l['wick'], 'Wiki' => 'John_Wick', 'Image' => 'jw_shades', 'Description' => $l['wick-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_jowi ),
 array( 'Name' => $l['hoxton'], 'Wiki' => 'Hoxton', 'Image' => 'old_hoxton', 'Description' => $l['hoxton-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_old_hoxton ),
-array( 'Name' => $l['clover'], 'Wiki' => 'Clover', 'Image' => 'female_1', 'Description' => $l['clover-char'], 'Quality' => 'dlc', 'Extra' => $l['cloverpack'], 'Used' => $character_used_female_1 ),
-array( 'Name' => $l['dragan'], 'Wiki' => 'Dragan', 'Image' => 'dragan1', 'Description' => $l['dragan-char'], 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Used' => $character_used_dragan ),
+array( 'Name' => $l['clover'], 'Wiki' => 'Clover', 'Image' => 'msk_grizel', 'Description' => $l['clover-char'], 'Quality' => 'dlc', 'Extra' => $l['cloverpack'], 'Used' => $character_used_female_1 ),
+array( 'Name' => $l['dragan'], 'Wiki' => 'Dragan', 'Image' => 'dragan', 'Description' => $l['dragan-char'], 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'Used' => $character_used_dragan ),
 array( 'Name' => $l['sokol'], 'Wiki' => 'Sokol', 'Image' => 'sokol', 'Description' => $l['sokol-char'], 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'Used' => $character_used_sokol ),
-array( 'Name' => $l['jacket'], 'Wiki' => 'Jacket', 'Image' => 'jacket', 'Description' => $l['jacket-char'], 'Quality' => 'collaboration', 'Extra' => $l['hotline_miami_2_deluxe'], 'Used' => $character_used_jacket ),
+array( 'Name' => $l['jacket'], 'Wiki' => 'Jacket', 'Image' => 'richard_returns', 'Description' => $l['jacket-char'], 'Quality' => 'collaboration', 'Extra' => $l['hotline_miami_2_deluxe'], 'Used' => $character_used_jacket ),
 array( 'Name' => $l['bonnie'], 'Wiki' => 'Bonnie', 'Image' => 'bonnie', 'Description' => $l['bonnie-char'], 'Quality' => 'community', 'Extra' => 'Community', 'Used' => $character_used_bonnie ),
 array( 'Name' => $l['jiro'], 'Wiki' => 'Jiro', 'Image' => 'jiro', 'Description' => $l['jiro-char'], 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'Used' => $character_used_dragon )
 );
@@ -1171,10 +1171,10 @@ array( 'Name' => $l['e-shield'], 'Wiki' => '', 'Description' => '', 'Value' => $
 array( 'Name' => $l['e-shield_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_shield_gensec ),
 array( 'Name' => $l['e-spooc'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_spooc ),
 array( 'Name' => $l['e-spooc_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_spooc_gensec ),
-array( 'Name' => $l['e-tank'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank ),
+array( 'Name' => $l['e-tank'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_green ),
 array( 'Name' => $l['e-tank_black'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_black ),
 array( 'Name' => $l['e-tank_skull'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_skull ),
-array( 'Name' => $l['e-tank_hw'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_green ),
+array( 'Name' => $l['e-tank_hw'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_hw ),
 array( 'Name' => $l['e-taser'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_taser ),
 array( 'Name' => $l['e-taser_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_taser_gensec ),
 array( 'Name' => $l['e-civilian'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_civilian ),

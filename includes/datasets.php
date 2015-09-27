@@ -413,6 +413,39 @@ $kills_total = $kills_total + $weapons_melee[$i]['Kills'];
 $i++;
 }
 $i=0;
+while($weapons_grenades[$i] != NULL){
+$kills_total = $kills_total + $weapons_grenades[$i]['Kills'];
+$i++;
+}
+$i=0;
+
+//Usage Total
+//Calculate Totals
+$usage_primary = 0;
+$usage_secondary = 0;
+$usage_melee = 0;
+$usage_thrown = 0;
+$i=0;
+while($weapons_primary[$i] != NULL){
+$usage_primary = $usage_primary + ${'weapon_used_'.$weapons_primary[$i]['Var']};
+$i++;
+}
+$i=0;
+while($weapons_secondary[$i] != NULL){
+$usage_secondary = $usage_secondary + ${'weapon_used_'.$weapons_secondary[$i]['Var']};
+$i++;
+}
+$i=0;
+while($weapons_melee[$i] != NULL){
+$usage_melee = $usage_melee + $weapons_melee[$i]['Used'];
+$i++;
+}
+$i=0;
+while($weapons_grenades[$i] != NULL){
+$usage_thrown = $usage_thrown + $weapons_grenades[$i]['Used'];
+$i++;
+}
+$i=0;
 
 //
 //Armor
@@ -1156,10 +1189,6 @@ array( 'Name' => $l['e-phalanx_minion'], 'Wiki' => '', 'Description' => '', 'Val
 $heists_dropin = $heists;
 $heists_fail = $heists;
 $heists_quality = $heists;
-$weapons_primary_kills = $weapons_primary;
-$weapons_secondary_kills = $weapons_secondary;
-$weapons_melee_kills = $weapons_melee;
-$weapons_grenades_kills = $weapons_grenades;
 $weapons_primary_name = $weapons_primary;
 $weapons_secondary_name = $weapons_secondary;
 $weapons_melee_name = $weapons_melee;
@@ -1181,12 +1210,20 @@ function array_sort_by_column(&$arr, $col, $dir = SORT_DESC) {
     array_multisort($sort_col, $dir, $arr);
 }
 
-array_sort_by_column($escape, 'Total');
-array_sort_by_column($heists, 'Win');
+foreach($weapons_primary as &$row) {
+    $row->Used = ${'weapon_used'.$row->Var};
+}
+foreach($weapons_secondary as &$row) {
+    $row->Used = ${'weapon_used'.$row->Var};
+}
+
 array_sort_by_column($weapons_primary, 'Used');
 array_sort_by_column($weapons_secondary, 'Used');
 array_sort_by_column($weapons_melee, 'Used');
 array_sort_by_column($weapons_grenades, 'Used');
+
+array_sort_by_column($escape, 'Total');
+array_sort_by_column($heists, 'Win');
 array_sort_by_column($armor, 'Used');
 array_sort_by_column($gadgets, 'Used');
 array_sort_by_column($masks, 'Used');
@@ -1196,10 +1233,6 @@ array_sort_by_column($enemies, 'Value');
 array_sort_by_column($heists_dropin, 'Dropin');
 array_sort_by_column($heists_fail, 'Fail');
 array_sort_by_column($heists_quality, 'Quality', SORT_ASC);
-array_sort_by_column($weapons_primary_kills, 'Kills');
-array_sort_by_column($weapons_secondary_kills, 'Kills');
-array_sort_by_column($weapons_melee_kills, 'Kills');
-array_sort_by_column($weapons_grenades_kills, 'Kills');
 array_sort_by_column($weapons_primary_name, 'Name', SORT_ASC);
 array_sort_by_column($weapons_secondary_name, 'Name', SORT_ASC);
 array_sort_by_column($weapons_melee_name, 'Name', SORT_ASC);

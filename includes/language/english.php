@@ -175,6 +175,7 @@ $l['secondary'] = 'Secondary';
 $l['melee'] = 'Melee';
 $l['kills'] = 'Kills';
 $l['percent-kills'] = '% of total Kills';
+$l['percent-used'] = '% of total Usage';
 $l['magazine'] = 'Magazine';
 $l['ammo'] = 'Total Ammo';
 $l['firerate'] = 'Rate of Fire';

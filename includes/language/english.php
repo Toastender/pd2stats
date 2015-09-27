@@ -60,6 +60,14 @@ $l['heistlist'] = 'Heist List';
 $l['escapelist'] = 'Escape List';
 $l['levellist'] = 'Level List';
 $l['gearlist'] = 'Gear List';
+$l['grid'] = 'Grid';
+$l['table'] = 'Table';
+$l['shots'] = 'Shots';
+$l['hits'] = 'Hits';
+$l['lethal'] = 'Lethality';
+$l['khits'] = 'Killhits';
+$l['pstats'] = 'Player Statistics';
+$l['wstats'] = 'Weapon Statistics';
 //Service
 $l['servicestatus'] = 'Check Service Status';
 $l['vanitystatus'] = 'Player Vanity Status';

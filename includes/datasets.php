@@ -367,12 +367,18 @@ array( 'Name' => $l['morning'], 'Wiki' => 'Morning_Star', 'Image' => 'morning', 
 //Grenades
 //
 $weapons_grenades = array(
-array( 'Name' => $l['frag_grenade'], 'Wiki' => 'Frag_Grenade', 'Image' => 'frag', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'Description' => $l['frag_grenade-description'], 'Used' => $grenade_used_frag , 'Kills' => $grenade_kills_frag),
-array( 'Name' => $l['dynamite'], 'Wiki' => 'Dynamite', 'Image' => 'dynamite', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Description' => $l['dynamite-description'], 'Used' => $grenade_used_dynamite , 'Kills' => $grenade_kills_dynamite),
-array( 'Name' => $l['molotov'], 'Wiki' => 'Molotov_Cocktail', 'Image' => 'molotov', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'Description' => $l['molotov-description'], 'Used' => $grenade_used_molotov , 'Kills' => $grenade_kills_molotov),
-array( 'Name' => $l['wpn_prj_four'], 'Wiki' => 'Shuriken', 'Image' => 'wpn_prj_four', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['wpn_prj_four-description'], 'Used' => $grenade_used_wpn_prj_four , 'Kills' => $grenade_kills_wpn_prj_four),
-array( 'Name' => $l['wpn_prj_ace'], 'Wiki' => 'Ace_of_Spades', 'Image' => 'wpn_prj_ace', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['wpn_prj_ace-description'], 'Used' => $grenade_used_wpn_prj_ace , 'Kills' => $grenade_kills_wpn_prj_ace),
-array( 'Name' => $l['wpn_prj_jav'], 'Wiki' => 'Javelin', 'Image' => 'wpn_prj_jav', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['wpn_prj_jav-description'], 'Used' => $grenade_used_wpn_prj_jav , 'Kills' => $grenade_kills_wpn_prj_jav)
+array( 'Name' => $l['frag_grenade'], 'Wiki' => 'Frag_Grenade', 'Image' => 'frag', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'Description' => $l['frag_grenade-description'], 'Used' => $grenade_used_frag , 'Kills' => $grenade_kills_frag, 'Stats' => array(
+'Damage' => 300, 'Capacity' => 3)),
+array( 'Name' => $l['dynamite'], 'Wiki' => 'Dynamite', 'Image' => 'dynamite', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'Description' => $l['dynamite-description'], 'Used' => $grenade_used_dynamite , 'Kills' => $grenade_kills_dynamite, 'Stats' => array(
+'Damage' => 300, 'Capacity' => 3)),
+array( 'Name' => $l['molotov'], 'Wiki' => 'Molotov_Cocktail', 'Image' => 'molotov', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'Description' => $l['molotov-description'], 'Used' => $grenade_used_molotov , 'Kills' => $grenade_kills_molotov, 'Stats' => array(
+'Damage' => 30, 'Capacity' => 3)),
+array( 'Name' => $l['wpn_prj_four'], 'Wiki' => 'Shuriken', 'Image' => 'wpn_prj_four', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'Description' => $l['wpn_prj_four-description'], 'Used' => $grenade_used_wpn_prj_four , 'Kills' => $grenade_kills_wpn_prj_four, 'Stats' => array(
+'Damage' => 100, 'Capacity' => 10)),
+array( 'Name' => $l['wpn_prj_ace'], 'Wiki' => 'Ace_of_Spades', 'Image' => 'wpn_prj_ace', 'Quality' => 'community', 'Extra' => 'Community', 'Description' => $l['wpn_prj_ace-description'], 'Used' => $grenade_used_wpn_prj_ace , 'Kills' => $grenade_kills_wpn_prj_ace, 'Stats' => array(
+'Damage' => 40, 'Capacity' => 21)),
+array( 'Name' => $l['wpn_prj_jav'], 'Wiki' => 'Javelin', 'Image' => 'wpn_prj_jav', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['wpn_prj_jav-description'], 'Used' => $grenade_used_wpn_prj_jav , 'Kills' => $grenade_kills_wpn_prj_jav, 'Stats' => array(
+'Damage' => 1100, 'Capacity' => 3))
 );
 //
 //Gadgets

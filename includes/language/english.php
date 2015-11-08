@@ -242,6 +242,72 @@ $l['merchandise'] = 'MERCHANDISE';
 $l['chivalrypack'] = 'GAGE CHIVALRY PACK';
 $l['yakuzapack'] = 'YAKUZA CHARACTER PACK';
 $l['paydaycon2015'] = 'PAYDAYCON 2015 SECRET MASK';
+//Stash
+//Safes
+$l['safe'] = 'Safe';
+$l['cf2'] = 'Crimefest 2';
+$l['sput'] = 'Sputnik';
+$l['slauts'] = 'Slaughter';
+$l['fwbs'] = 'First World';
+//Grade
+$l['common'] = 'Common';
+$l['Uncommon'] = 'Uncommon';
+$l['rare'] = 'Rare';
+$l['epic'] = 'Epic';
+$l['legendary'] = 'Legendary';
+//Weapon Names
+$l['ak74_golddigger'] = 'Gold Vein';
+$l['ak74_luxury'] = 'Sad Almir';
+$l['ak74_rodina'] = 'Vlad\'s Rodina';
+$l['b92fs_bloodbath'] = 'Blood Dragon';
+$l['b92fs_forest'] = 'Copper';
+$l['b92fs_luxury'] = 'Angry Bear';
+$l['deagle_bling'] = 'Midas Touch';
+$l['deagle_bloodbath'] = 'Assault Wave';
+$l['famas_forest'] = 'Coin Ops';
+$l['famas_golddigger'] = 'Yggdrasil';
+$l['famas_hypno'] = 'Breaching Owl';
+$l['flamethrower_mk2_bloodbath'] = 'Tiger Hazard';
+$l['flamethrower_mk2_goldstripes'] = 'St. Basil';
+$l['g36_bloodbath'] = 'Perimeter Secure';
+$l['g36_goldstripes'] = 'Ice Leopard';
+$l['huntsman_forest'] = 'Black Thunder';
+$l['huntsman_golddigger'] = 'Wolf Ornament';
+$l['huntsman_hypno'] = 'Bullet Bear Gun';
+$l['judge_bloodbath'] = 'Frenzy';
+$l['judge_camohex'] = 'Greed';
+$l['judge_woodland'] = 'Pixel';
+$l['m134_forest'] = '3000 heists/min';
+$l['m134_golddigger'] = 'Big Spender';
+$l['m95_forest'] = 'Purple Haze';
+$l['m95_golddigger'] = 'Beta-2';
+$l['m95_luxury'] = 'Matrjoschka';
+$l['mg42_bloodbath'] = 'Meat Slicer';
+$l['mg42_camohex'] = 'Tomb';
+$l['new_m14_camohex'] = 'Digital Burn';
+$l['new_m14_golddigger'] = 'Ausome';
+$l['new_m14_luxury'] = 'Helmet Space Program';
+$l['new_m4_bloodbath'] = 'Danger Ahead';
+$l['new_m4_goldstripes'] = 'Stripe On';
+$l['new_m4_payday'] = 'Safe Crasher';
+$l['new_raging_bull_bloodbath'] = 'Victim Shower';
+$l['new_raging_bull_goldstripes'] = 'Black Bull';
+$l['p90_golddigger'] = 'Prospector';
+$l['p90_luxury'] = 'Bullet Breakout';
+$l['p90_woodland'] = 'Red Stars';
+$l['plainsrider_bloodbath'] = 'Blood Drenched';
+$l['plainsrider_linked'] = 'The Link';
+$l['plainsrider_woodland'] = 'Arctic Plains';
+$l['ppk_golddigger'] = 'Classic Tiles';
+$l['ppk_luxury'] = 'Cloakerize';
+$l['ppk_woodland'] = 'Little Leopard';
+$l['r93_forest'] = 'Fire Pixel';
+$l['r93_golddigger'] = 'Golden Flakes';
+$l['rpg7_bloodbath'] = 'Fair Warning';
+$l['rpg7_woodland'] = 'Headline';
+$l['serbu_camohex'] = 'Greed';
+$l['serbu_golddigger'] = 'Fleur de Lys';
+$l['serbu_woodland'] = 'Cosmonaut';
 ////Weapons
 ////Primary
 //Assault Rifles

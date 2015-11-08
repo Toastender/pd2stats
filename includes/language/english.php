@@ -251,7 +251,7 @@ $l['slauts'] = 'Slaughter';
 $l['fwbs'] = 'First World';
 //Grade
 $l['common'] = 'Common';
-$l['Uncommon'] = 'Uncommon';
+$l['uncommon'] = 'Uncommon';
 $l['rare'] = 'Rare';
 $l['epic'] = 'Epic';
 $l['legendary'] = 'Legendary';

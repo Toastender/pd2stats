@@ -233,8 +233,8 @@ $weapons_secondary = array(
 );
 
 if($skill_enforcer_carbon_blade_ace == 1){
-array_push($weapons_secondary, 'saw_secondary' => array( 'Name' => $l['saw'], 'Wiki' => 'OVE9000', 'Image' => 'saw_secondary', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'saw_secondary', 'Stats' => array(
-'Magazine' => 150, 'Ammo' => 300, 'Firerate' => 400, 'Damage' => 23, 'Accuracy' => 4, 'Stability' => 17, 'Concealment' => 16, 'Threat' => 24)));
+$weapons_secondary['saw_secondary'] = array( 'Name' => $l['saw'], 'Wiki' => 'OVE9000', 'Image' => 'saw_secondary', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'saw_secondary', 'Stats' => array(
+'Magazine' => 150, 'Ammo' => 300, 'Firerate' => 400, 'Damage' => 23, 'Accuracy' => 4, 'Stability' => 17, 'Concealment' => 16, 'Threat' => 24));
 }
 //
 //Melee
@@ -366,6 +366,7 @@ array( 'Name' => $l['morning'], 'Wiki' => 'Morning_Star', 'Image' => 'morning', 
 //
 //Skins
 //
+
 $weapons_skin = array(
  
 'ak74' => array(
@@ -533,6 +534,7 @@ $weapons_skin = array(
 ),
  
 );
+
 //
 //Grenades
 //
@@ -1007,7 +1009,6 @@ $fail_total = $fail_total + $heists[$i]['Fail'];
 $i++;
 }
 
-
 //
 //Escapes
 //
@@ -1384,7 +1385,6 @@ function array_sort_by_column(&$arr, $col, $dir = SORT_DESC) {
 
 array_sort_by_column($weapons_primary, 'Used');
 array_sort_by_column($weapons_secondary, 'Used');
-
 array_sort_by_column($weapons_melee, 'Used');
 array_sort_by_column($weapons_grenades, 'Used');
 array_sort_by_column($escape, 'Total');

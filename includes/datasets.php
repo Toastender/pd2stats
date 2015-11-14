@@ -458,7 +458,7 @@ $weapons_skin = array(
 'new_m14_camohex' => array( 'Name' => $l['new_m14_camohex'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_camohex', 'Safe' => $l['cf2'], 'Grade' => $l['uncommon']), //Digital Burn
 'new_m14_golddigger' => array( 'Name' => $l['new_m14_golddigger'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_golddigger', 'Safe' => $l['fwbs'], 'Grade' => $l['uncommon']), //Ausome
 'new_m14_luxury' => array( 'Name' => $l['new_m14_luxury'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_luxury', 'Safe' => $l['sput'], 'Grade' => $l['rare']), //Helmet Space Program
-'new_m14_bloodsplat' => array( 'Name' => $l['new_m14_bloodsplat'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_bloodsplat', 'Safe' => $l['sput'], 'Grade' => $l['epic']), //Heart Attack
+'new_m14_bloodsplat' => array( 'Name' => $l['new_m14_bloodsplat'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['epic']), //Heart Attack
 'new_m14_dallas' => array( 'Name' => $l['new_m14_dallas'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['uncommon']), //Longhorn Hunter
 ),
  
@@ -466,7 +466,7 @@ $weapons_skin = array(
 'new_m4_bloodbath' => array( 'Name' => $l['new_m4_bloodbath'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['uncommon']), //Danger Ahead
 'new_m4_goldstripes' => array( 'Name' => $l['new_m4_goldstripes'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_goldstripes', 'Safe' => $l['sput'], 'Grade' => $l['uncommon']), //Stripe On
 'new_m4_payday' => array( 'Name' => $l['new_m4_payday'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_payday', 'Safe' => $l['cf2'], 'Grade' => $l['epic']), //Safe Crasher
-'new_m4_skullimov' => array( 'Name' => $l['new_m4_skullimov'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_skullimov', 'Safe' => $l['compos'], 'Grade' => $l['epic']), //Fade Zebra
+'new_m4_skullimov' => array( 'Name' => $l['new_m4_skullimov'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_skullimov', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Fade Zebra
 ),
  
 'new_raging_bull' => array(
@@ -503,7 +503,7 @@ $weapons_skin = array(
 'r93_forest' => array( 'Name' => $l['r93_forest'] , 'WVar' => 'r93', 'Image' => 'r93_forest', 'Safe' => $l['cf2'], 'Grade' => $l['common']), //Fire Pixel
 'r93_golddigger' => array( 'Name' => $l['r93_golddigger'] , 'WVar' => 'r93', 'Image' => 'r93_golddigger', 'Safe' => $l['fwbs'], 'Grade' => $l['common']), //Golden Flakes
 'r93_bloodsplat' => array( 'Name' => $l['r93_bloodsplat'] , 'WVar' => 'r93', 'Image' => 'r93_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Death From Above
-'r93_wooh' => array( 'Name' => $l['r93_wooh'] , 'WVar' => 'r93', 'Image' => 'r93_wooh', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Grenade Repellant
+'r93_wooh' => array( 'Name' => $l['r93_wooh'] , 'WVar' => 'r93', 'Image' => 'r93_wooh', 'Safe' => $l['compos'], 'Grade' => $l['epic']), //Grenade Repellant
 'r93_dallas' => array( 'Name' => $l['r93_dallas'] , 'WVar' => 'r93', 'Image' => 'r93_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['common']), //Reptilian Sting
 ),
  
@@ -511,7 +511,7 @@ $weapons_skin = array(
 'rpg7_bloodbath' => array( 'Name' => $l['rpg7_bloodbath'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['rare']), //Fair Warning
 'rpg7_woodland' => array( 'Name' => $l['rpg7_woodland'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_woodland', 'Safe' => $l['sput'], 'Grade' => $l['common']), //Headline
 'rpg7_boom' => array( 'Name' => $l['rpg7_boom'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_boom', 'Safe' => $l['compos'], 'Grade' => $l['legendary']), //Green Grin
-'rpg7_bloodsplat' => array( 'Name' => $l['rpg7_bloodsplat'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['common']), //Dinomagedoon
+'rpg7_bloodsplat' => array( 'Name' => $l['rpg7_bloodsplat'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Dinomagedoon
 ),
  
 'serbu' => array(

@@ -410,10 +410,10 @@ $weapons_skin = array(
 ),
  
 'g36' => array(
-'g36_bloodbath' => array( 'Name' => $l['g36_bloodbath'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'g36_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['epic']), //Perimeter Secure
-'g36_goldstripes' => array( 'Name' => $l['g36_goldstripes'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'g36_goldstripes', 'Safe' => $l['sput'], 'Grade' => $l['uncommon']), //Ice Leopard
-'g36_bloodsplat' => array( 'Name' => $l['g36_bloodsplat'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'g36_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //The Torch
-'g36_dallas' => array( 'Name' => $l['g36_dallas'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'g36_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['epic']), //Chromed Strangler
+'g36_bloodbath' => array( 'Name' => $l['g36_bloodbath'] , 'WVar' => 'g36', 'Image' => 'g36_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['epic']), //Perimeter Secure
+'g36_goldstripes' => array( 'Name' => $l['g36_goldstripes'] , 'WVar' => 'g36', 'Image' => 'g36_goldstripes', 'Safe' => $l['sput'], 'Grade' => $l['uncommon']), //Ice Leopard
+'g36_bloodsplat' => array( 'Name' => $l['g36_bloodsplat'] , 'WVar' => 'g36', 'Image' => 'g36_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //The Torch
+'g36_dallas' => array( 'Name' => $l['g36_dallas'] , 'WVar' => 'g36', 'Image' => 'g36_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['epic']), //Chromed Strangler
 ),
  
 'huntsman' => array(

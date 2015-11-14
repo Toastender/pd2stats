@@ -485,7 +485,7 @@ $weapons_skin = array(
 ),
  
 'plainsrider' => array(
-'plainsrider_bloodbath' => array( 'Name' => $l['plainsrider_bloodbath'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_bloodbath', 'Safe' => $l['cf2'], 'Grade' => $l['common']), //Blood Drenched
+'plainsrider_bloodbath' => array( 'Name' => $l['plainsrider_bloodbath'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['common']), //Blood Drenched
 'plainsrider_linked' => array( 'Name' => $l['plainsrider_linked'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_linked', 'Safe' => $l['cf2'], 'Grade' => $l['epic']), //The Link
 'plainsrider_woodland' => array( 'Name' => $l['plainsrider_woodland'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_woodland', 'Safe' => $l['sput'], 'Grade' => $l['common']), //Arctic Plains
 'plainsrider_skullimov' => array( 'Name' => $l['plainsrider_skullimov'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_skullimov', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Hypno Scalp

@@ -558,7 +558,7 @@ $weapons_skin['b92fs']['b92fs_luxury'],
 $weapons_skin['m95']['m95_luxury'],
 $weapons_skin['new_m14']['new_m14_luxury'],
 $weapons_skin['famas']['famas_hypno'],
-$weapons_skin['huntsman']['huntsman_hypno']
+$weapons_skin['huntsman']['huntsman_hypno'],
 $weapons_skin['ak74']['ak74_rodina'],
 )),
 'slauts' => array( 'Name' => $l['slauts'], 'SafeImg' => 'Slaughter_Safe', 'DrillImg' => 'Slaughter_Drill', 'Content' => array(

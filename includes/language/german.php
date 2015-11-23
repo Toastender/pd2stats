@@ -41,6 +41,33 @@ $l['notice'] = 'Menü';
 $l['ads'] = 'Wrbung';
 $l['switch'] = 'Wechsel';
 $l['languagetex'] = 'Sprache';
+$l['detection'] = 'Werbung';
+//Itemindex
+$l['maskindex'] = 'Maskenindex';
+$l['weaponindex'] = 'Waffenindex';
+$l['itemindexmenu'] = 'Itemindex';
+$l['gear'] = 'Ausrüstung';
+$l['weaponlist'] = 'Waffenliste';
+$l['masklist'] = 'Maskenliste';
+$l['gearindex'] = 'gear-index';
+$l['levelindex'] = 'level-index';
+$l['levelmenu'] = 'Levels';
+$l['armorlist'] = 'Armor List';
+$l['gadgetlist'] = 'Gadget List';
+$l['heistlist'] = 'Heist List';
+$l['escapelist'] = 'Escape List';
+$l['levellist'] = 'Level List';
+$l['gearlist'] = 'Gear List';
+$l['grid'] = 'Grid';
+$l['table'] = 'Player Table';
+$l['wtable'] = 'Weapon Table';
+$l['shots'] = 'Shots';
+$l['hits'] = 'Hits';
+$l['lethal'] = 'Lethality';
+$l['khits'] = 'Killhits';
+$l['pstats'] = 'Player Statistics';
+$l['wstats'] = 'Weapon Statistics';
+$l['capacity'] = 'Capacity';
 //Service
 $l['servicestatus'] = 'Aktueller Service Status';
 $l['vanitystatus'] = 'Eitelkeit';
@@ -49,15 +76,8 @@ $l['ownershipstatus'] = 'Führungs-Fähigkeiten';
 $l['statisticsstatus'] = 'Spielerstatistikstatus';
 $l['offline'] = 'OFFLINE (Hier klicken für mehr Informationen)';
 $l['online'] = 'ONLINE';
-//Itemindex
-$l['maskindex'] = 'Maskenindex';
-$l['weaponindex'] = 'Waffenindex';
-$l['itemindexmenu'] = 'Itemindex';
-$l['gear'] = 'Ausrüstung';
-$l['weaponlist'] = 'Waffenliste';
-$l['masklist'] = 'Maskenliste';
 //Tags and Warnings
-$l['cflag'] = '[Cheater]';
+$l['cflag'] = '[Warnung]';
 $l['cflag-warning'] = 'Markierungen sind nicht immer korrekt, da das Spiel einige Bugs enthält.';
 $l['pflag'] = '[Family Sharing]';
 $l['pflag-warning'] = 'Markierung bedeutet, dass das Spiel dem Spieler NICHT gehört.';
@@ -69,6 +89,7 @@ $l['community-item'] = 'DIES IST EIN COMMUNITY ITEM!';
 $l['dlc-item-start'] = 'DAS IST EIN';
 $l['dlc-item-end'] = 'ITEM!';
 $l['infamous-item'] = 'DAS IST EIN BERÜCHTIGTES ITEM!';
+$l['collaboration-item'] = 'COLLABORATION ITEM!';
 $l['custom-item'] = 'DAS IST EIN MOD-ITEM VON';
 //Errors
 $l['error-text1'] = 'ID nicht benutzt!';
@@ -76,7 +97,8 @@ $l['error-text2'] = 'Luke, ich bin dein Fehler!';
 $l['error-text3'] = 'Steam konnte nicht rechtzeitig antworten!';
 $l['error-text4'] = 'Keine Sucheingabe';
 $l['error-text5'] = 'Keine Profilnummer vergeben';
-$l['error-text6'] = 'Verbannter Spieler';
+$l['error-text6'] = 'Gebannter Spieler';
+$l['error-text7'] = 'Achievement Cache is Empty';
 $l['error'] = 'Fehler';
 $l['error-start'] = 'Es ging etwas schief, aber du kannst es immer';
 $l['error-mid'] = 'nochmal versuchen';
@@ -103,6 +125,7 @@ $l['mastermind'] = 'Mastermind';
 $l['technician'] = 'Techniker';
 $l['ghost'] = 'Geist';
 $l['enforcer'] = 'Vollstrecker';
+$l['fugitive'] = 'Fugitive';
 $l['hours'] = 'Stunden';
 $l['minutes'] = 'Minuten';
 $l['level'] = 'Payday 2 Level:';
@@ -151,21 +174,30 @@ $l['secondary'] = 'Sekundär';
 $l['melee'] = 'Nahkampf';
 $l['kills'] = 'Kills';
 $l['percent-kills'] = 'Kills in %';
+$l['percent-used'] = '% of total Usage';
 $l['magazine'] = 'Magazin';
 $l['ammo'] = 'Munition';
 $l['firerate'] = 'Feuerrate';
 $l['damage'] = 'Schaden';
+$l['damageMAX'] = 'Maximum Damaged';
 $l['accuracy'] = 'Genauigkeit';
 $l['stability'] = 'Stabilität';
 $l['threat'] = 'Bedrohung';
 $l['knockdown'] = 'Umhauen';
+$l['knockdownMAX'] = 'Maximum Knockdown';
 $l['chargetime'] = 'Ladezeit';
 $l['range'] = 'Reichweite';
 $l['infinite'] = '∞';
 $l['tops'] = 'Am meisten besichtigte Profile';
 $l['totalview'] = 'Am meisten Besichtigungen';
 $l['playername'] = 'Spielername';
+$l['caus-help'] = 'This box shows the total enemies killed. Please note that the data tracks since approximately the Shadow-Raid update. Also note that some enemies are not being tracked yet.';
+$l['locked'] = 'locked';
+$l['unlocked'] = 'unlocked';
+$l['achievements'] = 'Achievements';
 //DLC Names
+$l['overkillpack'] = 'OVERKILL PACK';
+$l['compoverkillpack'] = 'COMPLETELY OVERKILL PACK';
 $l['Armored_Transport'] = 'ARMORED TRANSPORT';
 $l['Big_Bank_Heist'] = 'BIG BANK HEIST';
 $l['Gage_Weapon_Pack_01'] = 'GAGE WEAPON PACKET #01';
@@ -177,8 +209,148 @@ $l['Xmas_soundtrack'] = 'XMAS SOUNDTRACK';
 $l['Poetry_jam'] = 'POETRY JAM';
 $l['Twisted_metal'] = 'TWISTED METAL';
 $l['Halloween'] = 'HALLOWEEN';
+$l['akcarmodpack'] = 'AK/CAR MOD PACK';
 $l['Twitch_pack'] = 'HUMBLE MASK PACK';
 $l['hotline_miami_dlc'] = 'HOTLINE MIAMI DLC';
+$l['hotline_miami'] = 'HOTLINE MIAMI';
+$l['hotline_miami_2'] = 'HOTLINE MIAMI 2';
+$l['hotline_miami_2_deluxe'] = 'HOTLINE MIAMI 2 DELUXE';
+$l['humblehalloween_pack'] = 'HUMBLE MASK PACK 2';
+$l['Gage_Historical'] = 'GAGE HISTORICAL PACK';
+$l['Humble2Pack'] = 'ALIENWARE ALPHA';
+$l['cloverpack'] = 'CLOVER CHARACTER PACK';
+$l['draganpack'] = 'DRAGAN CHARACTER PACK';
+$l['thebombpack'] = 'THE BOMB HEISTS';
+$l['thespiandlc'] = 'THESPIAN MASK PACK';
+$l['diamondheistdlc'] = 'DIAMOND HEIST';
+$l['weaponbundledlc'] = 'WEAPON BUNDLE';
+$l['heistbundle'] = 'HEIST BUNDLE';
+$l['gotyeddlc'] = 'GOTY EDITION';
+$l['lootbagdlc'] = 'LOOT BAG';
+$l['speedrunnersdlc'] = 'SPEEDRUNNERS';
+$l['bbq'] = 'BBQ WEAPON PACK';
+$l['westpack'] = 'WESTERN WEAPON PACK';
+$l['alessoheist'] = 'THE ALESSO HEIST DLC';
+$l['sokolpack'] = 'SOKOL CHARACTER PACK';
+$l['casinodlc'] = 'GOLDEN GRIN CASINO';
+$l['humble3'] = 'HUMBLE MASK PACK 3';
+$l['humble4'] = 'HUMBLE MASK PACK 4';
+$l['e3_2015'] = 'E3 2015 SECRET MASK';
+$l['ninjapack'] = 'GAGE NINJA PACK';
+$l['merchandise'] = 'MERCHANDISE';
+$l['chivalrypack'] = 'GAGE CHIVALRY PACK';
+$l['yakuzapack'] = 'YAKUZA CHARACTER PACK';
+$l['paydaycon2015'] = 'PAYDAYCON 2015 SECRET MASK';
+//Stash
+//Safes
+$l['safe'] = 'Safe';
+$l['drill'] = 'Drill';
+$l['cf2'] = 'Crimefest 2';
+$l['sput'] = 'Sputnik';
+$l['slauts'] = 'Slaughter';
+$l['fwbs'] = 'First World';
+$l['dalls'] = 'Dallas';
+$l['compos'] = 'Completely Overkill';
+//Grade
+$l['common'] = 'Common';
+$l['uncommon'] = 'Uncommon';
+$l['rare'] = 'Rare';
+$l['epic'] = 'Epic';
+$l['legendary'] = 'Legendary';
+//Weapon Names
+$l['ak74_golddigger'] = 'Gold Vein';
+$l['ak74_luxury'] = 'Sad Almir';
+$l['ak74_rodina'] = 'Vlad\'s Rodina';
+$l['ak74_bloodsplat'] = 'Little Brother';
+$l['ak74_dallas'] = 'Reptilian Russkie';
+$l['b92fs_bloodbath'] = 'Blood Dragon';
+$l['b92fs_forest'] = 'Copper';
+$l['b92fs_luxury'] = 'Angry Bear';
+$l['b92fs_bloodsplat'] = '8 Ball';
+$l['b92fs_wooh'] = 'Brown River';
+$l['b92fs_dallas'] = 'Buckle Hunter';
+$l['deagle_bling'] = 'Midas Touch';
+$l['deagle_bloodbath'] = 'Assault Wave';
+$l['deagle_skullimov'] = 'BOOM!';
+$l['deagle_dallas'] = 'Reptilian Fang';
+$l['famas_forest'] = 'Coin Ops';
+$l['famas_golddigger'] = 'Yggdrasil';
+$l['famas_hypno'] = 'Breaching Owl';
+$l['famas_bloodsplat'] = 'Commemore';
+$l['famas_dallas'] = 'Lafayette Hunter';
+$l['flamethrower_mk2_bloodbath'] = 'Tiger Hazard';
+$l['flamethrower_mk2_goldstripes'] = 'St. Basil';
+$l['flamethrower_mk2_bloodsplat'] = 'Incinerated Death';
+$l['flamethrower_mk2_fire'] = 'Dragon Lord';
+$l['flamethrower_mk2_dallas'] = 'Chromed Combustion';
+$l['g36_bloodbath'] = 'Perimeter Secure';
+$l['g36_goldstripes'] = 'Ice Leopard';
+$l['g36_bloodsplat'] = 'The Torch';
+$l['g36_dallas'] = 'Chromed Strangler';
+$l['huntsman_forest'] = 'Black Thunder';
+$l['huntsman_golddigger'] = 'Wolf Ornament';
+$l['huntsman_hypno'] = 'Bullet Bear Gun';
+$l['huntsman_bloodsplat'] = 'First Line';
+$l['huntsman_dallas'] = 'Reptilian Two Heads';
+$l['judge_bloodbath'] = 'Frenzy';
+$l['judge_camohex'] = 'Greed';
+$l['judge_woodland'] = 'Pixel ';
+$l['judge_wooh'] = 'Checkmate';
+$l['judge_dallas'] = 'Pocket Patriot';
+$l['m134_forest'] = '3000 heists/min';
+$l['m134_golddigger'] = 'Big Spender';
+$l['m134_bloodsplat'] = 'Spraying Roses';
+$l['m134_bulletstorm'] = 'The Gimp';
+$l['m95_forest'] = 'Purple Haze';
+$l['m95_golddigger'] = 'Beta-2';
+$l['m95_luxury'] = 'Matrjoschka';
+$l['m95_bombmatta'] = 'Hype Train';
+$l['m95_dallas'] = 'Piercing Patriot';
+$l['mg42_bloodbath'] = 'Meat Slicer';
+$l['mg42_camohex'] = 'Tomb';
+$l['mg42_bloodsplat'] = 'Skull Spotted';
+$l['mg42_dallas'] = 'Chromed Dominator';
+$l['new_m14_camohex'] = 'Digital Burn';
+$l['new_m14_golddigger'] = 'Ausome';
+$l['new_m14_luxury'] = 'Helmet Space Program';
+$l['new_m14_bloodsplat'] = 'Heart Attack';
+$l['new_m14_dallas'] = 'Longhorn Hunter';
+$l['new_m4_bloodbath'] = 'Danger Ahead';
+$l['new_m4_goldstripes'] = 'Stripe On';
+$l['new_m4_payday'] = 'Safe Crasher';
+$l['new_m4_skullimov'] = 'Fade Zebra';
+$l['new_raging_bull_bloodbath'] = 'Victim Shower';
+$l['new_raging_bull_goldstripes'] = 'Black Bull';
+$l['new_raging_bull_bloodsplat'] = 'Extra Vaganza';
+$l['new_raging_bull_dallas'] = 'Quickdraw Hunter';
+$l['p90_golddigger'] = 'Prospector';
+$l['p90_luxury'] = 'Bullet Breakout';
+$l['p90_woodland'] = 'Red Stars';
+$l['p90_skullimov'] = 'OVERSKILL';
+$l['p90_dallas_sallad'] = 'Alamo Dallas';
+$l['plainsrider_bloodbath'] = 'Blood Drenched';
+$l['plainsrider_linked'] = 'The Link';
+$l['plainsrider_woodland'] = 'Arctic Plains';
+$l['plainsrider_skullimov'] = 'Hypno Scalp';
+$l['ppk_golddigger'] = 'Classic Tiles';
+$l['ppk_luxury'] = 'Cloakerize';
+$l['ppk_woodland'] = 'Little Leopard';
+$l['ppk_bloodsplat'] = 'Crimson Kiss';
+$l['ppk_dallas'] = 'Chromed Sparrow';
+$l['r93_forest'] = 'Fire Pixel';
+$l['r93_golddigger'] = 'Golden Flakes';
+$l['r93_wooh'] = 'Grenade Repellant';
+$l['r93_bloodsplat'] = 'Death From Above';
+$l['r93_dallas'] = 'Reptilian Sting';
+$l['rpg7_bloodbath'] = 'Fair Warning';
+$l['rpg7_woodland'] = 'Headline';
+$l['rpg7_boom'] = 'Green Grin';
+$l['rpg7_bloodsplat'] = 'Dinomageddon';
+$l['serbu_camohex'] = 'Greed';
+$l['serbu_golddigger'] = 'Fleur de Lys';
+$l['serbu_woodland'] = 'Cosmonaut';
+$l['serbu_stunner'] = 'Carpet Bombing';
+$l['serbu_dallas'] = 'Power Patriot';
 ////Weapons
 ////Primary
 //Assault Rifles
@@ -198,25 +370,52 @@ $l['fal'] = 'Falcon';
 $l['famas'] = 'Clarion';
 $l['galil'] = 'Gecko 7.62';
 $l['g3'] = 'Gewehr 3';
+$l['l85a2'] = 'Queen\'s Wrath';
+$l['vhs'] = 'Lion\'s Roar';
+$l['asval'] = 'Valkyria';
+$l['sub2000'] = 'Cavity 9mm';
 //Sniper Rifles
 $l['msr'] = 'Rattlesnake';
 $l['r93'] = 'R93';
 $l['m95'] = 'Thanatos .50 cal';
+$l['mosin'] = 'Nagant';
+$l['winchester1874'] = 'Repeater 1874';
+$l['wa2000'] = 'Lebensauger .308';
 //Shotguns
 $l['r870'] = 'Reinfeld 880';
 $l['saiga'] = 'Izhma 12G';
 $l['huntsman'] = 'Mosconi 12G';
 $l['benelli'] = 'M1014';
 $l['ksg'] = 'Raven';
+$l['spas12'] = 'Predator 12G';
+$l['b682'] = 'Joceline O/U 12G';
+$l['aa12'] = 'Steakout 12G';
 //Light Machine Guns
 $l['rpk'] = 'RPK';
 $l['m249'] = 'KSP';
 $l['hk21'] = 'Brenner-21';
-//Saws
-$l['saw'] = 'OVE9000 Saw';
+$l['mg42'] = 'Buzzsaw 42';
+//Special
+$l['saw'] = 'OVE9000';
+$l['m134'] = 'Vulcan';
+$l['flamethrower_mk2'] = 'Flamethrower';
+$l['m32'] = 'Piglet';
+$l['plainsrider'] = 'Plainsrider Bow';
+$l['arblast'] = 'Heavy Crossbow';
+$l['long'] = 'English Longbow';
+$l['frankish'] = 'Light Crossbow';
 $l['gre_m79'] = 'GL40';
+//Akimbo
+$l['jowi'] = 'Akimbo Chimano Compact';
+$l['x_deagle'] = 'Akimbo Deagle';
+$l['x_1911'] = 'Akimbo Crosskill';
+$l['x_b92fs'] = 'Akimbo Bernetti 9';
+$l['x_g17'] = 'Akimbo Chimano 88';
+$l['x_g22c'] = 'Akimbo Chimano Custom';
+$l['x_usp'] = ' Akimbo Interceptor 45';
 ////Secondary
 //Pistols
+$l['mateba'] = 'Matever .357';
 $l['usp'] = 'Interceptor 45';
 $l['g22c'] = 'Chimano Custom';
 $l['glock_17'] = 'Chimano 88';
@@ -227,6 +426,10 @@ $l['glock_18c'] = 'STRYK 18c';
 $l['deagle'] = 'Deagle';
 $l['ppk'] = 'Gruber Kurz';
 $l['p226'] = 'Signature .40';
+$l['g26'] = 'Chimano Compact';
+$l['c96'] = 'Broomstick';
+$l['hs2000'] = 'LEO';
+$l['peacemaker'] = 'Peacemaker .45';
 //Submachine Guns
 $l['mac10'] = 'Mark 10';
 $l['new_mp5'] = 'Compact-5';
@@ -239,10 +442,18 @@ $l['mp7'] = 'SpecOps';
 $l['cobrasmg'] = 'Cobra';
 $l['blastersmg'] = 'Blaster 9mm';
 $l['uzi'] = 'Uzi';
+$l['sterling'] = 'Patchett L2A1';
+$l['m1928'] = 'Chicago Typewriter';
+$l['cobray'] = 'Jacket\'s Piece';
+$l['polymer'] = 'Kross Vertex';
+$l['baka'] = 'Micro Uzi';
 //Shotguns
 $l['judge'] = 'The Judge';
 $l['serbu'] = 'Locomotive 12G';
 $l['striker'] = 'Street Sweeper';
+//Special
+$l['rpg7'] = 'HRL-7';
+$l['hunter'] = 'Pistol Crossbow';
 ////Melee
 $l['butt']
  = 'Kolben';
@@ -289,8 +500,98 @@ $l['fireaxe'] = 'Fire Axe';
 $l['fireaxe-description'] = '';
 $l['machete'] = 'Machete';
 $l['machete-description'] = '';
-////Grenades
+$l['kabartanto'] = 'Ursa Tanto';
+$l['kabartanto-description'] = '';
+$l['toothbrush'] = 'Nova\'s Shank';
+$l['toothbrush-description'] = '';
+$l['chef'] = 'Psycho Knife';
+$l['chef-description'] = '';
+$l['fairbair'] = 'Trench Knife';
+$l['fairbair-description'] = '';
+$l['freedom'] = 'The Spear of Freedom';
+$l['freedom-description'] = '';
+$l['model24'] = 'Potato Masher';
+$l['model24-description'] = '';
+$l['swagger'] = 'Swagger Stick';
+$l['swagger-description'] = '';
+$l['alien_maul'] = 'Alpha Mauler';
+$l['alien_maul-description'] = '';
+$l['shillelagh'] = 'Clover\'s Shillelagh';
+$l['shillelagh-description'] = '';
+$l['meat_cleaver'] = 'Dragan\'s Cleaver';
+$l['meat_cleaver-description'] = '';
+$l['boxing_gloves'] = 'OVERKILL Boxing Gloves';
+$l['boxing_gloves-description'] = '';
+$l['hammer'] = 'Carpenter\'s Delight';
+$l['hammer-description'] = '';
+$l['whiskey'] = 'Rivertown Glen Bottle';
+$l['whiskey-description'] = '';
+$l['fork'] = 'Motherforker';
+$l['fork-description'] = '';
+$l['poker'] = 'Poker';
+$l['poker-description'] = '';
+$l['spatula'] = 'Spatula';
+$l['spatula-description'] = '';
+$l['tenderizer'] = 'Tenderizer';
+$l['tenderizer-description'] = '';
+$l['bowie'] = 'Arkansas Toothpick';
+$l['bowie-description'] = '';
+$l['branding_iron'] = 'You\'re Mine';
+$l['branding_iron-description'] = '';
+$l['mining_pick'] = 'Gold Fever';
+$l['mining_pick-description'] = '';
+$l['scalper'] = 'Scalper Tomahawk';
+$l['scalper-description'] = '';
+$l['microphone'] = 'Microphone';
+$l['microphone-description'] = '';
+$l['detector'] = 'Metal Detector';
+$l['detector-description'] = '';
+$l['micstand'] = 'Microphone Stand';
+$l['micstand-description'] = '';
+$l['oldbaton'] = 'Classic Baton';
+$l['oldbaton-description'] = '';
+$l['hockeyst'] = 'Hockey Stick';
+$l['hockeyst-description'] = '';
+$l['switchblade'] = 'Switchblade';
+$l['switchblade-description'] = '';
+$l['taser'] = 'Buzzer';
+$l['taser-description'] = 'Device that electrocutes and interrupts targets on touch.';
+$l['slot_lever'] = 'Jackpot';
+$l['slot_lever-description'] = '';
+$l['croupier_rake'] = 'Croupier\'s Rake';
+$l['croupier_rake-description'] = '';
+$l['twins'] = 'Okinawan Style Sai';
+$l['twins-description'] = '';
+$l['talons'] = 'Talons';
+$l['talons-description'] = '';
+$l['fight'] = 'Empty Palm Kata';
+$l['fight-description'] = '';
+$l['cqc'] = 'Kunai Knife';
+$l['cqc-description'] = 'Knife with a poisoned tip that deals damage over time and has a chance to interrupt enemies.';
+$l['sandsteel'] = 'Shinsakuto Katana';
+$l['sandsteel-description'] = '';
+$l['buck'] = 'Buckler Shield';
+$l['buck-description'] = '';
+$l['beardy'] = 'Bearded Axe';
+$l['beardy-description'] = '';
+$l['great'] = 'Great Sword';
+$l['great-description'] = '';
+$l['morning'] = 'Morning Star';
+$l['morning-description'] = '';
+////Throwables
+$l['grenades'] = 'Throwables';
 $l['frag-grenade'] = 'Fragmentgranade';
+$l['frag_grenade-description'] = 'The frag grenade is a concept that has changed little from its inception. It is a thrown casing that explodes, sending shards and splinters away with such force they can slice through flesh, bone and light armor. Cheap and effective.';
+$l['molotov'] = 'Molotov';
+$l['molotov-description'] = 'The Molotov cocktail is perhaps the simplest weapon that can call itself a grenade. Nothing more than a breakable bottle of flammable liquid with a \'fuse\' replace by burning rag. It is cheap, simple and highly effective.';
+$l['dynamite'] = 'Dynamite';
+$l['dynamite-description'] = 'Swedish engineer, Alfred Nobel, discovered dynamite and its effectiveness in blasting rock. Bit it was drunk prospector, Ol\'Kenneth, who discovered its effectiveness in blasting people.';
+$l['wpn_prj_four'] = 'Shuriken';
+$l['wpn_prj_four-description'] = 'Like a sword hidden in the user\'s hand the shuriken is a deadly weapon and perfectly silent. First made of nails and needles, the throwing star has had a long history filled with blood and battle. These modern stars of stainless steel will pose a lethal threat to anyone in front of you, and as long as you can find them there will be no stopping you.<br/><br/>The Shurikens have been coated in poison which deals damage over time and has a chance to interrupt enemies.';
+$l['wpn_prj_ace'] = 'Ace of Spades';
+$l['wpn_prj_ace-description'] = 'Throwing cards are generally associated with magicians splitting watermelons across a stage, but add weight and razor edges and you have a silent killer. Have one of these steel aces in your sleeves and you will always be ready to deal yourself into the game, regardless of the circumstances.<br/><br/>The Ace of Spades is a free throwable given to the community to celebrate two years of PAYDAY 2!';
+$l['wpn_prj_jav'] = 'Javelin';
+$l['wpn_prj_jav-description'] = 'With its origins lost in murky pre-history, the javelin is a simple weapon. After all, it\'s a thrown stick with a pointy end that ruins someone\'s day. Despite this simplicity, it still requires skill and strength to use.';
 ////Gadgets
 $l['ammo_bag'] = 'Munitionstasche';
 $l['ammo_bag-description'] = 'Die Munitionstasche ist ein transportabler Beutel, der ursprünglich gedacht war, Soladten mit Munition zu versorgen.';
@@ -302,6 +603,12 @@ $l['sentry_gun'] = 'Sentry Gun';
 $l['sentry_gun-description'] = 'Die Sentry Gun ist ein Werkzeug, welches selbstständig Gegner anvisiert und beschießt. Historisch gesehen werden Sentry Guns von Militär genutzt, um feindliche Raketen oder Flugzeuge abzuschießen.';
 $l['ecm_jammer'] = 'ECM-Störsender';
 $l['ecm_jammer-description'] = 'Elektronische Gegenmaßen (engl. electronic countermeasure (ECM)) werden durch diese Gerät ermöglicht. Das umfasst das Stör von Radar, Sonar und anderen Erkennungsgerätschaften.';
+$l['armor_kit'] = 'Armor Bag';
+$l['armor_kit-description'] = 'The armor bag is a portable bag used to transport an armor of your choice that can be used during a heist.<br/><br/>To use the armor bag, hold [G] to put it on your equipped armor. Until that, you will wear the Two-Piece Suit.<br/><br/>The armor bag has only one use and when it is consumed, it disappears.';
+$l['bodybags_bag'] = 'Body Bag Case';
+$l['bodybags_bag-description'] = 'The body bag case is a case containing body bags that are designed to contain a human body, used for the storage and transportation of corpses.<br/><br/>To use the body bag case, you need to place it by holding [G]. Once placed it cannot be moved, but it can be used by you and your crew by holding [F] to gain a body bag.<br/><br/>The body bag case has limited uses and when it is consumed, it disappears. You can see how many uses are left by looking at the body bag case.';
+$l['first_aid_kit'] = 'First Aid Kit';
+$l['first_aid_kit-description'] = 'The first aid kit is a collection of supplies and equipment for use in giving first aid.<br/><br/>To use the first aid kit, you need to place it by holding [G]. Once placed it cannot be moved, but it can be used by you and your crew by holding [F] to regain health.<br/><br/>The first aid kit has limited uses and when it is consumed, it disappears. You can see how many uses are left by looking at the first aid kit.';
 ////Armor
 $l['level_1'] = 'Klassicher Anzug';
 $l['level_1-description'] = 'Keine Geschwindigkeitseinbuße, keine Auffälligkeit<br/><br/>Dies ist ein einfacher Klassischer Anzug, welcher jeder Kriminäller mit Stil tragen sollte.<br/><br/>r biete keinen Extraschutz, aber er hat die höhste Tarnung. Was ihn zur besten Wahl für Aufträg macht, wenn du unentdeckt bleiben willst.<br/><br/>Anzüge werden nur zu bestimmten Anlässen getragen, wie zum Beispiel Hochzeiten oder Jubiläen oder Bankräuben.';
@@ -324,18 +631,45 @@ $l['bear-description'] = 'hello from Russia.<br/><br/>I think it will be the bes
 $l['heat'] = 'Hockey Heat';
 $l['heat-description'] = 'A classic hockey mask.<br/><br/>A guy told me one time...<br/><br/>"Don\'t let yourself get attached to anything you are not willing to walk out on in 30 seconds flat if you feel the heat around the corner."';
 $l['santa_happy'] = 'Happy Santa';
-$l['santa_happy-description'] = 'Santa, more known as Santa Claus, Saint Nicholas,
- Father Christmas and Kris Kringle (?) is a man of epic proportions. Words like legendary, mythical, historical and folkloric best describe this beast of a man.<br/><br/>This particular mask is the Happy Santa mask. Big smile and super jolly with red cheeks and all, wearing this you\'ll even bring the most negative of Bulldozers into a joyous smile.';
+$l['santa_happy-description'] = 'Santa, more known as Santa Claus, Saint Nicholas, Father Christmas and Kris Kringle (?) is a man of epic proportions. Words like legendary, mythical, historical and folkloric best describe this beast of a man.<br/><br/>This particular mask is the Happy Santa mask. Big smile and super jolly with red cheeks and all, wearing this you\'ll even bring the most negative of Bulldozers into a joyous smile.';
 $l['unicorn'] = 'Peter';
 $l['unicorn-description'] = 'Peter is a true legend and has been so for like, ever. A beast with a large, pointed, spiralling horn projected from its forehead, Peter is known by all of mankind as the go-to guy for whenever you need to touch the rainbow. No, touch it. Touch the mother-fucking rainbow. Now taste it.<br/><br/>Shh. It\'s okay. You did good.';
+$l['smiley'] = 'Smiley';
+$l['smiley-description'] = 'There was once a clown who couldn\'t smile. He watched as the other clowns brought joy and happiness to both young and old. He grew envious and angry, so to the that he stapled his lips to his cheeks, giving him a wide grin. But instead of making everyone happy, they were all afraid, why, he did not understand.<br/><br/>He came to the conclusion perhaps this was his calling, to make people afraid... Very afraid.';
+$l['gumbo'] = 'Gumbo';
+$l['gumbo-description'] = 'Little is known about the man known as the devouring clown, but for a long time people believed that his read eyes were part of his outfit. Needless to say, they were wrong. Now people fear the red eyed clown with a laugh so evil it makes even the most seasoned bad-asses quiver in fear.<br/><br/>Word on the street is that he haunts alleyways in a demonic shape looking for something... Or someone. All that is known is that people end up dead, more dead than you thought possible...';
+$l['jw_shades'] = 'Collateral';
+$l['jw_shades-description'] = 'These shades belonged to a colleague of John\'s that he was hired to kill.<br/><br/>It started like any other night. Only this night, he got a contract to kill another contract killer who was making rounds that day. John knew he had five stops to make and was using the same taxi cab between all of them.<br/><br/>In the end, he didn\'t even need to do the deed himself - he was already dead when he found him.';
+$l['stoneface'] = 'Terminator';
+$l['stoneface-description'] = 'These shades belonged to an assassin from a distant land. The assassin John who was sent to kill was built like a machine. The one would prove to be hard. He used a customized Improved Combined Tactical Vest. He was fully armoured and very though. Behind all that armor however, John knew there was only flesh and bones.<br/><br/>John managed to kill him in the end. He knew however that when he removed him from his place, another would replace him.';
+$l['wayfarer'] = 'Reservoir Dog';
+$l['wayfarer-description'] = 'These shades belonged to five strangers. John was hired to kill a group of people who were about to commit the perfect crime. They all dressed the same and had code names so they were easy to identify.<br/><br/>However, John arrived too late to the scene. The police were already there. He made sure the strangers were all dead before he left the scene.';
+$l['crazy_lion'] = 'Mad Lion';
+$l['crazy_lion-description'] = 'A horrifying mask shaped like the head of a lion.<br/><br/>Little is known about this mask. It is said it was made by a crazy Balkan scientist who had a sick fascination for lions. Only he could see the beauty in this mask.<br/><br/>The mask was given to you by someone who wishes you well.';
 //Crimefest
 $l['combusto'] = 'Firestarter';
 $l['combusto-description'] = 'This clown used to be a master of pyrotechnics, having a fire breathing number that no one could top. His competitors in the not-so-known-firebreathing-clown-scene were unhappy with his success... And spiked his cocktail. With third degree burns on his face and an evil look in his eyes he fought fire with fire and set the other clown ablaze. But he didn\'t stop there, the fiery hatred in him burned too bright. Now he seeks to set the world on fire.';
 $l['spackle'] = 'Spackle';
 $l['spackle-description'] = 'Once a well renowned circus clown Spackle was the best make-up artist in the scene. Known for her skill and ability to make people look so unlike themselves, she became obsessed with art. With her own face as canvas she tirelessly applied layer after layer, each becoming more twisted. She was sent to an asylum after killing five people during their make-up process.';
+//Merchandise
+$l['bobblehead_dozer'] = 'Dozer Mask';
+$l['bobblehead_dozer-description'] = '"Senpai Noticed Me!!! :3"<br/><br/>A big thank you to community member Far2close for making a hilarious version of an otherwise intimidating dozer face plate.<br/><br/>This mask can only be obtained from a code accompanying the PAYDAY 2 DOZER BOBBLEHEAD bought from the online OVERKILL merchandise store.';
 //Lootbag
 $l['skull'] = 'Skull';
 $l['skull-description'] = 'An exclusive mask representing death and mortality.<br/><br/>Created in the heavens as a gift by the gods to men and women who believed in them early on, who built their shrines and spread their beliefs across the lands.<br/><br/>Thank you for believing in us! We salute you!';
+$l['griefer'] = 'Greifer';
+$l['griefer-description'] = 'The Griefer is a mystical beast, known to have been a part of this world long ago. The beast deliberately chased and harassed common folk in villages and towns, hunting them down in unsuspecting ways. The Griefer derived pleasure from these acts and was a threat to the peace until the King\'s men finally found him and destroyed him.';
+$l['intuition'] = 'Intuition';
+$l['intuition-description'] = 'This mask belonged to a mysterious warrior from far away place. He walked the lands, guided by his intuition, hunting evil forces across the world. He ventured to dungeons and slew thousands of evil beings he came across. In the end, he found peace, knowing that the next generation would continue as he did.';
+//Card-Masks
+$l['card_jack'] = 'Jack of Cards';
+$l['card_jack-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
+$l['card_queen'] = 'Queen of Cards';
+$l['card_queen-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
+$l['card_king'] = 'King of Cards';
+$l['card_king-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
+$l['card_joker'] = 'Joker of Cards';
+$l['card_joker-description'] = 'A classic made into a mask. The standard 52-card deck is the most played deck of playing cards used today, and regardless if you are a rookie or professional player, you will most likely recognize this face. A proper poker face-mask.';
 //Merry Soundtrack
 $l['santa_mad'] = 'Furious Santa';
 $l['santa_mad-description'] = 'Santa, more known as Santa Claus, Saint Nicholas, Father Christmas and Kris Kringle (?) is a man of epic proportions. Words like legendary, mythical, historical and folkloric best describe this beast of a man.<br/><br/>This particular mask is the Furious Santa mask. It\'s worn by angry internet users and bad children who didn\'t get the presents they wanted.';
@@ -370,6 +704,24 @@ $l['gage_blade'] = 'Gage Blade';
 $l['gage_blade-description'] = 'The Gage Blade is one of Gage\'s own personal favorite ballistic face masks. It will protect your face from one or two 9mm bullets before your head explodes.<br/><br/>Without this mask, Gage wouldn\'t be the wonderful human being he is today.';
 $l['gage_rambo'] = 'Troubled War Veteran';
 $l['gage_rambo-description'] = 'The Troubled War Veteran is a mask that Gage has worked on for some time. Back in the Vietnam war Gage met this big-muscled guy who went nuts and started to use a bow instead of modern weapons.<br/><br/>He died pretty early in the war, but for some strange reason Gage couldn\'t forget his face.';
+//Gage Chivalry Pack
+$l['agatha_knight'] = 'Agatha Knight Veteran';
+$l['agatha_knight-description'] = 'Excavated from the arid wastelands of Tenosia, the helmet of this Agathian Knight could protect him from swords and arrows, but not from the bloody ambitions of a leader as delusional as King Alphonso.';
+$l['agatha_vanguard_veteran'] = 'Agatha Vanguard Veteran';
+$l['agatha_vanguard_veteran-description'] = 'When you\'re trying to reclaim your homeland and King\'s law from the upstart Masons, you need strength, support and a fearsome visage. This Vanguard helm provides all three.';
+$l['mason_knight_veteran'] = 'Mason Knight Veteran';
+$l['mason_knight_veteran-description'] = 'The helmet of the Knight Veterans of the Masons were effectively symbols of this powerful, upstart order. When peasants saw this helm, they knew that Malric\'s new order was close behind.';
+$l['mason_vanguard_veteran'] = 'Mason Vanguard Veteran';
+$l['mason_vanguard_veteran-description'] = 'This helmet was unearthed in an elaborate barrow, indicating that the wearer enjoyed prestige in the Mason army. These great warriors appear to have been Malric\'s elite troops, perhaps having served with him in the failed Tenosian crusade.';
+//Alesso Heist
+$l['concert_male'] = 'Male Concert Goer';
+$l['concert_male-description'] = 'Tie-dyed shirts are so 70\'s. Holding up a lighter went out in the 80\'s. Whistles and glow sticks were left behind in the 90\'s, and the 00\'s, well, the less said the better. The modern concert goer, however, favours the mask.';
+$l['concert_female'] = 'Female Concert Goer';
+$l['concert_female-description'] = 'When you descend into the roiling whirlpool that is the ecstasy of an Alesso concert, you better be wearing your best face. The Female Concert Goer is impassive and detached, because nothing matters but the music.';
+$l['boombox'] = 'Boombox';
+$l['boombox-description'] = 'According to the brochure, Alesso\'s Boom Box features include "No batteries to slay your vibe, sound insulation to keep suckas from hearing your beats and full-face armor to keep cops from checking your clock."';
+$l['cantus'] = 'Cantus';
+$l['cantus-description'] = 'Whether you\'re on the bus or in the boardroom, when Alesso is filling your ears with heavenly tunes, it\'s important to show the world a suitable face. Presenting Cantus - the Angel of Music and Song. Let your spirit soar!';
 //Gage Sniper
 $l['robberfly'] = 'Asilidae';
 $l['robberfly-description'] = 'The Asilidae, also known as robber fly or assassin fly, are powerfully built, bristly flies who are known for their notoriously aggressive predatory habits. They feed on other insects and as a rule, they wait in ambush and catch their prey in flight.';
@@ -379,6 +731,15 @@ $l['spider'] = 'Tarantula';
 $l['spider-description'] = 'Eight legs strong, tarantula sizes range from as small as a fingernail to as large as a handgun when the legs are fully extended. The name originally comes from the name Lycosa tarantula, a species of wolf spider. Tarantulas generally hunt in trees, on or near the ground. They\'re also popular as pets.';
 $l['wasp'] = 'Vespula';
 $l['wasp-description'] = 'Two pairs of wings, an ovipositor or stinger, no thickened hairs and a pair of talons. That\'s the wasp for you. Almost every pest insect species has at least one wasp species that preys upon it or parasitizes it. This makes the wasps very important in natural control of their numbers.';
+//Gage Ninja
+$l['ninja_hood'] = 'Kuro Zuki';
+$l['ninja_hood-description'] = 'A simple piece of cloth tied around their heads will transform anyone, be it beggar, farmer or common man into a ninja. A shadow among shadows, a dagger in the dark. He can be fierce or stealthy and can be anyone in a crowd. He does what he sets out to do and then disappears.';
+$l['shirai'] = 'Shirai';
+$l['shirai-description'] = 'Get over here! And let me tell you about the most badass ninjas you ever heard about. They are the protectors of our world and they only accept the best warriors. They are given the most kickass mask to show that they are better than everyone else. Here is your mask, welcome to the clan.';
+$l['kage'] = 'Kage';
+$l['kage-description'] = 'The kage mask was said to be haunted, originally from a kabuki theater in Osaka where the actor fell down dead on stage while wearing the mask. The last thing he said was "No, I will not kill them, I will not". Legend says that the kage mask will kill whoever wears it if its thirst for blood is not satisfied.';
+$l['slicer'] = 'Slicer';
+$l['slicer-description'] = 'After his brother\'s murder, Ikas joined an underground clan of ninjas to train and become their deadliest warrior. Ikas quickly proved himself and was put in charge of the whole American branch of the clan. His signature mask now inspires fear and respect and anyone who wears a mask like this will be seen as a brother of the Achilles Clan.';
 //Gage Shotgun
 $l['orangutang'] = 'Rutger';
 $l['orangutang-description'] = 'Rutger the motherfucking Orangutan. If you\'re strolling down the jungle and suddenly face an orang-utan, you\'re in trouble. Statistics show that one orang-utan is more dangerous than ten hobos with shotguns<br/><br/>You remember that movie about dinosaurs with the big dinosaur in the end saving the kids? Know who killed the dinosaur after the credits? The kids did, but you know who killed the kids? Rutger the motherfucking orangutan did.';
@@ -398,6 +759,15 @@ $l['galax'] = 'Professor Wrath';
 $l['galax-description'] = 'Milhouse Anderson worked at a chemical plant handling dangerous chemical waste. As a prank, his friends thought it would be a good idea to lock him up in the room where they kept the dangerous chemical waste. What they didn\'t know was that the dangerous chemical waste was dangerous, and while being locked in for several hours, Milhouse was exposed to high levels of radiation and other bad stuff.<br/><br/>When they finally let him out, he had become a super villain. He\'s been super angry ever since.';
 $l['volt'] = 'Volt';
 $l['volt-description'] = 'Being a snoopy lowlife, janitor David Davidson snuck around the military research facility he worked at, looking for something easy to steal. He found a door that he didn\'t have a key for. Curious, he kicked the door open and was instantly attacked by some kind of bright light. Somehow he survived the attack and got superhuman powers.<br/><br/>With his new powers, he called himself Volt.';
+//Gage Historical Pack
+$l['churchill'] = 'British Bulldog';
+$l['churchill-description'] = 'Politician, prize winner, owner of many medals and the first honorary citizen of the United States of America. By some it was said that he had a flawed character, saying; "never had people admired and despised a man simultaneously to the same extent; never had such opposite extremes been combined in the same human being."';
+$l['de_gaulle'] = 'The Constable';
+$l['de_gaulle-description'] = 'For much between 1940-1969, the Constable was the dominant military and political leader of France. Refusing to accept his government\'s armistice with the German invaders in 1940, he set up his base in London, proclaimed himself the incarnation of France, and created the Free French movement. During the war he rallied the overseas colonies, especially those in Africa, organized the Resistance from abroad, and struggled to gain full recognition from the British and Americans.';
+$l['patton'] = 'Old Blood and Guts';
+$l['patton-description'] = 'One of the bravest men I saw in the African campaign was on a telegraph pole in the midst of furious fire while we were moving toward Tunis. I stopped and asked him what the hell he was doing up there. He answered, \'Fixing the wire, sir.\' \'Isn\'t it a little unhealthy up there right now?\' I asked. \'Yes sir, but this god-damn wire has got to be fixed.\' I asked, \'Don\'t those planes strafing the road bother you?\' And he answered, \'No sir, but you sure as hell do.\'<br/><br/>Now, there was a real soldier. A real man. A man who devoted all he had to his duty, no matter how great the odds, no matter how seemingly insignificant his duty appeared at the time.';
+$l['red_hurricane'] = 'The Read Bear';
+$l['red_hurricane-description'] = '"In Soviet Russia, Red Bear kills you." No one knows exactly who the Red Bear was; some say he was just a myth, a symbol of the motherland and everything that was strong, combined into one being. Only the stories are known and told again and again. Like that one time, when he killed a bunch of bears and came back home all in red, drenched in blood.';
 //Official Soundtrack
 $l['tcn'] = 'Criminal Ambitions';
 $l['tcn-description'] = 'A mask only for the most ambitious heister.<br/><br/>Take all the loot, leave nothing behind.<br/>This is the sign of a true criminal mind.<br/>Grab all the diamonds and small additions.<br/>Now you\'re a person with criminal ambitions.';
@@ -407,6 +777,18 @@ $l['optimist_prime'] = 'Optimist';
 $l['optimist_prime-description'] = '"Be the change you want to see in the world."<br/><br/>That\'s what the Optimist believes.<br/><br/>As the leader of a peaceful group of robots, he feels it is his responsibility to combat rival bands of robots obsessed with negativity and extermination. His prime weapon: rolling out positivity <br/><br/>through constructive reasoning and unbiased logic.<br/><br/>Or through forced upgrades. Which are compulsory.';
 $l['surprise'] = 'War Face';
 $l['surprise-description'] = 'You got a war face! AAAAAAAAHH! That\'s a war face, let me see your war face!<br/><br/>...<br/><br/>Bullshit. You didn\'t convince me, let me see your REAL war face!<br/><br/>...Actually, that one\'s pretty good...';
+//StarVR
+$l['starvr'] = 'StarVR';
+$l['starvr-description'] = 'Real life is dirty, uncomfortable, sticky, sweaty, stinky, it tastes bad and leaves you old and broken. Screw that. The StarVR Headset lets you immerse yourself in a virtual world of incredible realism.';
+//Golden Grin Casino
+$l['croupier_hat'] = 'Wheeler Dealer';
+$l['croupier_hat-description'] = 'Spruce up your glamorous neon 80\'s look! This kind of mint-green headwear has been in use since the 19th century as a method of preventing eyestrain from intense light sources. Coked out gamblers and gonzo journalists have propelled the croupier\'s hat into the focus of the mainstream. They are also perfect for beach-front raves, picking up hotties on the beach, signing a contract on the 18th hole of your nearest country club and generally looking like an octogenarian.';
+$l['gladiator_helmet'] = 'Murmillo Galea Helmet';
+$l['gladiator_helmet-description'] = 'Gladiators were members of a brutal caste in Ancient Rome whose sole duty was to entertain by way of public exhibitions of horrific violence. This style of helmet with its high crest resembles a fish. It was worn by a Murmillo - a heavy class of gladiator that fought with a sword and tower shield. They symbolize Vulcan - the roman god of fire, and they stand for strength and honor.';
+$l['the_king_mask'] = 'King';
+$l['the_king_mask-description'] = 'Mercy! Are you bad enough of a dude or dudette to rock the royal trifecta of slick aviators ,bad-ass pompadour and tactical sideburns? Summon forth the indomitable spirit of various used-car dealers and shotgun-wedding ministers all around Vegas who wore this thing all the way to success. Or at least mild public awkwardness. Hail to the king!';
+$l['sports_utility_mask'] = 'Sports Utility Mask';
+$l['sports_utility_mask-description'] = 'Forget bulky and unfashionable helmets, this glorious sucker is the best friend of every adrenaline junkie. The face-guard is made out of tough ABS plastic and it provides solid protection against snow, sand blasts and hail drops. Just avoid heavy blows to the head. Be the envy of your air-boarding friends, brah!';
 //Big Bank
 $l['lincoln'] = '16th';
 $l['lincoln-description'] = 'Lawyer, Commander-In-Chief, father. Had an ambition to serve this great nation for 8 years.<br/><br/> Consistently ranked by scholars and the public as one of the greatest U.S. presidents of all time.<br/><br/> The 16th is one of the most beloved presidents in history. Among criminals, he remains well respected.';
@@ -436,11 +818,35 @@ $l['baby_happy'] = 'Happy Baby';
 $l['baby_happy-description'] = 'Ffff, gaga, bo, gaga bo GAGA GAGA? GAGAGAGA? GAGA? Gagag GOGOGO GAGA? GAGA! GOGO! Bah. Gaga bah gogo go.<br/><br/>GAGA? GAGA! GOGO! Bah. GAGAGA? GAGA GOGO GAGAGA? GAGA! Gagaga gogoga. Fff.';
 $l['brazil_baby'] = 'Brazil Baby';
 $l['brazil_baby-description'] = 'GAGA? GAGA! GOGO! Boo! GAGAGA? GAGA GOGO GAGAGA? GAGA? GAGA! GAGAGA? GAGA GAGAGA?<br/><br/>GAGAGA? GAGAGAGOGO? Boo! BOOO! Gagagaga boo gaga.';
-//Twitch Pack
+//AK/CAR Pack
+$l['velociraptor'] = 'Vincent';
+$l['velociraptor-description'] = 'Vincent the Velociraptor and his best friend Andreas Häll Penninger the Protoceratops were out and about one day in the jungle when they got in a fight. It wasn\'t a big thing really but Vincent just wouldn\'t let it go. Andreas, being the stubborn Protoceratops he was, continued to mouth off to Vincent. Violent fighting ensured and to this day, no one is sure who actually won.';
+$l['pachy'] = 'Pachy';
+$l['pachy-description'] = 'Packy the Pachycephalosaurus, meaning thick headed lizard, wasn\'t ever that thick headed really. He never took that name for himself. the other dinosaurs gave it to him because they were jealous of his high rolls in intelligence, spirit and wisdom. Having earned a robe and a wizard hat as a second prize at the local prehistoric spelling bee didn\'t make it any better.';
+$l['triceratops'] = 'Timothy';
+$l['triceratops-description'] = 'Timothy the Triceratops is one of the most popular dinosaurs at the Jurassic High. He had a huge grudge with Teddy the Tyrannosaurus though. Even though they were massive and lived together during the last epoch of the age of dinosaurs, they couldn\'t find it  in them to be friends. Especially not since that one time when they went to that cabin during Spring Break and Teddy and his pals pranked Timothy with that horror movie and the phone call about seven days left before the meteorite would hit. Timothy did not think that was funny at all.';
+$l['carnotaurus'] = 'Alfred';
+$l['carnotaurus-description'] = 'Alfred the Carnotaurus was a very fast dinosaur when he was alive and kicking. His distinctive horn and his muscular neck made him stand out next to all the dinosaurs. His large head along with his horn working as shock absorbers made him particularly skilled at head butting other dinosaurs in order to show who had the largest prehistoric d-peen.';
+//Humble Bundle Pack 1
 $l['ancient'] = 'Crossbreed';
 $l['ancient-description'] = 'A powerful alien race, described by some as the most advanced beings in the universe. Different races that have come in contact with them have different names for the Crossbreed.<br/><br/>Strong, lean and intelligent, the Crossbreed takes the best from the DNA of each alien race that it meets, always making sure it evolves in the right direction.';
 $l['twitch_orc'] = 'Orc';
 $l['twitch_orc-description'] = 'Brutish, aggressive and generally repulsive, the orcs have always been a hated race. Orcs are larger stronger than their goblin cousins but smaller and less powerful than their ogre brethren.<br/><br/>This particular purple-skinned orc came from the Stonetremble clan who were known for their fierce warriors and overpowered, hybrid shamans.';
+//Humble Bundle Pack 2
+$l['the_one_below'] = 'The One Below';
+$l['the_one_below-description'] = 'The head is what remains of this aquatic horror from the old days, when dark lords ruled the lands and good men grew up only to die; when the summer was short and the winter felt like an eternity; when the One Below stepped out of the ocean and walked the earth.';
+$l['werewolf'] = 'Lycanwulf';
+$l['werewolf-description'] = '"Lycanwulf, Lycanwulf!" they yelled, the frightened villagers, as they laid eyes upon this abomination known as the Lycanwulf. The petty humans were now prisoners of the beast, in a prison without walls, ceilings or a key, where the only escape was death.';
+//Humble Bundle Pack 3
+$l['titan'] = 'Titan';
+$l['titan-description'] = 'Once, they strode amongs us. Cyclopean beings, tall as towers. They were old, even when our primate ancestors howled at fire. Now, they are gone, and only their shades come to us in half-dreamt race memories.';
+$l['pokachu'] = 'Electarodent';
+$l['pokachu-description'] = 'Untrained, the Electarodent can be found nibbling sweet carrots or frolicking across Alpine meadows. However, fully trained, the Electarodent is most often found wielding Bernetti 9\'s and eating through the face-plates of Skulldozers';
+//Humble Bundle Pack 4
+$l['moon'] = 'Mask of the Moon';
+$l['moon-description'] = 'Legend speaks of an entity so malevolent it tried to smash the Moon into the Earth. Though defeated by four masked warriors, the entity escaped and inhabited... something. We hope it will never return, but remember: sometimes the man wears the mask, and sometimes the mask wears the man.';
+$l['borsuk'] = 'Borsuk';
+$l['borsuk-description'] = 'There is more to being a world-class heister than picking up a gun. It requires training, conditioning and a singular focus on developing far beyond the norm. Such heisters are near mutants, who wade into furious battle and always emerge victorious.';
 //Hotline Miami DLC
 $l['pig'] = 'Aubrey';
 $l['pig-description'] = 'Aubrey ist ein echter Waffenliebhaber.<br/><br/>Mit
@@ -460,9 +866,30 @@ $l['rooster'] = 'Richard';
 $l['rooster-description'] = 'Richard genießt es Zeit mit verschiedenen Personen zu verbringen und Fragen zu stellen.<br/><br/>Magst du es anderen Leuten weh zu tun?<br/><br/>Wer hinterlässt Nachrichten auf deinem Anrufbeantworter?<br/><br/>Wo bist du gerade?<br/><br/>Warum führst du diese Konversation?';
 $l['tiger'] = 'Tony';
 $l['tiger-description'] = 'Tony benutzt seine Fäuste des Zorns um jedem der ihn verarscht die Scheiße aus den Leib zu prügeln.<br/><br/>Tony wurde in den 1970ern geboren und war von Italienisch-Amerikanischer Nationalität. Viele Leute erkennen Tony sehr leicht. Teils wahrscheinlich wegen seiner Tiger Maske und teils wegen seiner Körperlichen brutalität gegenüber Leuten die er nicht leiden kann.';
+//Speedrunners
+$l['hothead'] = 'Hothead';
+$l['hothead-description'] = 'With the rage of a fearsome volcano, the hostile Hothead lights up the night with blazing speed! What ignites his frenzied flame? From what does the raging bull run? Very few have caught up close enough to ask, and even fewer have gotten a coherent response!';
+$l['falcon'] = 'Falcon';
+$l['falcon-description'] = 'Life\'s not all about speed and running! With his livelihood destroyed from a speedy accident, he became the hero that New Rush City truly deserves. Falcon vows to take down SpeedRunner and get the city back. Is Falcon the only one sane in a world gone mad - or is he a man in a chicken suit?';
+$l['speedrunner'] = 'SpeedRunner';
+$l['speedrunner-description'] = 'It\'s time for a speedy run! SpeedRunner is the people\'s champ in New Rush City. Running, sliding, swinging his way toward crime and those in need, he accepts no less than first place. SpeedRunner\'s got the need... for running!';
+$l['unic'] = 'Unic';
+$l['unic-description'] = 'Clop Clop - who\'s there? It\'s Unic! In the dark streets of New Rush City, what could shine brighter than an honest smile? Galloping in meadows, and sharing time with his friends, Unic is dedicated to showing the world\'s positive side. A pink leotard and purple boots make this speedy runner truly unique!';
 //Shadow Raid
 $l['samurai'] = 'Somen Mempo';
 $l['samurai-description'] = 'In ancient Japan, samurai warriors wore somen masks to protect themselves in war and to incite fear in their enemies. Somen masks were tied to the large kabuto helmets, making the samurai look like demons from jigoku.<br/><br/>No one knows what fierce and ruthless warrior wore this intimidating mask in the past. Now however, it is ready for battle once more.<br/><br/>"Boku no ikari wo osoreru"';
+
+//Overkill Pack
+$l['the_overkill_mask'] = 'General Overkill';
+$l['the_overkill_mask-description'] = 'Ten-shun! Right, listen up, you heisting bastards. You\'re gonna feel the sting of battle. And in war you need a leader. Meet General Overkill. He\'ll be there to make sure you go through those cop bastards like crap through a goose. Dismissed!';
+$l['dallas_glow'] = 'Mega Dallas';
+$l['dallas_glow-description'] = 'The Mega Dallas mask is an evolved version of the original mask. It symbolises transcendence and catharsis.<br/><br/>Thank you for your support.<br/><br/>OVERKILL salutes you!';
+$l['chains_glow'] = 'Mega Chains';
+$l['chains_glow-description'] = 'The Mega Chains mask is an evolved version of the original mask. It symbolises transcendence and catharsis.<br/><br/>Thank you for your support.<br/><br/>OVERKILL salutes you!';
+$l['hoxton_glow'] = 'Mega Hoxton';
+$l['hoxton_glow-description'] = 'The Mega Hoxton mask is an evolved version of the original mask. It symbolises transcendence and catharsis.<br/><br/>Thank you for your support.<br/><br/>OVERKILL salutes you!';
+$l['wolf_glow'] = 'Mega Wolf';
+$l['wolf_glow-description'] = 'The Mega Wolf mask is an evolved version of the original mask. It symbolises transcendence and catharsis.<br/><br/>Thank you for your support.<br/><br/>OVERKILL salutes you!';
 //Deathwish
 $l['skullhard'] = 'Hard Skull';
 $l['skullhard-description'] = 'A strange thing, the human skull. Humans can often recognize a human skull, even if it\'s only partially shown. The human brain even has a specific region for it.<br/><br/>You finished all heists on the Hard difficulty? What are you, some kind of pro? Maybe this mask will suit you after all.';
@@ -472,6 +899,96 @@ $l['skulloverkill'] = 'Overkill Skull';
 $l['skulloverkill-description'] = 'Holy Shit - what is this new devilry? Humans can often recognize a human skull, even if it\'s only partially shown. The human brain even has a specific region for it. This doesn\'t look like a human skull however.<br/><br/>You finished all heists on the OVERKILL difficulty? What are you, some kind of pit fiend? Maybe this mask will suit you after all.';
 $l['skulloverkillplus'] = 'Death Wish Skull';
 $l['skulloverkillplus-description'] = 'OVERKILL salutes you, bringer of death, slayer of law enforcers and finisher of difficulties. Humans can often recognize a human skull, even if only partially shown. The human brain even has a specific region for it. This isn\'t a human skull however, this is something completely different.<br/><br/>You finished all heists on the Death Wish difficulty? What are you, some kind of demon? Maybe this mask will suit you after all.';
+//Alienware Alpha
+$l['area51'] = 'Anomaly';
+$l['area51-description'] = 'Forged from Penrose patterned rapidly quenched metallic alloys, this helmet was constructed from debris recovered from a top secret crash site. The government continues to deny any knowledge of its existence.';
+$l['alien_helmet'] = 'Alpha Grey';
+$l['alien_helmet-description'] = 'Grey Aliens are alleged extraterrestrial beings whose existence is promoted in ufological, paranormal, and New Age communities, and who are named for their skin color.<br/><br/>Or are they?';
+//White Xmas
+$l['krampus'] = 'Krampus';
+$l['krampus-description'] = 'Been a bad boy or girl this year? Then you can expect a visit from Krampus. Or a phone-call from Bain.';
+$l['mrs_claus'] = 'Mrs. Claus';
+$l['mrs_claus-description'] = 'When Santa is flying through December skies, someone has to stay home and keep the elves in line. No-one does that better than the whip-cracking, cigar-smoking commandant of the Claus household.';
+$l['strinch'] = 'Strinch';
+$l['strinch-description'] = 'A seasoned heister over the festival period, the Strinch has been stealing Christmases since 1957. Also linked with the Halloween Heist of 1972.';
+$l['robo_santa'] = 'Mechanical Santa';
+$l['robo_santa-description'] = 'This jolly, festive automaton has the heart of Santa. He keeps it in a box, under a pile of elf corpses, and surrounded by severed reindeer heads.';
+$l['almirs_beard'] = 'Almir\'s Beard';
+$l['almirs_beard-description'] = 'Some say that real men don\'t shave, but the truth is that real men can\'t shave. Ordinary razors simply bounce off the dense, magnificent foliage that is a truly full Almir beard.';
+//The Diamond
+$l['cursed_crown'] = 'Cursed One';
+$l['cursed_crown-description'] = 'His name is lost to legend. He might have been a King, or a mighty Sorcerer. But even the great are undone by the Diamond.';
+$l['medusa'] = 'Medusa';
+$l['medusa-description'] = 'A hideous visage, snakes for hair, a petrifying gaze and a hate for men. Her gazing eyes still send chills down spines... But this is just a mask, right?';
+$l['anubis'] = 'Anubis';
+$l['anubis-description'] = 'The Egyptian jackal-headed god of the afterlife, Anubis sought to protect graves rather than fill them.';
+$l['pazuzu'] = 'Pazuzu';
+$l['pazuzu-description'] = 'Pazuzu was the king of the wind demons according to ancient Babylonian mythology. Legends also tell of him as a bestial behemoth fighting groups of adventurers in far away lands, and some even say he walked the earth as an immortal warrior in human form.';
+//Clover Character Pack
+$l['msk_grizel'] = 'Clover';
+$l['msk_grizel-description'] = 'Clover\'s Mask represents what Clover both fears and hates most of all - wearing a mask as your normal face. The surgically-shrunken nose, the botox\'d lips and the expression of all-consuming vanity and self-obsession - all are symbols of fear and weakness, twisted into a horrifying parody.';
+$l['grizel_clean'] = 'Clover Begins';
+$l['grizel_clean-description'] = 'This is a clean version of Clover\'s iconic mask, before it was painted.<br/><br/> Never linked how the original one turned out? This is your chance to change history.';
+//Bonnie Character Pack
+$l['bonnie-description'] = 'Few nations have contributed to humanity as Scotland has. In every field of endeavour - science, arts, cuisine - it is the people of this blessed land that give freely and generously. With this mask, Bonnie is determined to reverse this trend.';
+$l['bonnie_begins'] = 'Bonnie Begins';
+$l['bonnie_begins-description'] = 'This is a clean version of the iconic Bonnie mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//Sokol Character Pack
+$l['sokol-description'] = 'If playing as a grinder for the St Petersburg Bombers hockey team taught Sokol the value of one thing, it was the importance of a terrifying mask that protects his handsome Russian face.';
+$l['sokol_begins'] = 'Sokol Begins';
+$l['sokol_begins-description'] = 'This is a clean version of Sokol\'s iconic mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//Yakuza Character Pack
+$l['jiro-description'] = 'Japan is a land of tradition. A land of warriors. Jiro\'s mask reflects this. The mask expresses Jiro\'s love for a traditional Japan, while the bared snarl represents his unshakable determination.';
+$l['jiro_begins'] = 'Jiro Begins';
+$l['jiro_begins-description'] = 'This is a clean version of Jiro\'s iconic mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//Paydaycon 2015
+$l['king_of_jesters'] = 'King of Jesters';
+$l['king_of_jesters-description'] = 'Wearing brightly coloured clothes and eccentric hats in a motley pattern, jesters have always had a place in these parts.<br/><br/>Whether walking on stilts, performing with fire or telling jokes; their sole purpose is to spread joy in our hearts.<br/><br/>However, this is your time to shine so why not put on the mask and spread some joy.<br/><br/>So, pull out your gun, rob your guests and tell them it was all a big ploy.';
+//GOTY
+$l['robo_arnold'] = 'Robo-Arnold';
+$l['robo_arnold-description'] = 'Iconic, time-travelling cyborg star of the \'Exterminator\' movie series. In the first movie, he was sent to kill the mother of the leader of the future rebellion before she can steal the chop left by her son who was also her father... In the past. Noted for his deadpan delivery of the catchphrase "Await my return".';
+$l['nun_town'] = 'Nun';
+$l['nun_town-description'] = 'A Catholic nun may not seem like the obvious choice for a terrifying mask, unless you know an actual Catholic nun. In which case, you\'ll know any notions of gentle, grandmotherly penguins are without merit. These bitter crones are the personification of evil, dishing out thrashing to any young buttocks within reach.';
+$l['arch_nemesis'] = 'Arch Nemesis';
+$l['arch_nemesis-description'] = 'Nemesis, as defined by the dictionary<br/><br/>Noun [ahrch nem-uh-seez]<br/><br/>1. Something that a person cannot conquer, achieve, etc.: "That Chinese buffet at lunch proved to be my arch-nemesis."<br/>2. An opponent whom a person cannot defeat.<br/>3. In classical mythology. The goddess of divine retribution.<br/>4. An agent or act of retribution or punishment.<br/><br/>As defined by Hoxton: "That fuckin\' dozer. He\'s my arch-fucking-nemesis. \'Orrible cunt!"';
+//BBQ
+$l['chef_hat'] = 'Chef';
+$l['chef_hat-description'] = 'Whether you\'re a line cook flipping patties at a road side diner, or an itamae dissecting toadfish at a $1000-a-table joint, this hat means one thing: you\'re the chef.';
+$l['firedemon'] = 'Graug';
+$l['firedemon-description'] = 'The head of the legendary Graug. A towering being of fire and smoking darkness, bound in blackened iron mail. Shaped like a man, but horned and visaged like a cruel demon. Body consumed by a furnace heat, hotter than Hell itself. Knows all the best tunes.';
+$l['firemask'] = 'Firefighter\'s Helmet';
+$l['firemask-description'] = 'The crew may show scant respect to the police authorities, but they have huge respect for the men and women that clean up the burning messes left in their wake. This mask is a tribute to their efforts.';
+$l['gasmask'] = 'Gas Mask';
+$l['gasmask-description'] = 'The gas mask may seem like it belongs to the wars of an older era, but it is a crucial piece of equipment on the urban battlefield, where gas can still be deployed. Also, gives you a cool, wheezy breathing sound.';
+//Western
+$l['bandit'] = 'Wild West Classic';
+$l['bandit-description'] = 'The wide-brimmed hat, the steely gaze and the scarf pulled over the mouth. A combination so ironic, so classic and so effective that it remains the staple for gangsters and heisters everywhere.';
+$l['bullskull'] = 'Desert Skull';
+$l['bullskull-description'] = 'When staggering through desolate barrancas, with only thoughts for company, the last thing you want to see is the parched bones of those who want before you. Suddenly those thoughts are screams.';
+$l['kangee'] = 'Apache Mystic';
+$l['kangee-description'] = 'The West that the white men entered was a land of mystery. A land populated with civilisations of warriors, who marked themselves, their lands and their mythologies with these sacred carvings.';
+$l['lone'] = 'Lone Heister';
+$l['lone-description'] = 'Whether you\'re a murderous desperado or a lone, brooding ranger, sometimes you need to hide your identity. What does that better than a slender black eye-mask, covering a third of your face?';
+//Meltdown
+$l['grendel'] = 'Rad Mutant';
+$l['grendel-description'] = 'Genetic mutation is the key to our evolution. Assuming that our evolution is of the green, scaly, homicidal, irradiated kind.';
+//Champ
+$l['champion_dallas'] = 'Champ';
+$l['champion_dallas-description'] = 'This is the Champ mask. Based on a bad day for Dallas. How bad? Well, imagine being on the business end of thirteen rounds with a professional boxer. Swollen brow, broken nose, fat lip, black eye, contusions, concussions, dislocated jaw - you name it, and this mask has it. Yeah, a really bad day for Dallas.';
+//Dragan
+$l['dragan'] = 'Dragan';
+$l['dragan-description'] = 'With a background like the one Dragan has, there\'s no surprise he aspires to greatness in the criminal underworld.<br/><br/>His mask represents a lot of his own characteristics, with the clear resemblance to some of the original crew\'s masks that tells of his ability to infiltrate and blend in while still having some features that tell of his unending ruthlessness.<br/><br/>The Croatian checker on the forehead serves as a reminder for both himself and his enemies to be aware that he is not your common western street thug.';
+$l['dragan_begins']  = 'Dragan Begins';
+$l['dragan_begins-description'] = 'This is a clean version of Dragan\'s iconic mask before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+//The Bomb
+$l['butcher'] = 'Butcher from Hell';
+$l['butcher-description'] = 'There are many rumours about the mad butcher from the east, one of them tells of a man who found such pleasure in butchering pigs that he slowly started to look like one.<br/><br/>Working in a butchery as hot as hell itself his skin became disfigured with blisters and cuts, people tell of screams coming from inside... And not just the screams of pigs.';
+$l['doctor'] = 'Doctor';
+$l['doctor-description'] = 'A naso-buccal mask usually associated with hospitals and ambulances. This mask disables the host from spreading airborne viruses by catching the bacteria-laden saliva and mucus that is discharged upon sneezing or coughing. Both doctors and patients wear this, so you should ask yourself: am I the sick or the healthy one? The disease or the cure?<br/><br/>In any case - it\'s fever season, and the only prescription is dead Bulldozers.';
+$l['lady_butcher'] = 'Lady Butcher';
+$l['lady_butcher-description'] = 'If you received a dollar every time the Butcher was called a "witch", a "harlot" or a "banshee" by her peers you could earn enough money to buy the entirety of Croatia. Cynical men around her bemoaned the fact that she was female, and felt endangered and distressed at the sight of her meteoric rise in the criminal underground. Keep in mind that the Balkans are not exactly known for their capacity to tolerate anybody who is in any way different, and one can only image the flat-out chauvinism and misogyny she must have dealt with while working with some of the most ruthless criminals every day of her existence. This mask shows how she is seen by both her rivals and her associates. It makes people feel afraid. As they should be.';
+$l['tech_lion'] = 'Tech Lion';
+$l['tech_lion-description'] = 'This mask is a modern interpretation of the Egyptian war-god Maahes. Known as the "Wield of the Knife", "Lord of Slaughter" and "Avenger of Wrongs", Maahes punished those who transgressed from the rules of Ma`at - the personification of order and balance. Considered the embodiment of the burning heat of the sun, he was also seen as a protective deity that defended the Pharaoh during battle.<br/><br/>He is usually depicted as lion-headed man carrying a knife wearing the Atef crown, the Solar Disk or is pictured as a lion devouring a victim.';
 //Infamy
 $l['aviator'] = 'Heat';
 $l['aviator-description'] = 'Everyone loves a good pair of sunglasses.<br/><br/>But only the cockiest, most wanted, cops be damned sons of bitches are crazy enough to rob a god-damn bank wearing\'em.<br/><br/>That\'s you.';
@@ -483,6 +1000,22 @@ $l['smoker'] = 'Specialist';
 $l['smoker-description'] = 'Only a true Technician could come up with a mask like this.<br/><br/>Featuring a state of the art air filtration system, the mask can double as a chemist\'s hood in those unlikely "must cook meth" scenarios.';
 $l['spectre'] = 'Spectre';
 $l['spectre-description'] = 'This Ghost mask look like it\'s from the future and it might as well be.<br/><br/>Full head protection, made out of carbon fibre and genetically engineered spider-silk. People might even mistake you for a high-end Moto GP rider.<br/><br/>Last mistake they\'ll make.';
+$l['daft'] = 'Android';
+$l['daft-description'] = 'For the truly detached and impassive, we provide the Android mask. Lightweight alloys, chromium finish and really cool LED lights means this mask is ready for the bank job or the dance-floor. Alas, it does nor make you fluent in six million languages.';
+$l['destroyer'] = 'Demonshank';
+$l['destroyer-description'] = 'A warrior spirit doesn\'t appear naturally. It isn\'t something you are born with. Like steel, it is forged in fire. It is beaten in the furnace of battle - tempered, polished and sharpened. This mask celebrates the birth of this warrior spirit - the furnace-born steel given wings.';
+$l['balaclava'] = 'Balaclava';
+$l['balaclava-description'] = 'The weapons may change, the ideologies may shift and the accents may swap, but the balaclava has been a mainstay for the armed robber and terrorist for decades. Covering all but your steely, flint-like eyes and your cruel, twisted mouth, it keeps you warm when it\'s chilly too.';
+$l['infamy_hood'] = 'Kamul';
+$l['infamy_hood-description'] = 'There are things older and fouler than heisters in the dark places of the world. And one of them is Kamul. We do no know if he is the lingering spirit of a long dead man, or something that has crossed from the real of shade. All we know is that few look into this face and live to tell of it.';
+$l['infamy_lurker'] = 'Lurker';
+$l['infamy_lurker-description'] = 'Teeth are scary. Big teeth are scarier. And giant sharp fang-like teeth suddenly gnashing out where they lurk in the darkness are downright shit-yourself-terrifying. With all of that in mind, can you think of a better mask to keep the civilians in line?';
+$l['pain'] = 'Venger';
+$l['pain-description'] = 'Based on the crazed leader of the League of Darkness. It\'s unclear if this was a breathing apparatus or a vocabulator. Some speculate that it was a delivery system, designed to provide Nemesis with the narcotics that gave him both his superhuman strength and psychotic rage.';
+$l['punk'] = 'Being';
+$l['punk-description'] = 'This mask is based on the experiments of the peculiar Dr Rudolf Mastaba. A modern Prometheus, he sought to return life to the dead with the application of Industrial Revolution technology. Rumour suggest that he was partially successful - the undead rose, but had an insatiable appetite for wheat, barley and maize.';
+$l['ranger'] = 'Heister Sentry';
+$l['ranger-description'] = 'This mask was originally designed to be part of a complete head-to-toe heisting outfit. However, field testing revealed that the gaudy spandex suit offered no protection against bullets, knives or grenades. The mask, however, was found to be lightweight, durable and stylish. It\'s heistin\' time!';
 //Infamous
 $l['dallas'] = 'Dallas';
 $l['dallas-description'] = 'The mask that everyone fears.';
@@ -508,6 +1041,13 @@ $l['dillinger_death_mask'] = 'Dillinger Death Mask';
 $l['dillinger_death_mask-description'] = 'John Herbert Dillinger was a famous American bank robber.<br/><br/>His gang robbed two dozen banks and even four police stations.<br/><br/>Dillinger himself escaped jail twice and was widely known as one of the meanest motherfuckers in the depression-era United States.';
 $l['grin'] = 'Grin';
 $l['grin-description'] = 'There once was a man and his brother.<br/><br/>Together, they owned a successful company.<br/><br/>One day, the man and his brother temporarily only had one client. The client got cold feet and wanted out. Rather than simply pulling out and having to pay a fine for breach of contract, the client starved the man and his brother\'s company to death.<br/><br/>The Man and his brother lost everything, and it is said that this mask was the very image of the man\'s facial expression the day that he went mad.';
+$l['old_hoxton'] = 'Hoxton Reborn';
+$l['old_hoxton-description'] = 'The Hoxton Reborn mask is a mask that Hoxton made while in prison. For him, it\'s  a symbol of everything he experienced in the past years while the PAYDAY gang kept on going without him. No one knows how his experiences in prison have changed him, and he won\'t talk about it when asked.<br/><br/>All we can assume is that he has been changed forever, and that he is reborn into... Something different.';
+//Hoxton Revenge
+$l['hectors_helmet'] = 'Hard Hat';
+$l['hectors_helmet-description'] = 'When you rat out the Payday gang, you need to expect some form of retribution. And the gang isn\'t big on wagging finders and a stern telling off. You can expect bullets, and plenty of them. This hard hat is old school riot cop tech - heavy iron, fronted with reinforced glass. Good luck getting through it.';
+$l['old_hoxton_begins'] = 'Hoxton Reborn Begins';
+$l['old_hoxton_begins-description'] = 'This is a clean version of the iconic Hoxton Reborn mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
 //Normal
 $l['alienware'] = 'Alienware';
 $l['alienware-description'] = 'Based on the visions of a madman who thought he saw an extraterrestrial being.<br/><br/>It is strange though, as the powerful materials is not from anywhere on Earth.';
@@ -578,8 +1118,7 @@ $l['clown_56'] = 'Starved';
 $l['clown_56-description'] = 'This mask has a hideous appearance, a bony facial structure and dehydrated skin.<br/><br/>It is the kind of mask gives you nightmares.';
 $l['troll'] = 'Troll';
 $l['troll-description'] = 'Now here is a troll that is tired of hiding under the bridge.<br/><br/>Why not see the world, pillage a village, take the local inhabitants gold treasures and flee from the the angry mobs instead?';
-$l['dawn_of_the_dead']
- = 'Undead';
+$l['dawn_of_the_dead'] = 'Undead';
 $l['dawn_of_the_dead-description'] = 'An undead is a being that is dead yet somehow behaves like it is still alive.<br/><br/>Created in mysterious ways, this might as well be a zombie as it could be a Vampire.<br/><br/>If you are going to rob a bank, why not scare the living hell out of people while doing so?';
 $l['vampire'] = 'Vampire';
 $l['vampire-description'] = 'The Vampire is a mythological undead creature, said to feed on the blood of the living.<br/><br/>Vampires can appear as normal humans.<br/><br/>When attacked they will reveal their vampire visage where their face changes and they grow fangs and pointed teeth.';
@@ -587,12 +1126,35 @@ $l['zipper'] = 'Zipper';
 $l['zipper-description'] = 'The zipper mask consists of two parallel tracks of teeth that can be interlocked or separated by the pulling of a slide between them.<br/><br/>Separate the zipper when you need to communicate.';
 $l['zombie'] = 'Zombie';
 $l['zombie-description'] = 'A zombie is an animated corpse that somehow has been brought to life again.<br/><br/>Brains?';
+//Car Shop
+$l['simpson'] = 'Tids';
+$l['simpson-description'] = 'Some say his racing leathers are made from bleached dolphin skin, and that his oily secretions are prized Chinese medicine. All we know is...  he\'s called the Tids.';
 //Default
 $l['pref'] = 'Preferred Characters';
 $l['pref-description'] = 'Equipping this mask slot will make you wear your preferred character\'s mask.';
 //Twister
 $l['twister'] = 'Mystery Man';
 $l['twister-description'] = 'Who is behind this mask is a mystery.<br/><br/>It could be someone unknown or somebody you\'ve known all along.';
+//Thespian
+$l['thespian'] = 'Thespian';
+$l['thespian-description'] = 'Thespian is a superhuman soldier of fortune. In the future, space marines like Thespian protect the world of mankind and its space colonies from the forces of evil.<br/><br/>His helmet is popular gift in the criminal underworld and is given to thieves, thugs and career criminals who show loyalty and patience to their syndicate.<br/><br/>We at OVERKILL salute you for your loyalty and patience!';
+//Collaboration
+$l['alex'] = 'Alex';
+$l['alex-description'] = 'On half of a brother and sister duo, Alex. Like swans, they are fierce. Unlike swans, they wield chainsaws and SMGs. Like swans, they are closely bonded. Unlike swans, they have a penchant for slaughter.';
+$l['corey'] = 'Corey';
+$l['corey-description'] = 'When you\'re the most delicious lunch on the savannah, you have to be fast, agile and cunning if you\'re going to survive. Corey is all of these things. Zebras are also peaceful, gentle and herbivorous. Corey is non of these things.';
+$l['jake'] = 'Jake';
+$l['jake-description'] = 'There\'s no such thing as a good snake, but even among the deadly serpents the cobra is bad news. The broad hood, when seen, is a display of threat - so run. Its long fangs can pierce elephant skin - so run. And just a drop of its venom can fell a dozer - so... look, basically, when you see this, just run. Because they also spit.';
+$l['richter'] = 'Richter';
+$l['richter-description'] = 'Like the rat, Richter is a silent killer. It can make its way into just about anywhere - into the most secure banks and apartments. It can avoid detection when it wants, and , once there, spread death like a plague. It kills without remorse. Nothing personal.';
+$l['tonys_revenge'] = 'Tony\'s Revenge';
+$l['tonys_revenge-description'] = 'The near-perfect predator. Tigers are immensely strong, yet fast. They are brutal, yet patient. They can stalk silently, before exploding into violence. The perfect killing machine. Despite this, the tiger is in decline. Poachers prize the tiger penis in traditional medicine. So don\'t get taken alive.';
+$l['richard_begins'] = 'Richard Returns Begins';
+$l['richard_begins-description'] = 'This is a clean version of the iconic Richard Returns mask, before it was painted.<br/><br/>Never liked how the original one turned out? This is your chance to change history.';
+$l['richard_returns'] = 'Richard Returns';
+$l['richard_returns-description'] = 'Is this mask a reflection of a deep-seated psychological problem? Possibly a dissociative identity disorder? Schizophrenia? Trauma of a disturbed psyche? Or is it not a reflection at all, but instead something to cause them?';
+$l['biker'] = 'Biker';
+$l['biker-description'] = 'When you\'re a thrill-seeker, and a risk-taker, and a live-for-the-moment kind of heister, it is important to have at least some measure of protection. That also goes if you are a meat-cleaver waving maniac.';
 //Leave the div there. It colors the word red.
 $l['pro'] = '<div style="display:inline; color:#ff3336;">Pro</div>';
 ////Heists
@@ -622,6 +1184,21 @@ $l['transport-downtown'] = 'Transport: Innenstadt';
 $l['transport-underpass'] = 'Transport: Unterführung';
 $l['transport-crossroads'] = 'Transport: Kreuzung';
 $l['hotline'] = 'Hotline Miami';
+$l['artgallery'] = 'Art Gallery';
+$l['hoxtonbreakout'] = 'Hoxton Breakout';
+$l['pines'] = 'White Xmas';
+$l['dwsucess'] = 'Completed on Deathwish!';
+$l['crojob1'] = 'The Bomb: Dockyard';
+$l['crojob2'] = 'The Bomb: Forest';
+$l['mus'] = 'The Diamond';
+$l['nightsuffix'] = '(Night)';
+$l['cookoff'] = 'Cook Off';
+$l['transp-train'] = 'Armored Transport: Train Heist';
+$l['carshop'] = 'Car Shop';
+$l['hoxtonrevenge'] = 'Hoxton Revenge';
+$l['shoutout_raid'] = 'Meltdown';
+$l['alesos'] = 'Alesso Heist';
+$l['kenaz'] = 'Golden Grin Casino';
 //Escapes
 $l['escapeparknight'] = 'Park-Flucht (Nacht)';
 $l['escapeparkday'] = 'Park-Flucht (Tag)';

@@ -246,6 +246,7 @@ $l['paydaycon2015'] = 'PAYDAYCON 2015 SECRET MASK';
 //Stash
 //Safes
 $l['safe'] = 'Safe';
+$l['safes'] = 'Safes';
 $l['drill'] = 'Drill';
 $l['cf2'] = 'Crimefest 2';
 $l['sput'] = 'Sputnik';

@@ -473,7 +473,7 @@ $weapons_skin = array(
 'new_raging_bull_bloodbath' => array( 'Name' => $l['new_raging_bull_bloodbath'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['common']), //Victim Shower
 'new_raging_bull_goldstripes' => array( 'Name' => $l['new_raging_bull_goldstripes'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_goldstripes', 'Safe' => $l['sput'], 'Grade' => $l['uncommon']), //Black Bull
 'new_raging_bull_bloodsplat' => array( 'Name' => $l['new_raging_bull_bloodsplat'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['epic']), //Extra Vaganza
-'new_raging_bull_dallas' => array( 'Name' => $l['new_raging_bull_dallas'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['common']), //Quickdraw Hunter
+'new_raging_bull_dallas' => array( 'Name' => $l['new_raging_bull_dallas'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['common']), //Quickdrawn Hunter
 ),
  
 'p90' => array(

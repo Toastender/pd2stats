@@ -372,7 +372,7 @@ $weapons_skin = array(
 'ak74' => array(
 'ak74_golddigger' => array( 'Name' => $l['ak74_golddigger'] , 'WVar' => 'ak74', 'Image' => 'ak74_golddigger', 'Safe' => $l['fwbs'], 'Grade' => $l['rare']), //Gold Vein
 'ak74_luxury' => array( 'Name' => $l['ak74_luxury'] , 'WVar' => 'ak74', 'Image' => 'ak74_luxury', 'Safe' => $l['cf2'], 'Grade' => $l['rare']), //Sad Almir
-'ak74_rodina' => array( 'Name' => $l['ak74_rodina'] , 'WVar' => 'ak74', 'Image' => 'ak74_rodina', 'Safe' => $l['sput'].' '.$l['safe'].' + '.$l['slauts'], 'Grade' => $l['legendary']), //Vlad's Rodina
+'ak74_rodina' => array( 'Name' => $l['ak74_rodina'] , 'WVar' => 'ak74', 'Image' => 'ak74_rodina', 'Safe' => $l['sput'].' '.$l['collection'].' + '.$l['slauts'], 'Grade' => $l['legendary']), //Vlad's Rodina
 'ak74_bloodsplat' => array( 'Name' => $l['ak74_bloodsplat'] , 'WVar' => 'ak74', 'Image' => 'ak74_bloodsplat', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Little Brother
 'ak74_dallas' => array( 'Name' => $l['ak74_dallas'] , 'WVar' => 'ak74', 'Image' => 'ak74_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['uncommon']), //Reptilian Russkie
 ),
@@ -387,7 +387,7 @@ $weapons_skin = array(
 ),
  
 'deagle' => array(
-'deagle_bling' => array( 'Name' => $l['deagle_bling'] , 'WVar' => 'deagle', 'Image' => 'deagle_bling', 'Safe' => $l['cf2'].' '.$l['safe'].' + '.$l['fwbs'], 'Grade' => $l['legendary']), //Midas Touch
+'deagle_bling' => array( 'Name' => $l['deagle_bling'] , 'WVar' => 'deagle', 'Image' => 'deagle_bling', 'Safe' => $l['cf2'].' '.$l['collection'].' + '.$l['fwbs'], 'Grade' => $l['legendary']), //Midas Touch
 'deagle_bloodbath' => array( 'Name' => $l['deagle_bloodbath'] , 'WVar' => 'deagle', 'Image' => 'deagle_bloodbath', 'Safe' => $l['slauts'], 'Grade' => $l['common']), //Assault Wave
 'deagle_skullimov' => array( 'Name' => $l['deagle_skullimov'] , 'WVar' => 'deagle', 'Image' => 'deagle_skullimov', 'Safe' => $l['compos'], 'Grade' => $l['rare']), //Boom!
 'deagle_dallas' => array( 'Name' => $l['deagle_dallas'] , 'WVar' => 'deagle', 'Image' => 'deagle_dallas', 'Safe' => $l['dalls'], 'Grade' => $l['uncommon']), //Reptilian Fang
@@ -529,7 +529,6 @@ foreach ($weapons_skin as $weapontype => $row) {
 		$sub = $row;
 		foreach ($sub as $skinname => $row) {	
 		$identify[$skinname] = $row;
-		echo $identify[$skinname]['Name'];
 	}
 }
 

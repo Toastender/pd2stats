@@ -44,6 +44,7 @@ $l['ads'] = 'Advertisement';
 $l['switch'] = 'switch';
 $l['languagetex'] = 'Language';
 $l['detection'] = 'Warning';
+$l['home'] = 'Home';
 //Itemindex
 $l['maskindex'] = 'mask-index';
 $l['weaponindex'] = 'weapon-index';
@@ -248,6 +249,7 @@ $l['paydaycon2015'] = 'PAYDAYCON 2015 SECRET MASK';
 $l['safe'] = 'Safe';
 $l['safes'] = 'Safes';
 $l['drill'] = 'Drill';
+$l['collection'] = 'Collection';
 $l['cf2'] = 'Crimefest 2';
 $l['cf2-info'] = 'ADDED Update #79 (15th October 2015)<br/><br/>Added as part of the Crimefest 2 Rewards<br/><br/>REMOVED Update #90 (12th November 2015)';
 $l['sput'] = 'Sputnik';

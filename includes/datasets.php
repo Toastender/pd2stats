@@ -524,6 +524,15 @@ $weapons_skin = array(
  
 );
 
+//Makes Array by Skinname
+foreach ($weapons_skin as $weapontype => $row) {
+		$sub = $row;
+		foreach ($sub as $skinname => $row) {	
+		$identify[$skinname] = $row;
+		echo $identify[$skinname]['Name'];
+	}
+}
+
 $safes = array(
 'cf2' => array( 'Name' => $l['cf2'], 'Info' => $l['cf2-info'], 'SafeImg' => 'Crimefest_2_Safe', 'DrillImg' => 'Crimefest_2_Drill', 'Content' => array(
 $weapons_skin['b92fs']['b92fs_forest'],

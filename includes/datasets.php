@@ -525,7 +525,7 @@ $weapons_skin = array(
 );
 
 $safes = array(
-'cf2' => array( 'Name' => $l['cf2'], 'SafeImg' => 'Crimefest_2_Safe', 'DrillImg' => 'Crimefest_2_Drill', 'Content' => array(
+'cf2' => array( 'Name' => $l['cf2'], 'Info' => $l['cf2-info'], 'SafeImg' => 'Crimefest_2_Safe', 'DrillImg' => 'Crimefest_2_Drill', 'Content' => array(
 $weapons_skin['b92fs']['b92fs_forest'],
 $weapons_skin['famas']['famas_forest'],
 $weapons_skin['huntsman']['huntsman_forest'],
@@ -543,7 +543,7 @@ $weapons_skin['new_m4']['new_m4_payday'],
 $weapons_skin['plainsrider']['plainsrider_linked'],
 $weapons_skin['deagle']['deagle_bling'],
 )),
-'sput' => array( 'Name' => $l['sput'], 'SafeImg' => 'Sputnik_Safe', 'DrillImg' => 'Sputnik_Drill', 'Content' => array(
+'sput' => array( 'Name' => $l['sput'], 'Info' => $l['sput-info'], 'SafeImg' => 'Sputnik_Safe', 'DrillImg' => 'Sputnik_Drill', 'Content' => array(
 $weapons_skin['judge']['judge_woodland'],
 $weapons_skin['p90']['p90_woodland'],
 $weapons_skin['plainsrider']['plainsrider_woodland'],
@@ -561,7 +561,7 @@ $weapons_skin['famas']['famas_hypno'],
 $weapons_skin['huntsman']['huntsman_hypno'],
 $weapons_skin['ak74']['ak74_rodina'],
 )),
-'slauts' => array( 'Name' => $l['slauts'], 'SafeImg' => 'Slaughter_Safe', 'DrillImg' => 'Slaughter_Drill', 'Content' => array(
+'slauts' => array( 'Name' => $l['slauts'], 'Info' => $l['slauts-info'], 'SafeImg' => 'Slaughter_Safe', 'DrillImg' => 'Slaughter_Drill', 'Content' => array(
 $weapons_skin['deagle']['deagle_bloodbath'],
 $weapons_skin['judge']['judge_bloodbath'],
 $weapons_skin['new_raging_bull']['new_raging_bull_bloodbath'],
@@ -574,7 +574,7 @@ $weapons_skin['rpg7']['rpg7_bloodbath'],
 $weapons_skin['g36']['g36_bloodbath'],
 $weapons_skin['ak74']['ak74_rodina'],
 )),
-'fwbs' => array( 'Name' => $l['fwbs'], 'SafeImg' => 'FWB_Safe', 'DrillImg' => 'FWB_Drill', 'Content' => array(
+'fwbs' => array( 'Name' => $l['fwbs'], 'Info' => $l['fwbs-info'], 'SafeImg' => 'FWB_Safe', 'DrillImg' => 'FWB_Drill', 'Content' => array(
 $weapons_skin['huntsman']['huntsman_golddigger'],
 $weapons_skin['p90']['p90_golddigger'],
 $weapons_skin['ppk']['ppk_golddigger'],
@@ -587,7 +587,7 @@ $weapons_skin['serbu']['serbu_golddigger'],
 $weapons_skin['famas']['famas_golddigger'],
 $weapons_skin['deagle']['deagle_bling'],
 )),
-'dalls' => array( 'Name' => $l['dalls'], 'SafeImg' => 'Dallas_Safe', 'DrillImg' => 'Dallas_Drill', 'Content' => array(
+'dalls' => array( 'Name' => $l['dalls'], 'Info' => $l['dalls-info'], 'SafeImg' => 'Dallas_Safe', 'DrillImg' => 'Dallas_Drill', 'Content' => array(
 $weapons_skin['famas']['famas_dallas'],
 $weapons_skin['flamethrower_mk2']['flamethrower_mk2_dallas'],
 $weapons_skin['huntsman']['huntsman_dallas'],
@@ -605,7 +605,7 @@ $weapons_skin['g36']['g36_dallas'],
 $weapons_skin['m95']['m95_dallas'],
 $weapons_skin['p90']['p90_dallas_sallad'],
 )),
-'compos' => array( 'Name' => $l['compos'], 'SafeImg' => 'COP_Safe', 'DrillImg' => 'COP_Drill', 'Content' => array(
+'compos' => array( 'Name' => $l['compos'], 'Info' => $l['compos-info'], 'SafeImg' => 'COP_Safe', 'DrillImg' => 'COP_Drill', 'Content' => array(
 $weapons_skin['b92fs']['b92fs_bloodsplat'],
 $weapons_skin['deagle']['deagle_skullimov'],
 $weapons_skin['flamethrower_mk2']['flamethrower_mk2_bloodsplat'],

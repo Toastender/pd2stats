@@ -249,11 +249,17 @@ $l['safe'] = 'Safe';
 $l['safes'] = 'Safes';
 $l['drill'] = 'Drill';
 $l['cf2'] = 'Crimefest 2';
+$l['cf2-info'] = 'ADDED Update #79 (15th October 2015)<br/><br/>Added as part of the Crimefest 2 Rewards<br/><br/>REMOVED Update #90 (12th November 2015)';
 $l['sput'] = 'Sputnik';
+$l['sput-info'] = 'ADDED Update #79 (15th October 2015)';
 $l['slauts'] = 'Slaughter';
+$l['slauts-info'] = 'ADDED Update #87 (23rd October 2015)<br/><br/>Added as part of the Crimefest 2 Rewards';
 $l['fwbs'] = 'First World';
+$l['fwbs-info'] = 'ADDED Update #86 (22nd October 2015)<br/><br/>Added as part of the Crimefest 2 Rewards';
 $l['dalls'] = 'Dallas';
+$l['dalls-info'] = 'ADDED Update #90 (12th November 2015)';
 $l['compos'] = 'Completely Overkill';
+$l['compos-info'] = 'ADDED Update #90 (12th November 2015)<br/><br/>Added as part of the Completely OVERKILL Pack Rewards';
 //Grade
 $l['common'] = 'Common';
 $l['uncommon'] = 'Uncommon';

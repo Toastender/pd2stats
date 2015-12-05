@@ -45,6 +45,8 @@ $l['switch'] = 'switch';
 $l['languagetex'] = 'Language';
 $l['detection'] = 'Warning';
 $l['home'] = 'Home';
+$l['pd2stash'] = 'PD2Stash';
+$l['everything'] = 'Everything';
 //Itemindex
 $l['maskindex'] = 'mask-index';
 $l['weaponindex'] = 'weapon-index';
@@ -245,6 +247,13 @@ $l['chivalrypack'] = 'GAGE CHIVALRY PACK';
 $l['yakuzapack'] = 'YAKUZA CHARACTER PACK';
 $l['paydaycon2015'] = 'PAYDAYCON 2015 SECRET MASK';
 //Stash
+$l['specials'] = 'Specials';
+$l['submachineguns'] = 'Submachine Guns';
+$l['sniperrifles'] = 'Sniper Rifles';
+$l['shotguns'] = 'Shotguns';
+$l['pistols'] = 'Pistols';
+$l['lightmachineguns'] = 'Light Machine Guns';
+$l['assaultrifles'] = 'Assault Rifles';
 //Safes
 $l['safe'] = 'Safe';
 $l['safes'] = 'Safes';
@@ -263,6 +272,7 @@ $l['dalls-info'] = 'ADDED Update #90 (12th November 2015)';
 $l['compos'] = 'Completely Overkill';
 $l['compos-info'] = 'ADDED Update #90 (12th November 2015)<br/><br/>Added as part of the Completely OVERKILL Pack Rewards';
 //Grade
+$l['rarity'] = 'Rarity';
 $l['common'] = 'Common';
 $l['uncommon'] = 'Uncommon';
 $l['rare'] = 'Rare';

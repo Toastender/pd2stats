@@ -273,6 +273,7 @@ $l['compos'] = 'Completely Overkill';
 $l['compos-info'] = 'ADDED Update #90 (12th November 2015)<br/><br/>Added as part of the Completely OVERKILL Pack Rewards';
 //Grade
 $l['rarity'] = 'Rarity';
+$l['rarities'] = 'Rarities';
 $l['common'] = 'Common';
 $l['uncommon'] = 'Uncommon';
 $l['rare'] = 'Rare';

@@ -254,6 +254,7 @@ $l['shotguns'] = 'Shotguns';
 $l['pistols'] = 'Pistols';
 $l['lightmachineguns'] = 'Light Machine Guns';
 $l['assaultrifles'] = 'Assault Rifles';
+$l['skin'] = 'Skin';
 //Safes
 $l['safe'] = 'Safe';
 $l['safes'] = 'Safes';

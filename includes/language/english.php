@@ -280,6 +280,17 @@ $l['uncommon'] = 'Uncommon';
 $l['rare'] = 'Rare';
 $l['epic'] = 'Epic';
 $l['legendary'] = 'Legendary';
+//Wear
+$l['wear'] = 'Wear';
+$l['statboost'] = 'Stat<br/>Boost';
+$l['teamboost'] = 'Team<br/>Boost';
+$l['teamboost'] = 'Both<br/>Boosts';
+$l['market'] = 'Market';
+$l['mintcondition'] = 'Mint-Condition';
+$l['lightlymarked'] = 'Lightly-Marked';
+$l['brokenin'] = 'Broken-In';
+$l['wellused'] = 'Well-Used';
+$l['battleworn'] = 'Battle-Worn';
 //Weapon Names
 $l['ak74_golddigger'] = 'Gold Vein';
 $l['ak74_luxury'] = 'Sad Almir';

@@ -37,199 +37,297 @@ $romnum = array(
 $weapons_primary = array(
 ////Assault Rifles
 'akm_gold' => array( 'Name' => $l['akm_gold'], 'MarketName' => 'XX', 'Wiki' => 'Golden_AK.762', 'Image' => 'akm_gold', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'akm_gold', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 90, 'Firerate' => 560, 'Damage' => 40, 'Accuracy' => 10, 'Stability' => 12, 'Concealment' => 11, 'Threat' => 22)),
+'Stability' => 44, 'Firerate' => 561, 'Concealment' => 11, 'Threat' => 22, 'Ammo' => 90, 'Magazine' => 30, 'Accuracy' => 60, 'Damage' => 80)),
+
 'amcar' => array( 'Name' => $l['amcar'], 'MarketName' => 'XX', 'Wiki' => 'AMCAR_(Payday_2)', 'Image' => 'amcar', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'amcar', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 180, 'Firerate' => 550, 'Damage' => 16, 'Accuracy' => 10, 'Stability' => 19, 'Concealment' => 21, 'Threat' => 14)),
+'Stability' => 76, 'Firerate' => 545, 'Concealment' => 21, 'Threat' => 14, 'Ammo' => 220, 'Magazine' => 20, 'Accuracy' => 36, 'Damage' => 36)),
+
 'ak74' => array( 'Name' => $l['ak74'], 'MarketName' => 'AK RIFLE', 'Wiki' => 'AK_(Payday_2)', 'Image' => 'ak74', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'ak74', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 650, 'Damage' => 28, 'Accuracy' => 10, 'Stability' => 15, 'Concealment' => 16, 'Threat' => 14)),
+'Stability' => 60, 'Firerate' => 652, 'Concealment' => 16, 'Threat' => 14, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 48, 'Damage' => 40)),
+
 'new_m4' => array( 'Name' => $l['new_m4'], 'MarketName' => 'CAR-4 RIFLE', 'Wiki' => 'CAR-4', 'Image' => 'new_m4', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'new_m4', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 600, 'Damage' => 23, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 20, 'Threat' => 14)),
-'aug' => array( 'Name' => $l['aug'], 'MarketName' => 'XX', 'Wiki' => 'UAR', 'Image' => 'aug', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'aug', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 750, 'Damage' => 28, 'Accuracy' => 14, 'Stability' => 12, 'Concealment' => 20, 'Threat' => 14)),
-'akm' => array( 'Name' => $l['akm'], 'MarketName' => 'XX', 'Wiki' => 'AK.762', 'Image' => 'akm', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'akm', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 90, 'Firerate' => 560, 'Damage' => 40, 'Accuracy' => 10, 'Stability' => 12, 'Concealment' => 13, 'Threat' => 22)),
+'Stability' => 60, 'Firerate' => 600, 'Concealment' => 20, 'Threat' => 14, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 44, 'Damage' => 38)),
+
+'aug' => array( 'Name' => $l['aug'], 'MarketName' => 'UAR RIFLE', 'Wiki' => 'UAR', 'Image' => 'aug', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'aug', 'Stats' => array(
+'Stability' => 40, 'Firerate' => 750, 'Concealment' => 20, 'Threat' => 14, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 64, 'Damage' => 38)),
+
+'akm' => array( 'Name' => $l['akm'], 'MarketName' => 'AK.762 RIFLE', 'Wiki' => 'AK.762', 'Image' => 'akm', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'akm', 'Stats' => array(
+'Stability' => 44, 'Firerate' => 561, 'Concealment' => 13, 'Threat' => 22, 'Ammo' => 90, 'Magazine' => 30, 'Accuracy' => 60, 'Damage' => 80)),
+
 'g36' => array( 'Name' => $l['g36'], 'MarketName' => 'JP36 RIFLE', 'Wiki' => 'JP36', 'Image' => 'g36', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'g36', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 180, 'Firerate' => 710, 'Damage' => 25, 'Accuracy' => 12, 'Stability' => 19, 'Concealment' => 19, 'Threat' => 13)),
+'Stability' => 64, 'Firerate' => 706, 'Concealment' => 19, 'Threat' => 13, 'Ammo' => 240, 'Magazine' => 30, 'Accuracy' => 40, 'Damage' => 36)),
+
 'new_m14' => array( 'Name' => $l['new_m14'], 'MarketName' => 'M308 RIFLE', 'Wiki' => 'M308_(Payday_2)', 'Image' => 'new_m14', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'new_m14', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 40, 'Firerate' => 710, 'Damage' => 95, 'Accuracy' => 16, 'Stability' => 3, 'Concealment' => 8, 'Threat' => 31)),
-'ak5' => array( 'Name' => $l['ak5'], 'MarketName' => 'XX', 'Wiki' => 'Ak_5', 'Image' => 'ak5', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'ak5', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 710, 'Damage' => 20, 'Accuracy' => 16, 'Stability' => 22, 'Concealment' => 18, 'Threat' => 14)),
-'m16' => array( 'Name' => $l['m16'], 'MarketName' => 'XX', 'Wiki' => 'AMR-16', 'Image' => 'm16', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'm16', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 90, 'Firerate' => 860, 'Damage' => 30, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 17, 'Threat' => 14)),
-'s552' => array( 'Name' => $l['s552'], 'MarketName' => 'XX', 'Wiki' => 'Commando_553', 'Image' => 's552', 'Quality' => 'dlc', 'Extra' => $l['Armored_Transport'], 'VarN' => 's552', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 710, 'Damage' => 28, 'Accuracy' => 10, 'Stability' => 20, 'Concealment' => 22, 'Threat' => 12)),
-'scar' => array( 'Name' => $l['scar'], 'MarketName' => 'XX', 'Wiki' => 'Eagle_Heavy', 'Image' => 'scar', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'VarN' => 'scar', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 80, 'Firerate' => 610, 'Damage' => 43, 'Accuracy' => 12, 'Stability' => 12, 'Concealment' => 8, 'Threat' => 22)),
+'Stability' => 36, 'Firerate' => 706, 'Concealment' => 8, 'Threat' => 31, 'Ammo' => 70, 'Magazine' => 10, 'Accuracy' => 84, 'Damage' => 160)),
+
+'ak5' => array( 'Name' => $l['ak5'], 'MarketName' => 'AK5 RIFLE', 'Wiki' => 'Ak_5', 'Image' => 'ak5', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'ak5', 'Stats' => array(
+'Stability' => 60, 'Firerate' => 706, 'Concealment' => 18, 'Threat' => 14, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 60, 'Damage' => 38)),
+
+'m16' => array( 'Name' => $l['m16'], 'MarketName' => 'AMR-16 RIFLE', 'Wiki' => 'AMR-16', 'Image' => 'm16', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'm16', 'Stats' => array(
+'Stability' => 32, 'Firerate' => 857, 'Concealment' => 17, 'Threat' => 14, 'Ammo' => 90, 'Magazine' => 30, 'Accuracy' => 56, 'Damage' => 80)),
+
+'s552' => array( 'Name' => $l['s552'], 'MarketName' => 'COMMANDO 553 RIFLE', 'Wiki' => 'Commando_553', 'Image' => 's552', 'Quality' => 'dlc', 'Extra' => $l['Armored_Transport'], 'VarN' => 's552', 'Stats' => array(
+'Stability' => 56, 'Firerate' => 714, 'Concealment' => 22, 'Threat' => 12, 'Ammo' => 240, 'Magazine' => 30, 'Accuracy' => 36, 'Damage' => 35)),
+
+'scar' => array( 'Name' => $l['scar'], 'MarketName' => 'EAGLE HEAVY RIFLE', 'Wiki' => 'Eagle_Heavy', 'Image' => 'scar', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'VarN' => 'scar', 'Stats' => array(
+'Stability' => 44, 'Firerate' => 612, 'Concealment' => 8, 'Threat' => 22, 'Ammo' => 100, 'Magazine' => 20, 'Accuracy' => 72, 'Damage' => 81)),
+
 'fal' => array( 'Name' => $l['fal'], 'MarketName' => 'XX', 'Wiki' => 'Falcon', 'Image' => 'fal', 'Quality' => 'dlc', 'Extra' => $l['Big_Bank_Heist'], 'VarN' => 'fal', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 80, 'Firerate' => 700, 'Damage' => 43, 'Accuracy' => 10, 'Stability' => 12, 'Concealment' => 10, 'Threat' => 22)),
+'Stability' => 44, 'Firerate' => 698, 'Concealment' => 10, 'Threat' => 22, 'Ammo' => 100, 'Magazine' => 20, 'Accuracy' => 68, 'Damage' => 80)),
+
 'famas' => array( 'Name' => $l['famas'], 'MarketName' => 'CLARION RIFLE', 'Wiki' => 'Clarion', 'Image' => 'famas', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'VarN' => 'famas', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 1000, 'Damage' => 25, 'Accuracy' => 14, 'Stability' => 12, 'Concealment' => 24, 'Threat' => 14)),
+'Stability' => 68, 'Firerate' => 1000, 'Concealment' => 24, 'Threat' => 14, 'Ammo' => 240, 'Magazine' => 30, 'Accuracy' => 36, 'Damage' => 35)),
+
 'galil' => array( 'Name' => $l['galil'], 'MarketName' => 'XX', 'Wiki' => 'Gecko_7.62', 'Image' => 'galil', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'VarN' => 'galil', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 850, 'Damage' => 30, 'Accuracy' => 12, 'Stability' => 19, 'Concealment' => 15, 'Threat' => 24)),
+'Stability' => 68, 'Firerate' => 845, 'Concealment' => 15, 'Threat' => 24, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 48, 'Damage' => 42)),
+
 'g3' => array( 'Name' => $l['g3'], 'MarketName' => 'XX', 'Wiki' => 'Gewehr_3', 'Image' => 'g3', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'VarN' => 'g3', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 80, 'Firerate' => 650, 'Damage' => 43, 'Accuracy' => 14, 'Stability' => 8, 'Concealment' => 12, 'Threat' => 26)),
+'Stability' => 48, 'Firerate' => 652, 'Concealment' => 12, 'Threat' => 26, 'Ammo' => 100, 'Magazine' => 20, 'Accuracy' => 68, 'Damage' => 80)),
+
 'l85a2' => array( 'Name' => $l['l85a2'], 'MarketName' => 'XX', 'Wiki' => 'Queen’s_Wrath', 'Image' => 'l85a2', 'Quality' => 'dlc', 'Extra' => $l['cloverpack'], 'VarN' => 'l85a2', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 180, 'Firerate' => 720, 'Damage' => 33, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 16, 'Threat' => 12)),
+'Stability' => 60, 'Firerate' => 723, 'Concealment' => 16, 'Threat' => 12, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 64, 'Damage' => 40)),
+
 'vhs' => array( 'Name' => $l['vhs'], 'MarketName' => 'XX', 'Wiki' => 'Lion\'s_Roar', 'Image' => 'vhs', 'Quality' => 'dlc', 'Extra' => $l['draganpack'], 'VarN' => 'vhs', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 860, 'Damage' => 33, 'Accuracy' => 16, 'Stability' => 8, 'Concealment' => 17, 'Threat' => 12)),
-'asval' => array( 'Name' => $l['asval'], 'MarketName' => 'XX', 'Wiki' => 'Valkyria', 'Image' => 'asval', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'VarN' => 'asval', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 160, 'Firerate' => 900, 'Damage' => 40, 'Accuracy' => 16, 'Stability' => 15, 'Concealment' => 26, 'Threat' => 0)),
+'Stability' => 60, 'Firerate' => 857, 'Concealment' => 17, 'Threat' => 12, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 60, 'Damage' => 40)),
+
+'asval' => array( 'Name' => $l['asval'], 'MarketName' => 'VALKYRIA RIFLE', 'Wiki' => 'Valkyria', 'Image' => 'asval', 'Quality' => 'dlc', 'Extra' => $l['sokolpack'], 'VarN' => 'asval', 'Stats' => array(
+'Stability' => 64, 'Firerate' => 896, 'Concealment' => 26, 'Threat' => 0, 'Ammo' => 220, 'Magazine' => 20, 'Accuracy' => 56, 'Damage' => 36)),
+
 'sub2000' => array( 'Name' => $l['sub2000'], 'MarketName' => 'XX', 'Wiki' => 'Cavity_9mm', 'Image' => 'sub2000', 'Quality' => 'dlc', 'Extra' => $l['casinodlc'], 'VarN' => 'sub2000', 'Stats' => array(
-'Magazine' => 33, 'Ammo' => 66, 'Firerate' => 710, 'Damage' => 89, 'Accuracy' => 14, 'Stability' => 8, 'Concealment' => 25, 'Threat' => 31)),
+'Stability' => 32, 'Firerate' => 706, 'Concealment' => 25, 'Threat' => 31, 'Ammo' => 99, 'Magazine' => 33, 'Accuracy' => 80, 'Damage' => 65)),
+
 ////Sniper Rifles
+'model70' => array( 'Name' => $l['model70'], 'MarketName' => 'PLATYPUS 70 SNIPER RIFLE', 'Wiki' => 'Platypus_70', 'Image' => 'model70', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'model70', 'Stats' => array(
+'Stability' => 12, 'Firerate' => 60, 'Concealment' => 6, 'Threat' => 28, 'Ammo' => 30, 'Magazine' => 5, 'Accuracy' => 92, 'Damage' => 280)),
+
 'msr' => array( 'Name' => $l['msr'], 'MarketName' => 'XX', 'Wiki' => 'Rattlesnake', 'Image' => 'msr', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'VarN' => 'msr', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 50, 'Firerate' => 60, 'Damage' => 130, 'Accuracy' => 18, 'Stability' => 3, 'Concealment' => 5, 'Threat' => 78)),
+'Stability' => 28, 'Firerate' => 60, 'Concealment' => 5, 'Threat' => 26, 'Ammo' => 40, 'Magazine' => 10, 'Accuracy' => 88, 'Damage' => 160)),
+
 'r93' => array( 'Name' => $l['r93'], 'MarketName' => 'R93 SNIPER RIFLE', 'Wiki' => 'R93', 'Image' => 'r93', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'VarN' => 'r93', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 30, 'Firerate' => 50, 'Damage' => 250, 'Accuracy' => 18, 'Stability' => 3, 'Concealment' => 5, 'Threat' => 93)),
+'Stability' => 12, 'Firerate' => 50, 'Concealment' => 5, 'Threat' => 31, 'Ammo' => 30, 'Magazine' => 6, 'Accuracy' => 92, 'Damage' => 280)),
+
 'm95' => array( 'Name' => $l['m95'], 'MarketName' => 'THANATOS .50 CAL SNIPER RIFLE', 'Wiki' => 'Thanatos_.50_cal', 'Image' => 'm95', 'Quality' => 'dlc', 'Extra' => $l['Gage_Sniper_Pack'], 'VarN' => 'm95', 'Stats' => array(
-'Magazine' => 5, 'Ammo' => 15, 'Firerate' => 40, 'Damage' => 2880, 'Accuracy' => 18, 'Stability' => 0, 'Concealment' => 2, 'Threat' => 185)),
-'mosin' => array( 'Name' => $l['mosin'], 'MarketName' => 'XX', 'Wiki' => 'Nagant', 'Image' => 'mosin', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'VarN' => 'mosin', 'Stats' => array(
-'Magazine' => 5, 'Ammo' => 25, 'Firerate' => 60, 'Damage' => 280, 'Accuracy' => 18, 'Stability' => 6, 'Concealment' => 6, 'Threat' => 84)),
+'Stability' => 4, 'Firerate' => 40, 'Concealment' => 1, 'Threat' => 37, 'Ammo' => 15, 'Magazine' => 5, 'Accuracy' => 92, 'Damage' => 2900)),
+
+'mosin' => array( 'Name' => $l['mosin'], 'MarketName' => 'NAGANT SNIPER RIFLE', 'Wiki' => 'Nagant', 'Image' => 'mosin', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'VarN' => 'mosin', 'Stats' => array(
+'Stability' => 12, 'Firerate' => 60, 'Concealment' => 6, 'Threat' => 28, 'Ammo' => 25, 'Magazine' => 5, 'Accuracy' => 92, 'Damage' => 280)),
+
 'winchester1874' => array( 'Name' => $l['winchester1874'], 'MarketName' => 'XX', 'Wiki' => 'Repeater_1874', 'Image' => 'winchester1874', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'VarN' => 'winchester1874', 'Stats' => array(
-'Magazine' => 15, 'Ammo' => 45, 'Firerate' => 90, 'Damage' => 175, 'Accuracy' => 16, 'Stability' => 12, 'Concealment' => 12, 'Threat' => 84)),
+'Stability' => 20, 'Firerate' => 86, 'Concealment' => 12, 'Threat' => 28, 'Ammo' => 45, 'Magazine' => 15, 'Accuracy' => 92, 'Damage' => 160)),
+
 'wa2000' => array( 'Name' => $l['wa2000'], 'MarketName' => 'XX', 'Wiki' => 'Lebensauger_.308', 'Image' => 'wa2000', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'VarN' => 'wa2000', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 63, 'Firerate' => 120, 'Damage' => 184, 'Accuracy' => 19, 'Stability' => 21, 'Concealment' => 16, 'Threat' => 36)),
+'Stability' => 20, 'Firerate' => 120, 'Concealment' => 16, 'Threat' => 12, 'Ammo' => 40, 'Magazine' => 10, 'Accuracy' => 92, 'Damage' => 160)),
+
 ////Shotguns
-'r870' => array( 'Name' => $l['r870'], 'MarketName' => 'XX', 'Wiki' => 'Reinfeld_880', 'Image' => 'r870', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'r870', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 48, 'Firerate' => 100, 'Damage' => 60, 'Accuracy' => 14, 'Stability' => 6, 'Concealment' => 11, 'Threat' => 28)),
+'r870' => array( 'Name' => $l['r870'], 'MarketName' => 'REINFELD 880 SHOTGUN', 'Wiki' => 'Reinfeld_880', 'Image' => 'r870', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'r870', 'Stats' => array(
+'Stability' => 32, 'Firerate' => 104, 'Concealment' => 11, 'Threat' => 28, 'Ammo' => 42, 'Magazine' => 6, 'Accuracy' => 40, 'Damage' => 59)),
+
 'saiga' => array( 'Name' => $l['saiga'], 'MarketName' => 'XX', 'Wiki' => 'IZHMA_12G', 'Image' => 'saiga', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'saiga', 'Stats' => array(
-'Magazine' => 7, 'Ammo' => 88, 'Firerate' => 330, 'Damage' => 35, 'Accuracy' => 10, 'Stability' => 8, 'Concealment' => 13, 'Threat' => 28)),
+'Stability' => 44, 'Firerate' => 333, 'Concealment' => 13, 'Threat' => 28, 'Ammo' => 70, 'Magazine' => 7, 'Accuracy' => 28, 'Damage' => 33)),
+
 'huntsman' => array( 'Name' => $l['huntsman'], 'MarketName' => 'MOSCONI 12G SHOTGUN', 'Wiki' => 'Mosconi_12G', 'Image' => 'huntsman', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'huntsman', 'Stats' => array(
-'Magazine' => 2, 'Ammo' => 26, 'Firerate' => 500, 'Damage' => 138, 'Accuracy' => 12, 'Stability' => 3, 'Concealment' => 7, 'Threat' => 37)),
+'Stability' => 36, 'Firerate' => 500, 'Concealment' => 7, 'Threat' => 37, 'Ammo' => 32, 'Magazine' => 2, 'Accuracy' => 60, 'Damage' => 145)),
+
 'benelli' => array( 'Name' => $l['benelli'], 'MarketName' => 'XX', 'Wiki' => 'M1014', 'Image' => 'benelli', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'VarN' => 'benelli', 'Stats' => array(
-'Magazine' => 8, 'Ammo' => 72, 'Firerate' => 430, 'Damage' => 35, 'Accuracy' => 14, 'Stability' => 12, 'Concealment' => 12, 'Threat' => 26)),
+'Stability' => 44, 'Firerate' => 429, 'Concealment' => 12, 'Threat' => 26, 'Ammo' => 64, 'Magazine' => 8, 'Accuracy' => 28, 'Damage' => 40)),
+
 'ksg' => array( 'Name' => $l['ksg'], 'MarketName' => 'XX', 'Wiki' => 'Raven', 'Image' => 'ksg', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'VarN' => 'ksg', 'Stats' => array(
-'Magazine' => 14, 'Ammo' => 42, 'Firerate' => 100, 'Damage' => 60, 'Accuracy' => 10, 'Stability' => 12, 'Concealment' => 22, 'Threat' => 28)),
+'Stability' => 44, 'Firerate' => 104, 'Concealment' => 22, 'Threat' => 28, 'Ammo' => 42, 'Magazine' => 14, 'Accuracy' => 44, 'Damage' => 59)),
+
 'spas12' => array( 'Name' => $l['spas12'], 'MarketName' => 'XX', 'Wiki' => 'Predator_12', 'Image' => 'spas12', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'spas12', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 36, 'Firerate' => 300, 'Damage' => 48, 'Accuracy' => 10, 'Stability' => 8, 'Concealment' => 14, 'Threat' => 28)),
+'Stability' => 44, 'Firerate' => 300, 'Concealment' => 14, 'Threat' => 28, 'Ammo' => 66, 'Magazine' => 6, 'Accuracy' => 28, 'Damage' => 40)),
+
 'b682' => array( 'Name' => $l['b682'], 'MarketName' => 'XX', 'Wiki' => 'Joceline_O/U_12G', 'Image' => 'b682', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'b682', 'Stats' => array(
-'Magazine' => 2, 'Ammo' => 26, 'Firerate' => 500, 'Damage' => 138, 'Accuracy' => 14, 'Stability' => 20, 'Concealment' => 5, 'Threat' => 37)),
+'Stability' => 28, 'Firerate' => 500, 'Concealment' => 5, 'Threat' => 37, 'Ammo' => 28, 'Magazine' => 2, 'Accuracy' => 60, 'Damage' => 145)),
+
 'aa12' => array( 'Name' => $l['aa12'], 'MarketName' => 'XX', 'Wiki' => 'Steakout_12G', 'Image' => 'aa12', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'VarN' => 'aa12', 'Stats' => array(
-'Magazine' => 8, 'Ammo' => 64, 'Firerate' => 300, 'Damage' => 38, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 9, 'Threat' => 28)),
+'Stability' => 44, 'Firerate' => 300, 'Concealment' => 9, 'Threat' => 28, 'Ammo' => 72, 'Magazine' => 8, 'Accuracy' => 28, 'Damage' => 33)),
+
 ////Akimbo
 'jowi' => array( 'Name' => $l['jowi'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Chimano_Compact', 'Image' => 'jowi', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'jowi', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 120, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 30, 'Threat' => 9)),
+'Stability' => 60, 'Firerate' => 667, 'Concealment' => 30, 'Threat' => 9, 'Ammo' => 160, 'Magazine' => 20, 'Accuracy' => 52, 'Damage' => 37)),
+
 'x_deagle' => array( 'Name' => $l['x_deagle'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Deagle', 'Image' => 'x_deagle', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_deagle', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 60, 'Firerate' => 240, 'Damage' => 45, 'Accuracy' => 10, 'Stability' => 6, 'Concealment' => 26, 'Threat' => 24)),
+'Stability' => 28, 'Firerate' => 240, 'Concealment' => 26, 'Threat' => 24, 'Ammo' => 60, 'Magazine' => 20, 'Accuracy' => 76, 'Damage' => 145)),
+
 'x_1911' => array( 'Name' => $l['x_1911'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Crosskill', 'Image' => 'x_1911', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_1911', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 120, 'Firerate' => 500, 'Damage' => 23, 'Accuracy' => 12, 'Stability' => 12, 'Concealment' => 27, 'Threat' => 10)),
+'Stability' => 52, 'Firerate' => 500, 'Concealment' => 27, 'Threat' => 10, 'Ammo' => 100, 'Magazine' => 20, 'Accuracy' => 68, 'Damage' => 65)),
+
 'x_b92fs' => array( 'Name' => $l['x_b92fs'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Bernetti_9', 'Image' => 'x_b92fs', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_b92fs', 'Stats' => array(
-'Magazine' => 28, 'Ammo' => 196, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 14, 'Stability' => 19, 'Concealment' => 28, 'Threat' => 6)),
+'Stability' => 60, 'Firerate' => 667, 'Concealment' => 28, 'Threat' => 6, 'Ammo' => 168, 'Magazine' => 28, 'Accuracy' => 52, 'Damage' => 37)),
+
 'x_g17' => array( 'Name' => $l['x_g17'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Chimano_88', 'Image' => 'x_g17', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_g17', 'Stats' => array(
-'Magazine' => 34, 'Ammo' => 136, 'Firerate' => 500, 'Damage' => 15, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 30, 'Threat' => 8)),
-'x_g22c' => array( 'Name' => $l['x_g22c'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Chimano_Custom', 'Image' => 'x_g22c', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_g22c', 'Stats' => array(
-'Magazine' => 32, 'Ammo' => 160, 'Firerate' => 500, 'Damage' => 23, 'Accuracy' => 10, 'Stability' => 23, 'Concealment' => 29, 'Threat' => 9)),
+'Stability' => 60, 'Firerate' => 500, 'Concealment' => 30, 'Threat' => 8, 'Ammo' => 170, 'Magazine' => 34, 'Accuracy' => 52, 'Damage' => 37)),
+
+'x_g22c' => array( 'Name' => $l['x_g22c'], 'MarketName' => 'AKIMBO CHIMANO CUSTOM PISTOLS', 'Wiki' => 'Akimbo_Chimano_Custom', 'Image' => 'x_g22c', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_g22c', 'Stats' => array(
+'Stability' => 52, 'Firerate' => 500, 'Concealment' => 29, 'Threat' => 9, 'Ammo' => 96, 'Magazine' => 32, 'Accuracy' => 68, 'Damage' => 65)),
+
 'x_usp' => array( 'Name' => $l['x_usp'], 'MarketName' => 'XX', 'Wiki' => 'Akimbo_Interceptor_45', 'Image' => 'x_usp', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'x_usp', 'Stats' => array(
-'Magazine' => 26, 'Ammo' => 156, 'Firerate' => 500, 'Damage' => 20, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 29, 'Threat' => 8)),
+'Stability' => 52, 'Firerate' => 500, 'Concealment' => 29, 'Threat' => 8, 'Ammo' => 104, 'Magazine' => 26, 'Accuracy' => 68, 'Damage' => 65)),
+
 ////Light Machine Guns
+'par' => array( 'Name' => $l['par'], 'MarketName' => 'XX', 'Wiki' => 'Ksp_58', 'Image' => 'par', 'Quality' => 'community', 'Extra' => 'community', 'VarN' => 'par', 'Stats' => array(
+'Stability' => 36, 'Firerate' => 909, 'Concealment' => 2, 'Threat' => 31, 'Ammo' => 400, 'Magazine' => 200, 'Accuracy' => 32, 'Damage' => 37)),
+
 'rpk' => array( 'Name' => $l['rpk'], 'MarketName' => 'XX', 'Wiki' => 'RPK', 'Image' => 'rpk', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_02'], 'VarN' => 'rpk', 'Stats' => array(
-'Magazine' => 100, 'Ammo' => 300, 'Firerate' => 750, 'Damage' => 30, 'Accuracy' => 8, 'Stability' => 15, 'Concealment' => 5, 'Threat' => 22)),
+'Stability' => 36, 'Firerate' => 750, 'Concealment' => 5, 'Threat' => 22, 'Ammo' => 300, 'Magazine' => 100, 'Accuracy' => 28, 'Damage' => 40)),
+
 'm249' => array( 'Name' => $l['m249'], 'MarketName' => 'XX', 'Wiki' => 'KSP', 'Image' => 'm249', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_02'], 'VarN' => 'm249', 'Stats' => array(
-'Magazine' => 200, 'Ammo' => 400, 'Firerate' => 910, 'Damage' => 28, 'Accuracy' => 6, 'Stability' => 17, 'Concealment' => 2, 'Threat' => 31)),
+'Stability' => 36, 'Firerate' => 909, 'Concealment' => 2, 'Threat' => 31, 'Ammo' => 400, 'Magazine' => 200, 'Accuracy' => 28, 'Damage' => 36)),
+
 'hk21' => array( 'Name' => $l['hk21'], 'MarketName' => 'XX', 'Wiki' => 'Brenner_21_(Payday_2)', 'Image' => 'hk21', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_02'], 'VarN' => 'hk21', 'Stats' => array(
-'Magazine' => 150, 'Ammo' => 300, 'Firerate' => 720, 'Damage' => 33, 'Accuracy' => 10, 'Stability' => 12, 'Concealment' => 2, 'Threat' => 37)),
+'Stability' => 36, 'Firerate' => 723, 'Concealment' => 2, 'Threat' => 37, 'Ammo' => 300, 'Magazine' => 150, 'Accuracy' => 36, 'Damage' => 40)),
+
 'mg42' => array( 'Name' => $l['mg42'], 'MarketName' => 'BUZZSAW 42 LIGHT MACHINE GUN', 'Wiki' => 'Buzzsaw_42', 'Image' => 'mg42', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'VarN' => 'mg42', 'Stats' => array(
-'Magazine' => 150, 'Ammo' => 450, 'Firerate' => 1200, 'Damage' => 30, 'Accuracy' => 6, 'Stability' => 15, 'Concealment' => 2, 'Threat' => 31)),
+'Stability' => 36, 'Firerate' => 1200, 'Concealment' => 2, 'Threat' => 31, 'Ammo' => 450, 'Magazine' => 150, 'Accuracy' => 28, 'Damage' => 36)),
+
 ////Special
 'saw' => array( 'Name' => $l['saw'], 'MarketName' => 'XX', 'Wiki' => 'OVE9000', 'Image' => 'saw', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'saw', 'Stats' => array(
-'Magazine' => 150, 'Ammo' => 300, 'Firerate' => 400, 'Damage' => 23, 'Accuracy' => 4, 'Stability' => 17, 'Concealment' => 16, 'Threat' => 24)),
+'Stability' => 24, 'Firerate' => 400, 'Concealment' => 16, 'Threat' => 24, 'Ammo' => 300, 'Magazine' => 150, 'Accuracy' => 8, 'Damage' => 23)),
+
 'm134' => array( 'Name' => $l['m134'], 'MarketName' => 'VULCAN MINIGUN', 'Wiki' => 'Vulcan_Minigun', 'Image' => 'm134', 'Quality' => 'dlc', 'Extra' => $l['overkillpack'], 'VarN' => 'm134', 'Stats' => array(
-'Magazine' => 750, 'Ammo' => 750, 'Firerate' => 3000, 'Damage' => 38, 'Accuracy' => 8, 'Stability' => 3, 'Concealment' => 5, 'Threat' => 31)),
+'Stability' => 4, 'Firerate' => 3000, 'Concealment' => 5, 'Threat' => 31, 'Ammo' => 750, 'Magazine' => 750, 'Accuracy' => 16, 'Damage' => 38)),
+
 'flamethrower_mk2' => array( 'Name' => $l['flamethrower_mk2'], 'MarketName' => 'FLAMETHROWER', 'Wiki' => 'Flamethrower', 'Image' => 'flamethrower_mk2', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'VarN' => 'flamethrower_mk2', 'Stats' => array(
-'Magazine' => 150, 'Ammo' => 600, 'Firerate' => 2000, 'Damage' => 14, 'Accuracy' => 0, 'Stability' => 0, 'Concealment' => 7, 'Threat' => 37)),
+'Stability' => 0, 'Firerate' => 2000, 'Concealment' => 7, 'Threat' => 37, 'Ammo' => 600, 'Magazine' => 300, 'Accuracy' => 0, 'Damage' => 14)),
+
 'm32' => array( 'Name' => $l['m32'], 'MarketName' => 'XX', 'Wiki' => 'Piglet', 'Image' => 'm32', 'Quality' => 'dlc', 'Extra' => $l['bbq'], 'VarN' => 'm32', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 12, 'Firerate' => 60, 'Damage' => 340, 'Accuracy' => 4, 'Stability' => 20, 'Concealment' => 10, 'Threat' => 37)),
+'Stability' => 96, 'Firerate' => 60, 'Concealment' => 10, 'Threat' => 37, 'Ammo' => 12, 'Magazine' => 6, 'Accuracy' => 96, 'Damage' => 340)),
+
 'gre_m79' => array( 'Name' => $l['gre_m79'], 'MarketName' => 'XX', 'Wiki' => 'GL40_(Payday_2)', 'Image' => 'gre_m79', 'Quality' => 'dlc', 'Extra' => $l['Gage_Assault_Pack'], 'VarN' => 'gre_m79', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 6, 'Firerate' => 30, 'Damage' => 340, 'Accuracy' => 12, 'Stability' => 6, 'Concealment' => 18, 'Threat' => 37)),
+'Stability' => 96, 'Firerate' => 30, 'Concealment' => 18, 'Threat' => 37, 'Ammo' => 6, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 340)),
+
 'plainsrider' => array( 'Name' => $l['plainsrider'], 'MarketName' => 'PLAINSRIDER BOW', 'Wiki' => 'Plainsrider_Bow', 'Image' => 'plainsrider', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'VarN' => 'plainsrider', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 50, 'Firerate' => 300, 'Damage' => 195, 'Accuracy' => 18, 'Stability' => 24, 'Concealment' => 30, 'Threat' => 37)),
+'Stability' => 96, 'Firerate' => 300, 'Concealment' => 30, 'Threat' => 37, 'Ammo' => 50, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 194)),
+
 'arblast' => array( 'Name' => $l['arblast'], 'MarketName' => 'XX', 'Wiki' => 'Heavy_Crossbow', 'Image' => 'arblast', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'VarN' => 'arblast', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 35, 'Firerate' => 20, 'Damage' => 525, 'Accuracy' => 18, 'Stability' => 19, 'Concealment' => 28, 'Threat' => 10)),
+'Stability' => 96, 'Firerate' => 21, 'Concealment' => 28, 'Threat' => 10, 'Ammo' => 35, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 530)),
+
 'long' => array( 'Name' => $l['long'], 'MarketName' => 'XX', 'Wiki' => 'English_Longbow', 'Image' => 'long', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'VarN' => 'long', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 35, 'Firerate' => 300, 'Damage' => 650, 'Accuracy' => 18, 'Stability' => 24, 'Concealment' => 29, 'Threat' => 37)),
+'Stability' => 96, 'Firerate' => 300, 'Concealment' => 29, 'Threat' => 37, 'Ammo' => 35, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 650)),
+
 'frankish' => array( 'Name' => $l['frankish'], 'MarketName' => 'XX', 'Wiki' => 'Light_Crossbow', 'Image' => 'frankish', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'VarN' => 'frankish', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 50, 'Firerate' => 40, 'Damage' => 240, 'Accuracy' => 18, 'Stability' => 19, 'Concealment' => 29, 'Threat' => 10))
+'Stability' => 96, 'Firerate' => 40, 'Concealment' => 29, 'Threat' => 10, 'Ammo' => 50, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 240)),
+
 );
 //
 //SECONDARY
 //
 $weapons_secondary = array(
 ////Pistols
-'usp' => array( 'Name' => $l['usp'], 'MarketName' => 'XX', 'Wiki' => 'Interceptor_45', 'Image' => 'usp', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'usp', 'Stats' => array(
-'Magazine' => 13, 'Ammo' => 130, 'Firerate' => 750, 'Damage' => 20, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 29, 'Threat' => 8)),
+'sparrow' => array( 'Name' => $l['sparrow'], 'MarketName' => 'XX', 'Wiki' => 'Baby_Deagle', 'Image' => 'sparrow', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'sparrow', 'Stats' => array(
+'Stability' => 32, 'Firerate' => 667, 'Concealment' => 29, 'Threat' => 9, 'Ammo' => 60, 'Magazine' => 12, 'Accuracy' => 68, 'Damage' => 145)),
+
+'usp' => array( 'Name' => $l['usp'], 'MarketName' => 'INTERCEPTOR 45 PISTOL', 'Wiki' => 'Interceptor_45', 'Image' => 'usp', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'usp', 'Stats' => array(
+'Stability' => 52, 'Firerate' => 750, 'Concealment' => 29, 'Threat' => 8, 'Ammo' => 91, 'Magazine' => 13, 'Accuracy' => 68, 'Damage' => 65)),
+
 'g22c' => array( 'Name' => $l['g22c'], 'MarketName' => 'XX', 'Wiki' => 'Chimano_Custom', 'Image' => 'g22c', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'g22c', 'Stats' => array(
-'Magazine' => 16, 'Ammo' => 128, 'Firerate' => 750, 'Damage' => 23, 'Accuracy' => 10, 'Stability' => 23, 'Concealment' => 29, 'Threat' => 9)),
+'Stability' => 52, 'Firerate' => 750, 'Concealment' => 29, 'Threat' => 9, 'Ammo' => 96, 'Magazine' => 16, 'Accuracy' => 68, 'Damage' => 65)),
+
 'glock_17' => array( 'Name' => $l['glock_17'], 'MarketName' => 'XX', 'Wiki' => 'Chimano_88', 'Image' => 'glock_17', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'glock_17', 'Stats' => array(
-'Magazine' => 17, 'Ammo' => 136, 'Firerate' => 500, 'Damage' => 15, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 30, 'Threat' => 8)),
-'colt_1911' => array( 'Name' => $l['colt_1911'], 'MarketName' => 'XX', 'Wiki' => 'Crosskill', 'Image' => 'colt_1911', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'colt_1911', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 60, 'Firerate' => 500, 'Damage' => 23, 'Accuracy' => 12, 'Stability' => 12, 'Concealment' => 29, 'Threat' => 10)),
+'Stability' => 60, 'Firerate' => 500, 'Concealment' => 30, 'Threat' => 8, 'Ammo' => 153, 'Magazine' => 17, 'Accuracy' => 52, 'Damage' => 35)),
+
+'colt_1911' => array( 'Name' => $l['colt_1911'], 'MarketName' => 'CROSSKILL PISTOL', 'Wiki' => 'Crosskill', 'Image' => 'colt_1911', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'colt_1911', 'Stats' => array(
+'Stability' => 52, 'Firerate' => 500, 'Concealment' => 29, 'Threat' => 10, 'Ammo' => 90, 'Magazine' => 10, 'Accuracy' => 68, 'Damage' => 65)),
+
 'b92fs' => array( 'Name' => $l['b92fs'], 'MarketName' => 'BERNETTI 9 PISTOL', 'Wiki' => 'Bernetti_9', 'Image' => 'b92fs', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'b92fs', 'Stats' => array(
-'Magazine' => 14, 'Ammo' => 154, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 14, 'Stability' => 19, 'Concealment' => 30, 'Threat' => 6)),
+'Stability' => 60, 'Firerate' => 667, 'Concealment' => 30, 'Threat' => 6, 'Ammo' => 154, 'Magazine' => 14, 'Accuracy' => 56, 'Damage' => 37)),
+
 'new_raging_bull' => array( 'Name' => $l['new_raging_bull'], 'MarketName' => 'BRONCO .44 REVOLVER', 'Wiki' => 'Bronco_.44_(Payday_2)', 'Image' => 'new_raging_bull', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'new_raging_bull', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 30, 'Firerate' => 290, 'Damage' => 75, 'Accuracy' => 12, 'Stability' => 3, 'Concealment' => 26, 'Threat' => 24)),
+'Stability' => 4, 'Firerate' => 286, 'Concealment' => 26, 'Threat' => 24, 'Ammo' => 54, 'Magazine' => 6, 'Accuracy' => 76, 'Damage' => 175)),
+
 'glock_18c' => array( 'Name' => $l['glock_18c'], 'MarketName' => 'XX', 'Wiki' => 'STRYK_18c', 'Image' => 'glock_18c', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'glock_18c', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 140, 'Firerate' => 910, 'Damage' => 20, 'Accuracy' => 8, 'Stability' => 15, 'Concealment' => 29, 'Threat' => 8)),
+'Stability' => 60, 'Firerate' => 909, 'Concealment' => 29, 'Threat' => 8, 'Ammo' => 160, 'Magazine' => 20, 'Accuracy' => 52, 'Damage' => 35)),
+
 'deagle' => array( 'Name' => $l['deagle'], 'MarketName' => 'DEAGLE PISTOL', 'Wiki' => 'Deagle', 'Image' => 'deagle', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'deagle', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 30, 'Firerate' => 400, 'Damage' => 60, 'Accuracy' => 10, 'Stability' => 6, 'Concealment' => 28, 'Threat' => 24)),
+'Stability' => 28, 'Firerate' => 400, 'Concealment' => 28, 'Threat' => 24, 'Ammo' => 50, 'Magazine' => 10, 'Accuracy' => 76, 'Damage' => 145)),
+
 'ppk' => array( 'Name' => $l['ppk'], 'MarketName' => 'GRUBER KURZ PISTOL', 'Wiki' => 'Gruber_Kurz', 'Image' => 'ppk', 'Quality' => 'dlc', 'Extra' => $l['Armored_Transport'], 'VarN' => 'ppk', 'Stats' => array(
-'Magazine' => 14, 'Ammo' => 154, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 16, 'Stability' => 20, 'Concealment' => 30, 'Threat' => 4)),
+'Stability' => 60, 'Firerate' => 667, 'Concealment' => 30, 'Threat' => 4, 'Ammo' => 154, 'Magazine' => 14, 'Accuracy' => 44, 'Damage' => 37)),
+
 'p226' => array( 'Name' => $l['p226'], 'MarketName' => 'XX', 'Wiki' => 'Signature_.40', 'Image' => 'p226', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'VarN' => 'p226', 'Stats' => array(
-'Magazine' => 12, 'Ammo' => 84, 'Firerate' => 670, 'Damage' => 23, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 29, 'Threat' => 9)),
+'Stability' => 52, 'Firerate' => 667, 'Concealment' => 29, 'Threat' => 9, 'Ammo' => 84, 'Magazine' => 12, 'Accuracy' => 68, 'Damage' => 65)),
+
 'g26' => array( 'Name' => $l['g26'], 'MarketName' => 'XX', 'Wiki' => 'Chimano_Compact', 'Image' => 'g26', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'g26', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 150, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 30, 'Threat' => 4)),
+'Stability' => 60, 'Firerate' => 667, 'Concealment' => 30, 'Threat' => 4, 'Ammo' => 150, 'Magazine' => 10, 'Accuracy' => 52, 'Damage' => 37)),
+
 'c96' => array( 'Name' => $l['c96'], 'MarketName' => 'XX', 'Wiki' => 'Broomstick', 'Image' => 'c96', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'VarN' => 'c96', 'Stats' => array(
-'Magazine' => 10, 'Ammo' => 80, 'Firerate' => 670, 'Damage' => 33, 'Accuracy' => 10, 'Stability' => 17, 'Concealment' => 28, 'Threat' => 10)),
+'Stability' => 60, 'Firerate' => 667, 'Concealment' => 28, 'Threat' => 10, 'Ammo' => 150, 'Magazine' => 10, 'Accuracy' => 44, 'Damage' => 37)),
+
 'hs2000' => array( 'Name' => $l['hs2000'], 'MarketName' => 'XX', 'Wiki' => 'LEO', 'Image' => 'hs2000', 'Quality' => 'dlc', 'Extra' => $l['thebombpack'], 'VarN' => 'hs2000', 'Stats' => array(
-'Magazine' => 19, 'Ammo' => 133, 'Firerate' => 670, 'Damage' => 18, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 29, 'Threat' => 9)),
+'Stability' => 52, 'Firerate' => 667, 'Concealment' => 29, 'Threat' => 9, 'Ammo' => 95, 'Magazine' => 19, 'Accuracy' => 68, 'Damage' => 65)),
+
 'peacemaker' => array( 'Name' => $l['peacemaker'], 'MarketName' => 'XX', 'Wiki' => 'Peacemaker_.45', 'Image' => 'peacemaker', 'Quality' => 'dlc', 'Extra' => $l['westpack'], 'VarN' => 'peacemaker', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 36, 'Firerate' => 240, 'Damage' => 151, 'Accuracy' => 14, 'Stability' => 15, 'Concealment' => 26, 'Threat' => 28)),
+'Stability' => 12, 'Firerate' => 240, 'Concealment' => 26, 'Threat' => 28, 'Ammo' => 54, 'Magazine' => 6, 'Accuracy' => 84, 'Damage' => 180)),
+
 'mateba' => array( 'Name' => $l['mateba'], 'MarketName' => 'XX', 'Wiki' => 'Matever_.357', 'Image' => 'mateba', 'Quality' => 'dlc', 'Extra' => $l['alessoheist'], 'VarN' => 'mateba', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 30, 'Firerate' => 290, 'Damage' => 100, 'Accuracy' => 16, 'Stability' => 20, 'Concealment' => 20, 'Threat' => 24)),
+'Stability' => 12, 'Firerate' => 286, 'Concealment' => 20, 'Threat' => 24, 'Ammo' => 54, 'Magazine' => 6, 'Accuracy' => 84, 'Damage' => 180)),
+
 ////Submachine Guns
-'mac10' => array( 'Name' => $l['mac10'], 'MarketName' => 'XX', 'Wiki' => 'Mark_10', 'Image' => 'mac10', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'mac10', 'Stats' => array(
-'Magazine' => 40, 'Ammo' => 80, 'Firerate' => 1000, 'Damage' => 25, 'Accuracy' => 8, 'Stability' => 15, 'Concealment' => 27, 'Threat' => 10)),
+'mac10' => array( 'Name' => $l['mac10'], 'MarketName' => 'MARK 10 SUBMACHINE GUN', 'Wiki' => 'Mark_10', 'Image' => 'mac10', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'mac10', 'Stats' => array(
+'Stability' => 64, 'Firerate' => 1000, 'Concealment' => 27, 'Threat' => 10, 'Ammo' => 160, 'Magazine' => 40, 'Accuracy' => 48, 'Damage' => 40)),
+
 'new_mp5' => array( 'Name' => $l['new_mp5'], 'MarketName' => 'XX', 'Wiki' => 'Compact-5_(Payday_2)', 'Image' => 'new_mp5', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'new_mp5', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 150, 'Firerate' => 750, 'Damage' => 18, 'Accuracy' => 12, 'Stability' => 21, 'Concealment' => 23, 'Threat' => 6)),
+'Stability' => 76, 'Firerate' => 750, 'Concealment' => 23, 'Threat' => 6, 'Ammo' => 210, 'Magazine' => 30, 'Accuracy' => 28, 'Damage' => 36)),
+
 'mp9' => array( 'Name' => $l['mp9'], 'MarketName' => 'XX', 'Wiki' => 'CMP', 'Image' => 'mp9', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'mp9', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 950, 'Damage' => 20, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 26, 'Threat' => 8)),
+'Stability' => 76, 'Firerate' => 952, 'Concealment' => 26, 'Threat' => 8, 'Ammo' => 210, 'Magazine' => 30, 'Accuracy' => 28, 'Damage' => 36)),
+
 'olympic' => array( 'Name' => $l['olympic'], 'MarketName' => 'XX', 'Wiki' => 'Para', 'Image' => 'olympic', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'olympic', 'Stats' => array(
-'Magazine' => 25, 'Ammo' => 100, 'Firerate' => 680, 'Damage' => 18, 'Accuracy' => 14, 'Stability' => 20, 'Concealment' => 24, 'Threat' => 14)),
+'Stability' => 64, 'Firerate' => 682, 'Concealment' => 24, 'Threat' => 14, 'Ammo' => 150, 'Magazine' => 25, 'Accuracy' => 44, 'Damage' => 38)),
+
 'akmsu' => array( 'Name' => $l['akmsu'], 'MarketName' => 'XX', 'Wiki' => 'Krinkov', 'Image' => 'akmsu', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'akmsu', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 90, 'Firerate' => 820, 'Damage' => 25, 'Accuracy' => 8, 'Stability' => 15, 'Concealment' => 21, 'Threat' => 22)),
+'Stability' => 44, 'Firerate' => 822, 'Concealment' => 21, 'Threat' => 22, 'Ammo' => 90, 'Magazine' => 30, 'Accuracy' => 60, 'Damage' => 80)),
+
 'p90' => array( 'Name' => $l['p90'], 'MarketName' => 'KOBUS 90 SUBMACHINE GUN', 'Wiki' => 'Kobus_90', 'Image' => 'p90', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'p90', 'Stats' => array(
-'Magazine' => 50, 'Ammo' => 100, 'Firerate' => 910, 'Damage' => 20, 'Accuracy' => 14, 'Stability' => 20, 'Concealment' => 25, 'Threat' => 12)),
+'Stability' => 60, 'Firerate' => 909, 'Concealment' => 25, 'Threat' => 12, 'Ammo' => 150, 'Magazine' => 50, 'Accuracy' => 52, 'Damage' => 38)),
+
 'm45' => array( 'Name' => $l['m45'], 'MarketName' => 'XX', 'Wiki' => 'Swedish_K', 'Image' => 'm45', 'Quality' => 'dlc', 'Extra' => $l['Armored_Transport'], 'VarN' => 'm45', 'Stats' => array(
-'Magazine' => 40, 'Ammo' => 80, 'Firerate' => 600, 'Damage' => 28, 'Accuracy' => 10, 'Stability' => 17, 'Concealment' => 24, 'Threat' => 10)),
+'Stability' => 44, 'Firerate' => 600, 'Concealment' => 24, 'Threat' => 10, 'Ammo' => 80, 'Magazine' => 40, 'Accuracy' => 68, 'Damage' => 80)),
+
 'mp7' => array( 'Name' => $l['mp7'], 'MarketName' => 'XX', 'Wiki' => 'SpecOps', 'Image' => 'mp7', 'Quality' => 'dlc', 'Extra' => $l['Gage_Weapon_Pack_01'], 'VarN' => 'mp7', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 80, 'Firerate' => 950, 'Damage' => 28, 'Accuracy' => 12, 'Stability' => 19, 'Concealment' => 23, 'Threat' => 8)),
+'Stability' => 68, 'Firerate' => 952, 'Concealment' => 23, 'Threat' => 8, 'Ammo' => 160, 'Magazine' => 20, 'Accuracy' => 64, 'Damage' => 40)),
+
 'scorpion' => array( 'Name' => $l['cobrasmg'], 'MarketName' => 'XX', 'Wiki' => 'Cobra', 'Image' => 'scorpion', 'Quality' => 'dlc', 'Extra' => $l['hotline_miami_dlc'], 'VarN' => 'scorpion', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 160, 'Firerate' => 1000, 'Damage' => 18, 'Accuracy' => 10, 'Stability' => 17, 'Concealment' => 28, 'Threat' => 6)),
+'Stability' => 68, 'Firerate' => 1000, 'Concealment' => 28, 'Threat' => 6, 'Ammo' => 220, 'Magazine' => 20, 'Accuracy' => 28, 'Damage' => 36)),
+
 'tec9' => array( 'Name' => $l['blastersmg'], 'MarketName' => 'XX', 'Wiki' => 'Blaster_9mm', 'Image' => 'tec9', 'Quality' => 'dlc', 'Extra' => $l['hotline_miami_dlc'], 'VarN' => 'tec9', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 120, 'Firerate' => 900, 'Damage' => 25, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 27, 'Threat' => 12)),
+'Stability' => 76, 'Firerate' => 896, 'Concealment' => 27, 'Threat' => 12, 'Ammo' => 220, 'Magazine' => 20, 'Accuracy' => 28, 'Damage' => 36)),
+
 'uzi' => array( 'Name' => $l['uzi'], 'MarketName' => 'XX', 'Wiki' => 'Uzi', 'Image' => 'uzi', 'Quality' => 'dlc', 'Extra' => $l['hotline_miami_dlc'], 'VarN' => 'uzi', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 90, 'Firerate' => 700, 'Damage' => 28, 'Accuracy' => 14, 'Stability' => 20, 'Concealment' => 24, 'Threat' => 12)),
+'Stability' => 68, 'Firerate' => 698, 'Concealment' => 24, 'Threat' => 12, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 52, 'Damage' => 40)),
+
 'sterling' => array( 'Name' => $l['sterling'], 'MarketName' => 'XX', 'Wiki' => 'Patchett_L2A1', 'Image' => 'sterling', 'Quality' => 'dlc', 'Extra' => $l['Gage_Historical'], 'VarN' => 'sterling', 'Stats' => array(
-'Magazine' => 20, 'Ammo' => 80, 'Firerate' => 550, 'Damage' => 35, 'Accuracy' => 12, 'Stability' => 17, 'Concealment' => 20, 'Threat' => 12)),
+'Stability' => 76, 'Firerate' => 545, 'Concealment' => 20, 'Threat' => 12, 'Ammo' => 220, 'Magazine' => 20, 'Accuracy' => 28, 'Damage' => 36)),
+
 'm1928' => array( 'Name' => $l['m1928'], 'MarketName' => 'XX', 'Wiki' => 'Chicago_Typewriter', 'Image' => 'm1928', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'm1928', 'Stats' => array(
-'Magazine' => 50, 'Ammo' => 150, 'Firerate' => 720, 'Damage' => 23, 'Accuracy' => 12, 'Stability' => 20, 'Concealment' => 18, 'Threat' => 12)),
+'Stability' => 68, 'Firerate' => 723, 'Concealment' => 18, 'Threat' => 12, 'Ammo' => 150, 'Magazine' => 50, 'Accuracy' => 48, 'Damage' => 40)),
+
 'cobray' => array( 'Name' => $l['cobray'], 'MarketName' => 'XX', 'Wiki' => 'Jacket\'s_Piece', 'Image' => 'cobray', 'Quality' => 'collaboration', 'Extra' => $l['hotline_miami_2_deluxe'], 'VarN' => 'cobray', 'Stats' => array(
-'Magazine' => 32, 'Ammo' => 128, 'Firerate' => 1200, 'Damage' => 25, 'Accuracy' => 6, 'Stability' => 19, 'Concealment' => 25, 'Threat' => 10)),
-'polymer' => array( 'Name' => $l['polymer'], 'MarketName' => 'XX', 'Wiki' => 'Kross_Vertex', 'Image' => 'polymer', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'VarN' => 'polymer', 'Stats' => array(
-'Magazine' => 30, 'Ammo' => 120, 'Firerate' => 1200, 'Damage' => 29, 'Accuracy' => 8, 'Stability' => 20, 'Concealment' => 20, 'Threat' => 10)),
-'baka' => array( 'Name' => $l['baka'], 'MarketName' => 'XX', 'Wiki' => 'Micro_Uzi', 'Image' => 'baka', 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'VarN' => 'baka', 'Stats' => array(
-'Magazine' => 32, 'Ammo' => 128, 'Firerate' => 1200, 'Damage' => 26, 'Accuracy' => 6, 'Stability' => 8, 'Concealment' => 29, 'Threat' => 10)),
+'Stability' => 68, 'Firerate' => 1200, 'Concealment' => 25, 'Threat' => 10, 'Ammo' => 160, 'Magazine' => 32, 'Accuracy' => 52, 'Damage' => 40)),
+
+'polymer' => array( 'Name' => $l['polymer'], 'MarketName' => 'KROSS VERTEX SUBMACHINE GUN', 'Wiki' => 'Kross_Vertex', 'Image' => 'polymer', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'VarN' => 'polymer', 'Stats' => array(
+'Stability' => 76, 'Firerate' => 1200, 'Concealment' => 20, 'Threat' => 10, 'Ammo' => 150, 'Magazine' => 30, 'Accuracy' => 52, 'Damage' => 42)),
+
+'baka' => array( 'Name' => $l['baka'], 'MarketName' => 'MICRO UZI SUBMACHINE GUN', 'Wiki' => 'Micro_Uzi', 'Image' => 'baka', 'Quality' => 'dlc', 'Extra' => $l['yakuzapack'], 'VarN' => 'baka', 'Stats' => array(
+'Stability' => 76, 'Firerate' => 1200, 'Concealment' => 29, 'Threat' => 10, 'Ammo' => 224, 'Magazine' => 32, 'Accuracy' => 28, 'Damage' => 36)),
+
 ////Special
 'rpg7' => array( 'Name' => $l['rpg7'], 'MarketName' => 'HRL-7 ROCKET LAUNCHER', 'Wiki' => 'HRL-7', 'Image' => 'rpg7', 'Quality' => 'dlc', 'Extra' => $l['overkillpack'], 'VarN' => 'rpg7', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 4, 'Firerate' => 30, 'Damage' => 10000, 'Accuracy' => 18, 'Stability' => 9, 'Concealment' => 5, 'Threat' => 37)),
+'Stability' => 96, 'Firerate' => 30, 'Concealment' => 5, 'Threat' => 37, 'Ammo' => 4, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 10000)),
+
 'hunter' => array( 'Name' => $l['hunter'], 'MarketName' => 'XX', 'Wiki' => 'Pistol_Crossbow', 'Image' => 'hunter', 'Quality' => 'dlc', 'Extra' => $l['ninjapack'], 'VarN' => 'hunter', 'Stats' => array(
-'Magazine' => 1, 'Ammo' => 31, 'Firerate' => 50, 'Damage' => 100, 'Accuracy' => 18, 'Stability' => 19, 'Concealment' => 26, 'Threat' => 10)),
+'Stability' => 96, 'Firerate' => 50, 'Concealment' => 26, 'Threat' => 10, 'Ammo' => 25, 'Magazine' => 1, 'Accuracy' => 96, 'Damage' => 100)),
+
 ////Shotguns
 'judge' => array( 'Name' => $l['judge'], 'MarketName' => 'THE JUDGE SHOTGUN', 'Wiki' => 'The_Judge', 'Image' => 'judge', 'Quality' => 'community', 'Extra' => 'Community', 'VarN' => 'judge', 'Stats' => array(
-'Magazine' => 5, 'Ammo' => 20, 'Firerate' => 500, 'Damage' => 95, 'Accuracy' => 6, 'Stability' => 3, 'Concealment' => 29, 'Threat' => 28)),
+'Stability' => 28, 'Firerate' => 500, 'Concealment' => 29, 'Threat' => 28, 'Ammo' => 25, 'Magazine' => 5, 'Accuracy' => 52, 'Damage' => 95)),
+
 'serbu' => array( 'Name' => $l['serbu'], 'MarketName' => 'LOCOMOTIVE 12G SHOTGUN', 'Wiki' => 'Locomotive_12G_(Payday_2)', 'Image' => 'serbu', 'Quality' => 'normal', 'Extra' => 'Normal', 'VarN' => 'serbu', 'Stats' => array(
-'Magazine' => 6, 'Ammo' => 30, 'Firerate' => 160, 'Damage' => 65, 'Accuracy' => 8, 'Stability' => 6, 'Concealment' => 23, 'Threat' => 28)),
-'striker' => array( 'Name' => $l['striker'], 'MarketName' => 'XX', 'Wiki' => 'Street_Sweeper', 'Image' => 'striker', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'VarN' => 'striker', 'Stats' => array(
-'Magazine' => 12, 'Ammo' => 48, 'Firerate' => 430, 'Damage' => 35, 'Accuracy' => 10, 'Stability' => 8, 'Concealment' => 21, 'Threat' => 28))
+'Stability' => 36, 'Firerate' => 160, 'Concealment' => 23, 'Threat' => 28, 'Ammo' => 42, 'Magazine' => 6, 'Accuracy' => 48, 'Damage' => 58)),
+
+'striker' => array( 'Name' => $l['striker'], 'MarketName' => 'STREET SWEEPER SHOTGUN', 'Wiki' => 'Street_Sweeper', 'Image' => 'striker', 'Quality' => 'dlc', 'Extra' => $l['Gage_Shotgun_Pack'], 'VarN' => 'striker', 'Stats' => array(
+'Stability' => 44, 'Firerate' => 429, 'Concealment' => 21, 'Threat' => 28, 'Ammo' => 72, 'Magazine' => 12, 'Accuracy' => 28, 'Damage' => 33)),
 );
 
 if($skill_enforcer_carbon_blade_ace == 1){
@@ -363,163 +461,241 @@ array( 'Name' => $l['great'], 'MarketName' => 'XX', 'Wiki' => 'Great_Sword', 'Im
 array( 'Name' => $l['morning'], 'MarketName' => 'XX', 'Wiki' => 'Morning_Star', 'Image' => 'morning', 'Quality' => 'dlc', 'Extra' => $l['chivalrypack'], 'Description' => $l['morning-description'], 'Used' => $melee_used_morning , 'Kills' => $melee_kills_morning , 'Stats' => array(
 'Damage' => 40, 'DamageMAX' => 66, 'Knockdown' => 160, 'KnockdownMAX' => 212, 'Charge' => 4.0, 'Range' => 225, 'Concealment' => 26 ))
 );
+
+//
+//Weapon Type
+//
+$weapon_type = array(
+'assaultrifles' => array('ak74','ak5','akm','amcar','m16','new_m4','sub2000','famas','s552','scar','fal','galil','g3','akm_gold','g36','vhs','new_m14','l85a2','aug','asval'),
+'sniperrifles' => array('wa2000','mosin','model70','r93','msr','winchester1874','m95'),
+'shotguns' => array('saiga','b682','serbu','benelli','judge','huntsman','spas12','ksg','r870','aa12','striker'),
+'akimbos' => array('x_b92fs','x_g17','jowi','x_g22c','x_1911','x_deagle','x_usp'),
+'lightmachineguns' => array('hk21','mg42','par','m249','rpk'),
+'specials' => array('long','flamethrower_mk2','gre_m79','arblast','rpg7','frankish','saw','saw_secondary','m32','hunter','plainsrider','m134'),
+'pistols' => array('sparrow','b92fs','new_raging_bull','c96','glock_17','g26','g22c','colt_1911','deagle','ppk','usp','hs2000','mateba','peacemaker','p226','glock_18c'),
+'submachineguns' => array('tec9','m1928','mp9','scorpion','new_mp5','cobray','p90','akmsu','polymer','mac10','baka','olympic','sterling','mp7','m45','uzi'),
+);
 //
 //Skins
 //
 
 $weapons_skin = array(
+
+'ak5' => array(
+'ak5_waves' => array( 'Name' => $l['ak5_waves'] , 'WVar' => 'ak5', 'Image' => 'ak5_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['ak5_waves-mods'], 'Description' => $l['ak5_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['rare']), //Meat Waffle
+),
  
 'ak74' => array(
-'ak74_golddigger' => array( 'Name' => $l['ak74_golddigger'] , 'WVar' => 'ak74', 'Image' => 'ak74_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['rare']), //Gold Vein
-'ak74_luxury' => array( 'Name' => $l['ak74_luxury'] , 'WVar' => 'ak74', 'Image' => 'ak74_luxury', 'Safe' => 'cf2', 'Grade' => $l['rare']), //Sad Almir
-'ak74_rodina' => array( 'Name' => $l['ak74_rodina'] , 'WVar' => 'ak74', 'Image' => 'ak74_rodina', 'Safe' => 'sput+slauts', 'Grade' => $l['legendary']), //Vlad's Rodina
-'ak74_bloodsplat' => array( 'Name' => $l['ak74_bloodsplat'] , 'WVar' => 'ak74', 'Image' => 'ak74_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //Little Brother
-'ak74_dallas' => array( 'Name' => $l['ak74_dallas'] , 'WVar' => 'ak74', 'Image' => 'ak74_dallas', 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Reptilian Russkie
+'ak74_golddigger' => array( 'Name' => $l['ak74_golddigger'] , 'WVar' => 'ak74', 'Image' => 'ak74_golddigger', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['ak74_golddigger-mods'], 'Description' => $l['ak74_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['rare']), //Gold Vein
+'ak74_luxury' => array( 'Name' => $l['ak74_luxury'] , 'WVar' => 'ak74', 'Image' => 'ak74_luxury', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['ak74_luxury-mods'], 'Description' => $l['ak74_luxury-desc'], 'Safe' => 'cf2', 'Grade' => $l['rare']), //Sad Almir
+'ak74_rodina' => array( 'Name' => $l['ak74_rodina'] , 'WVar' => 'ak74', 'Image' => 'ak74_rodina', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['ak74_rodina-mods'], 'Description' => $l['ak74_rodina-desc'], 'Safe' => 'sput+slauts', 'Grade' => $l['legendary']), //Vlad's Rodina
+'ak74_bloodsplat' => array( 'Name' => $l['ak74_bloodsplat'] , 'WVar' => 'ak74', 'Image' => 'ak74_bloodsplat', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['ak74_bloodsplat-mods'], 'Description' => $l['ak74_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Little Brother
+'ak74_dallas' => array( 'Name' => $l['ak74_dallas'] , 'WVar' => 'ak74', 'Image' => 'ak74_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['ak74_dallas-mods'], 'Description' => $l['ak74_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Reptilian Russkie
+),
+
+'akm' => array(
+'akm_waves' => array( 'Name' => $l['akm_waves'] , 'WVar' => 'akm', 'Image' => 'akm_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['akm_waves-mods'], 'Description' => $l['akm_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['common']), //Le Grand Bleu
+),
+
+'asval' => array(
+'asval_waves' => array( 'Name' => $l['asval_waves'] , 'WVar' => 'asval', 'Image' => 'asval_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['asval_waves-mods'], 'Description' => $l['asval_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['common']), //Wave Snake
+),
+
+'aug' => array(
+'aug_waves' => array( 'Name' => $l['aug_waves'] , 'WVar' => 'aug', 'Image' => 'aug_waves', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['aug_waves-mods'], 'Description' => $l['aug_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['uncommon']), //Turtle Roll
+),
+
+'baka' => array(
+'baka_waves' => array( 'Name' => $l['baka_waves'] , 'WVar' => 'baka', 'Image' => 'baka_waves', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['baka_waves-mods'], 'Description' => $l['baka_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['common']), //Chikara
 ),
  
 'b92fs' => array(
-'b92fs_bloodbath' => array( 'Name' => $l['b92fs_bloodbath'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['uncommon']), //Blood Dragon
-'b92fs_forest' => array( 'Name' => $l['b92fs_forest'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_forest', 'Safe' => 'cf2', 'Grade' => $l['common']), //Copper
-'b92fs_luxury' => array( 'Name' => $l['b92fs_luxury'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_luxury', 'Safe' => 'sput', 'Grade' => $l['rare']), //Angry Bear
-'b92fs_bloodsplat' => array( 'Name' => $l['b92fs_bloodsplat'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //8 Ball
-'b92fs_wooh' => array( 'Name' => $l['b92fs_wooh'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_wooh', 'Safe' => 'compos', 'Grade' => $l['epic']), //Brown River
-'b92fs_dallas' => array( 'Name' => $l['b92fs_dallas'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_dallas', 'Safe' => 'dalls', 'Grade' => $l['rare']), //Buckle Hunter
+'b92fs_bloodbath' => array( 'Name' => $l['b92fs_bloodbath'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_bloodbath', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['b92fs_bloodbath-mods'], 'Description' => $l['b92fs_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['uncommon']), //Blood Dragon
+'b92fs_forest' => array( 'Name' => $l['b92fs_forest'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_forest', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['b92fs_forest-mods'], 'Description' => $l['b92fs_forest-desc'], 'Safe' => 'cf2', 'Grade' => $l['common']), //Copper
+'b92fs_luxury' => array( 'Name' => $l['b92fs_luxury'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_luxury', 'StatB' => 'Concealment +3', 'TeamB' => 0, 'Mods' => $l['b92fs_luxury-mods'], 'Description' => $l['b92fs_luxury-desc'], 'Safe' => 'sput', 'Grade' => $l['rare']), //Angry Bear
+'b92fs_bloodsplat' => array( 'Name' => $l['b92fs_bloodsplat'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_bloodsplat', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['b92fs_bloodsplat-mods'], 'Description' => $l['b92fs_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //8 Ball
+'b92fs_wooh' => array( 'Name' => $l['b92fs_wooh'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_wooh', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['b92fs_wooh-mods'], 'Description' => $l['b92fs_wooh-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Brown River
+'b92fs_dallas' => array( 'Name' => $l['b92fs_dallas'] , 'WVar' => 'b92fs', 'Image' => 'b92fs_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['b92fs_dallas-mods'], 'Description' => $l['b92fs_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['rare']), //Buckle Hunter
+),
+
+'colt_1911' => array(
+'colt_1911_waves' => array( 'Name' => $l['colt_1911_waves'] , 'WVar' => 'colt_1911', 'Image' => 'colt_1911_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['colt_1911_waves-mods'], 'Description' => $l['colt_1911_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['uncommon']), //Radical
 ),
  
 'deagle' => array(
-'deagle_bling' => array( 'Name' => $l['deagle_bling'] , 'WVar' => 'deagle', 'Image' => 'deagle_bling', 'Safe' => 'cf2+fwbs', 'Grade' => $l['legendary']), //Midas Touch
-'deagle_bloodbath' => array( 'Name' => $l['deagle_bloodbath'] , 'WVar' => 'deagle', 'Image' => 'deagle_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['common']), //Assault Wave
-'deagle_skullimov' => array( 'Name' => $l['deagle_skullimov'] , 'WVar' => 'deagle', 'Image' => 'deagle_skullimov', 'Safe' => 'compos', 'Grade' => $l['rare']), //Boom!
-'deagle_dallas' => array( 'Name' => $l['deagle_dallas'] , 'WVar' => 'deagle', 'Image' => 'deagle_dallas', 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Reptilian Fang
+'deagle_bling' => array( 'Name' => $l['deagle_bling'] , 'WVar' => 'deagle', 'Image' => 'deagle_bling', 'StatB' => 'Stability +8', 'TeamB' => 0, 'Mods' => $l['deagle_bling-mods'], 'Description' => $l['deagle_bling-desc'], 'Safe' => 'cf2+fwbs', 'Grade' => $l['legendary']), //Midas Touch
+'deagle_bloodbath' => array( 'Name' => $l['deagle_bloodbath'] , 'WVar' => 'deagle', 'Image' => 'deagle_bloodbath', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['deagle_bloodbath-mods'], 'Description' => $l['deagle_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['common']), //Assault Wave
+'deagle_skullimov' => array( 'Name' => $l['deagle_skullimov'] , 'WVar' => 'deagle', 'Image' => 'deagle_skullimov', 'StatB' => 'Stability +4', 'TeamB' => 1, 'Mods' => $l['deagle_skullimov-mods'], 'Description' => $l['deagle_skullimov-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Boom!
+'deagle_dallas' => array( 'Name' => $l['deagle_dallas'] , 'WVar' => 'deagle', 'Image' => 'deagle_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['deagle_dallas-mods'], 'Description' => $l['deagle_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Reptilian Fang
 ),
  
 'famas' => array(
-'famas_forest' => array( 'Name' => $l['famas_forest'] , 'WVar' => 'famas', 'Image' => 'famas_forest', 'Safe' => 'cf2', 'Grade' => $l['common']), //Coin Ops
-'famas_golddigger' => array( 'Name' => $l['famas_golddigger'] , 'WVar' => 'famas', 'Image' => 'famas_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['epic']), //Yggdrasil
-'famas_hypno' => array( 'Name' => $l['famas_hypno'] , 'WVar' => 'famas', 'Image' => 'famas_hypno', 'Safe' => 'sput', 'Grade' => $l['epic']), //Breaching Owl
-'famas_bloodsplat' => array( 'Name' => $l['famas_bloodsplat'] , 'WVar' => 'famas', 'Image' => 'famas_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['epic']), //Commemore
-'famas_dallas' => array( 'Name' => $l['famas_dallas'] , 'WVar' => 'famas', 'Image' => 'famas_dallas', 'Safe' => 'dalls', 'Grade' => $l['common']), //Lafayette Hunter
+'famas_forest' => array( 'Name' => $l['famas_forest'] , 'WVar' => 'famas', 'Image' => 'famas_forest', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['amas_forest-mods'], 'Description' => $l['famas_forest-desc'], 'Safe' => 'cf2', 'Grade' => $l['common']), //Coin Ops
+'famas_golddigger' => array( 'Name' => $l['famas_golddigger'] , 'WVar' => 'famas', 'Image' => 'famas_golddigger', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['famas_golddigger-mods'], 'Description' => $l['famas_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['epic']), //Yggdrasil
+'famas_hypno' => array( 'Name' => $l['famas_hypno'] , 'WVar' => 'famas', 'Image' => 'famas_hypno', 'StatB' => 'Damage +2', 'TeamB' => 0, 'Mods' => $l['famas_hypno-mods'], 'Description' => $l['famas_hypno-desc'], 'Safe' => 'sput', 'Grade' => $l['epic']), //Breaching Owl
+'famas_bloodsplat' => array( 'Name' => $l['famas_bloodsplat'] , 'WVar' => 'famas', 'Image' => 'famas_bloodsplat', 'StatB' => 'Concealment +3', 'TeamB' => 1, 'Mods' => $l['famas_bloodsplat-mods'], 'Description' => $l['famas_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Commemore
+'famas_dallas' => array( 'Name' => $l['famas_dallas'] , 'WVar' => 'famas', 'Image' => 'famas_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['famas_dallas-mods'], 'Description' => $l['famas_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['common']), //Lafayette Hunter
 ),
  
 'flamethrower_mk2' => array(
-'flamethrower_mk2_bloodbath' => array( 'Name' => $l['flamethrower_mk2_bloodbath'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['uncommon']), //Tiger Hazard
-'flamethrower_mk2_goldstripes' => array( 'Name' => $l['flamethrower_mk2_goldstripes'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_goldstripes', 'Safe' => 'sput', 'Grade' => $l['uncommon']), //St. Basil
-'flamethrower_mk2_bloodsplat' => array( 'Name' => $l['flamethrower_mk2_bloodsplat'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //Incinerated Death
-'flamethrower_mk2_fire' => array( 'Name' => $l['flamethrower_mk2_fire'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_fire', 'Safe' => 'compos', 'Grade' => $l['legendary']), //Dragon Lord
-'flamethrower_mk2_dallas' => array( 'Name' => $l['flamethrower_mk2_dallas'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_dallas', 'Safe' => 'dalls', 'Grade' => $l['common']), //Chromed Combustion
+'flamethrower_mk2_bloodbath' => array( 'Name' => $l['flamethrower_mk2_bloodbath'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_bloodbath', 'StatB' => 'Damage +1', 'TeamB' => 0, 'Mods' => $l['flamethrower_mk2_bloodbath-mods'], 'Description' => $l['flamethrower_mk2_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['uncommon']), //Tiger Hazard
+'flamethrower_mk2_goldstripes' => array( 'Name' => $l['flamethrower_mk2_goldstripes'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_goldstripes', 'StatB' => 'Damage +1', 'TeamB' => 0, 'Mods' => $l['flamethrower_mk2_goldstripes-mods'], 'Description' => $l['flamethrower_mk2_goldstripes-desc'], 'Safe' => 'sput', 'Grade' => $l['uncommon']), //St. Basil
+'flamethrower_mk2_bloodsplat' => array( 'Name' => $l['flamethrower_mk2_bloodsplat'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_bloodsplat', 'StatB' => 'Damage +1', 'TeamB' => 1, 'Mods' => $l['flamethrower_mk2_bloodsplat-mods'], 'Description' => $l['flamethrower_mk2_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Incinerated Death
+'flamethrower_mk2_fire' => array( 'Name' => $l['flamethrower_mk2_fire'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_fire', 'StatB' => 'Damage +1', 'TeamB' => 1, 'Mods' => $l['flamethrower_mk2_fire-mods'], 'Description' => $l['flamethrower_mk2_fire-desc'], 'Safe' => 'compos', 'Grade' => $l['legendary']), //Dragon Lord
+'flamethrower_mk2_dallas' => array( 'Name' => $l['flamethrower_mk2_dallas'] , 'WVar' => 'flamethrower_mk2', 'Image' => 'flamethrower_mk2_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['flamethrower_mk2_dallas-mods'], 'Description' => $l['flamethrower_mk2_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['common']), //Chromed Combustion
 ),
  
 'g36' => array(
-'g36_bloodbath' => array( 'Name' => $l['g36_bloodbath'] , 'WVar' => 'g36', 'Image' => 'g36_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['epic']), //Perimeter Secure
-'g36_goldstripes' => array( 'Name' => $l['g36_goldstripes'] , 'WVar' => 'g36', 'Image' => 'g36_goldstripes', 'Safe' => 'sput', 'Grade' => $l['uncommon']), //Ice Leopard
-'g36_bloodsplat' => array( 'Name' => $l['g36_bloodsplat'] , 'WVar' => 'g36', 'Image' => 'g36_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //The Torch
-'g36_dallas' => array( 'Name' => $l['g36_dallas'] , 'WVar' => 'g36', 'Image' => 'g36_dallas', 'Safe' => 'dalls', 'Grade' => $l['epic']), //Chromed Strangler
+'g36_bloodbath' => array( 'Name' => $l['g36_bloodbath'] , 'WVar' => 'g36', 'Image' => 'g36_bloodbath', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['g36_bloodbath-mods'], 'Description' => $l['g36_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['epic']), //Perimeter Secure
+'g36_goldstripes' => array( 'Name' => $l['g36_goldstripes'] , 'WVar' => 'g36', 'Image' => 'g36_goldstripes', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['g36_goldstripes-mods'], 'Description' => $l['g36_goldstripes-desc'], 'Safe' => 'sput', 'Grade' => $l['uncommon']), //Ice Leopard
+'g36_bloodsplat' => array( 'Name' => $l['g36_bloodsplat'] , 'WVar' => 'g36', 'Image' => 'g36_bloodsplat', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['g36_bloodsplat-mods'], 'Description' => $l['g36_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //The Torch
+'g36_dallas' => array( 'Name' => $l['g36_dallas'] , 'WVar' => 'g36', 'Image' => 'g36_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['g36_dallas-mods'], 'Description' => $l['g36_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['epic']), //Chromed Strangler
 ),
  
 'huntsman' => array(
-'huntsman_forest' => array( 'Name' => $l['huntsman_forest'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_forest', 'Safe' => 'cf2', 'Grade' => $l['common']), //Black Thunder
-'huntsman_golddigger' => array( 'Name' => $l['huntsman_golddigger'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['common']), //Wolf Ornament
-'huntsman_hypno' => array( 'Name' => $l['huntsman_hypno'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_hypno', 'Safe' => 'sput', 'Grade' => $l['epic']), //Bullet Bear Gun
-'huntsman_bloodsplat' => array( 'Name' => $l['huntsman_bloodsplat'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //First Line
-'huntsman_dallas' => array( 'Name' => $l['huntsman_dallas'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_dallas', 'Safe' => 'dalls', 'Grade' => $l['common']), //Reptilian Two Heads
+'huntsman_forest' => array( 'Name' => $l['huntsman_forest'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_forest', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['huntsman_forest-mods'], 'Description' => $l['huntsman_forest-desc'], 'Safe' => 'cf2', 'Grade' => $l['common']), //Black Thunder
+'huntsman_golddigger' => array( 'Name' => $l['huntsman_golddigger'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_golddigger', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['huntsman_golddigger-mods'], 'Description' => $l['huntsman_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['common']), //Wolf Ornament
+'huntsman_hypno' => array( 'Name' => $l['huntsman_hypno'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_hypno', 'StatB' => 'Accuracy -4', 'TeamB' => 0, 'Mods' => $l['huntsman_hypno-mods'], 'Description' => $l['huntsman_hypno-desc'], 'Safe' => 'sput', 'Grade' => $l['epic']), //Bullet Bear Gun
+'huntsman_bloodsplat' => array( 'Name' => $l['huntsman_bloodsplat'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_bloodsplat', 'StatB' => 'Accuracy -4', 'TeamB' => 1, 'Mods' => $l['huntsman_bloodsplat-mods'], 'Description' => $l['huntsman_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //First Line
+'huntsman_dallas' => array( 'Name' => $l['huntsman_dallas'] , 'WVar' => 'huntsman', 'Image' => 'huntsman_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['huntsman_dallas-mods'], 'Description' => $l['huntsman_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['common']), //Reptilian Two Heads
 ),
  
 'judge' => array(
-'judge_bloodbath' => array( 'Name' => $l['judge_bloodbath'] , 'WVar' => 'judge', 'Image' => 'judge_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['common']), //Frenzy
-'judge_camohex' => array( 'Name' => $l['judge_camohex'] , 'WVar' => 'judge', 'Image' => 'judge_camohex', 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Greed
-'judge_woodland' => array( 'Name' => $l['judge_woodland'] , 'WVar' => 'judge', 'Image' => 'judge_woodland', 'Safe' => 'sput', 'Grade' => $l['common']), //Pixel
-'judge_wooh' => array( 'Name' => $l['judge_wooh'] , 'WVar' => 'judge', 'Image' => 'judge_wooh', 'Safe' => 'compos', 'Grade' => $l['rare']), //Checkmate
-'judge_dallas' => array( 'Name' => $l['judge_dallas'] , 'WVar' => 'judge', 'Image' => 'judge_dallas', 'Safe' => 'dalls', 'Grade' => $l['rare']), //Pocket Patriot
+'judge_bloodbath' => array( 'Name' => $l['judge_bloodbath'] , 'WVar' => 'judge', 'Image' => 'judge_bloodbath', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['judge_bloodbath-mods'], 'Description' => $l['judge_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['common']), //Frenzy
+'judge_camohex' => array( 'Name' => $l['judge_camohex'] , 'WVar' => 'judge', 'Image' => 'judge_camohex', 'StatB' => 'Accuracy -4', 'TeamB' => 0, 'Mods' => $l['judge_camohex-mods'], 'Description' => $l['judge_camohex-desc'], 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Greed
+'judge_woodland' => array( 'Name' => $l['judge_woodland'] , 'WVar' => 'judge', 'Image' => 'judge_woodland', 'StatB' => 'Concealment +1', 'TeamB' => 0, 'Mods' => $l['judge_woodland-mods'], 'Description' => $l['judge_woodland-desc'], 'Safe' => 'sput', 'Grade' => $l['common']), //Pixel
+'judge_wooh' => array( 'Name' => $l['judge_wooh'] , 'WVar' => 'judge', 'Image' => 'judge_wooh', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['judge_wooh-mods'], 'Description' => $l['judge_wooh-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Checkmate
+'judge_dallas' => array( 'Name' => $l['judge_dallas'] , 'WVar' => 'judge', 'Image' => 'judge_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['judge_dallas-mods'], 'Description' => $l['judge_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['rare']), //Pocket Patriot
+),
+
+'m16' => array(
+'m16_waves' => array( 'Name' => $l['m16_waves'] , 'WVar' => 'm16', 'Image' => 'm16_waves', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['m16_waves-mods'], 'Description' => $l['m16_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['common']), //Charlie Don't Surf
 ),
  
 'm134' => array(
-'m134_forest' => array( 'Name' => $l['m134_forest'] , 'WVar' => 'm134', 'Image' => 'm134_forest', 'Safe' => 'cf2', 'Grade' => $l['common']), //3000 heists/min
-'m134_golddigger' => array( 'Name' => $l['m134_golddigger'] , 'WVar' => 'm134', 'Image' => 'm134_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['uncommon']), //Big Spender
-'m134_bloodsplat' => array( 'Name' => $l['m134_bloodsplat'] , 'WVar' => 'm134', 'Image' => 'm134_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //Spraying Roses
-'m134_bulletstorm' => array( 'Name' => $l['m134_bulletstorm'] , 'WVar' => 'm134', 'Image' => 'm134_bulletstorm', 'Safe' => 'compos', 'Grade' => $l['legendary']), //The Gimp
+'m134_forest' => array( 'Name' => $l['m134_forest'] , 'WVar' => 'm134', 'Image' => 'm134_forest', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['m134_forest-mods'], 'Description' => $l['m134_forest-desc'], 'Safe' => 'cf2', 'Grade' => $l['common']), //3000 heists/min
+'m134_golddigger' => array( 'Name' => $l['m134_golddigger'] , 'WVar' => 'm134', 'Image' => 'm134_golddigger', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['m134_golddigger-mods'], 'Description' => $l['m134_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['uncommon']), //Big Spender
+'m134_bloodsplat' => array( 'Name' => $l['m134_bloodsplat'] , 'WVar' => 'm134', 'Image' => 'm134_bloodsplat', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['m134_bloodsplat-mods'], 'Description' => $l['m134_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Spraying Roses
+'m134_bulletstorm' => array( 'Name' => $l['m134_bulletstorm'] , 'WVar' => 'm134', 'Image' => 'm134_bulletstorm', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['m134_bulletstorm-mods'], 'Description' => $l['m134_bulletstorm-desc'], 'Safe' => 'compos', 'Grade' => $l['legendary']), //The Gimp
 ),
  
 'm95' => array(
-'m95_forest' => array( 'Name' => $l['m95_forest'] , 'WVar' => 'm95', 'Image' => 'm95_forest', 'Safe' => 'cf2', 'Grade' => $l['common']), //Purple Haze
-'m95_golddigger' => array( 'Name' => $l['m95_golddigger'] , 'WVar' => 'm95', 'Image' => 'm95_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['uncommon']), //Beta-2
-'m95_luxury' => array( 'Name' => $l['m95_luxury'] , 'WVar' => 'm95', 'Image' => 'm95_luxury', 'Safe' => 'sput', 'Grade' => $l['rare']), //Matrjoschka
-'m95_bombmatta' => array( 'Name' => $l['m95_bombmatta'] , 'WVar' => 'm95', 'Image' => 'm95_bombmatta', 'Safe' => 'compos', 'Grade' => $l['rare']), //Hype Train
-'m95_dallas' => array( 'Name' => $l['m95_dallas'] , 'WVar' => 'm95', 'Image' => 'm95_dallas', 'Safe' => 'dalls', 'Grade' => $l['epic']), //Piercing Patriot
+'m95_forest' => array( 'Name' => $l['m95_forest'] , 'WVar' => 'm95', 'Image' => 'm95_forest', 'StatB' => 'Ammo +1', 'TeamB' => 0, 'Mods' => $l['m95_forest-mods'], 'Description' => $l['m95_forest-desc'], 'Safe' => 'cf2', 'Grade' => $l['common']), //Purple Haze
+'m95_golddigger' => array( 'Name' => $l['m95_golddigger'] , 'WVar' => 'm95', 'Image' => 'm95_golddigger', 'StatB' => 'Ammo +1', 'TeamB' => 0, 'Mods' => $l['m95_golddigger-mods'], 'Description' => $l['m95_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['uncommon']), //Beta-2
+'m95_luxury' => array( 'Name' => $l['m95_luxury'] , 'WVar' => 'm95', 'Image' => 'm95_luxury', 'StatB' => 'Ammo +1', 'TeamB' => 0, 'Mods' => $l['m95_luxury-mods'], 'Description' => $l['m95_luxury-desc'], 'Safe' => 'sput', 'Grade' => $l['rare']), //Matrjoschka
+'m95_bombmatta' => array( 'Name' => $l['m95_bombmatta'] , 'WVar' => 'm95', 'Image' => 'm95_bombmatta', 'StatB' => 'Ammo +1', 'TeamB' => 1, 'Mods' => $l['m95_bombmatta-mods'], 'Description' => $l['m95_bombmatta-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Hype Train
+'m95_dallas' => array( 'Name' => $l['m95_dallas'] , 'WVar' => 'm95', 'Image' => 'm95_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['m95_dallas-mods'], 'Description' => $l['m95_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['epic']), //Piercing Patriot
+),
+
+'mac10' => array(
+'mac10_waves' => array( 'Name' => $l['mac10_waves'] , 'WVar' => 'mac10', 'Image' => 'mac10_waves', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['mac10_waves-mods'], 'Description' => $l['mac10_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['uncommon']), //Shaka
 ),
  
 'mg42' => array(
-'mg42_bloodbath' => array( 'Name' => $l['mg42_bloodbath'] , 'WVar' => 'mg42', 'Image' => 'mg42_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['rare']), //Meat Slicer
-'mg42_camohex' => array( 'Name' => $l['mg42_camohex'] , 'WVar' => 'mg42', 'Image' => 'mg42_camohex', 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Tomb
-'mg42_bloodsplat' => array( 'Name' => $l['mg42_bloodsplat'] , 'WVar' => 'mg42', 'Image' => 'mg42_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //Skull Spotted
-'mg42_dallas' => array( 'Name' => $l['mg42_dallas'] , 'WVar' => 'mg42', 'Image' => 'mg42_dallas', 'Safe' => 'dalls', 'Grade' => $l['common']), //Chromed Dominator
+'mg42_bloodbath' => array( 'Name' => $l['mg42_bloodbath'] , 'WVar' => 'mg42', 'Image' => 'mg42_bloodbath', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['mg42_bloodbath-mods'], 'Description' => $l['mg42_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['rare']), //Meat Slicer
+'mg42_camohex' => array( 'Name' => $l['mg42_camohex'] , 'WVar' => 'mg42', 'Image' => 'mg42_camohex', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['mg42_camohex-mods'], 'Description' => $l['mg42_camohex-desc'], 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Tomb
+'mg42_bloodsplat' => array( 'Name' => $l['mg42_bloodsplat'] , 'WVar' => 'mg42', 'Image' => 'mg42_bloodsplat', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['mg42_bloodsplat-mods'], 'Description' => $l['mg42_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Skull Spotted
+'mg42_dallas' => array( 'Name' => $l['mg42_dallas'] , 'WVar' => 'mg42', 'Image' => 'mg42_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['mg42_dallas-mods'], 'Description' => $l['mg42_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['common']), //Chromed Dominator
 ),
  
 'new_m14' => array(
-'new_m14_camohex' => array( 'Name' => $l['new_m14_camohex'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_camohex', 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Digital Burn
-'new_m14_golddigger' => array( 'Name' => $l['new_m14_golddigger'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['uncommon']), //Ausome
-'new_m14_luxury' => array( 'Name' => $l['new_m14_luxury'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_luxury', 'Safe' => 'sput', 'Grade' => $l['rare']), //Helmet Space Program
-'new_m14_bloodsplat' => array( 'Name' => $l['new_m14_bloodsplat'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['epic']), //Heart Attack
-'new_m14_dallas' => array( 'Name' => $l['new_m14_dallas'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_dallas', 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Longhorn Hunter
+'new_m14_camohex' => array( 'Name' => $l['new_m14_camohex'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_camohex', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['new_m14_camohex-mods'], 'Description' => $l['new_m14_camohex-desc'], 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Digital Burn
+'new_m14_golddigger' => array( 'Name' => $l['new_m14_golddigger'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_golddigger', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['new_m14_golddigger-mods'], 'Description' => $l['new_m14_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['uncommon']), //Ausome
+'new_m14_luxury' => array( 'Name' => $l['new_m14_luxury'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_luxury', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['new_m14_luxury-mods'], 'Description' => $l['new_m14_luxury-desc'], 'Safe' => 'sput', 'Grade' => $l['rare']), //Helmet Space Program
+'new_m14_bloodsplat' => array( 'Name' => $l['new_m14_bloodsplat'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_bloodsplat', 'StatB' => 'Stability +4', 'TeamB' => 1, 'Mods' => $l['new_m14_bloodsplat-mods'], 'Description' => $l['new_m14_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Heart Attack
+'new_m14_dallas' => array( 'Name' => $l['new_m14_dallas'] , 'WVar' => 'new_m14', 'Image' => 'new_m14_dallas', 'StatB' => false, 'TeamB' => 1, 'Mods' => $l['new_m14_dallas-mods'], 'Description' => $l['new_m14_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Longhorn Hunter
+),
+
+'mosin' => array(
+'mosin_waves' => array( 'Name' => $l['mosin_waves'] , 'WVar' => 'mosin', 'Image' => 'mosin_waves', 'StatB' => 'Ammo +1', 'TeamB' => 0, 'Mods' => $l['mosin_waves-mods'], 'Description' => $l['mosin_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['rare']), //Coo Coo Ca Choo
 ),
  
 'new_m4' => array(
-'new_m4_bloodbath' => array( 'Name' => $l['new_m4_bloodbath'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['uncommon']), //Danger Ahead
-'new_m4_goldstripes' => array( 'Name' => $l['new_m4_goldstripes'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_goldstripes', 'Safe' => 'sput', 'Grade' => $l['uncommon']), //Stripe On
-'new_m4_payday' => array( 'Name' => $l['new_m4_payday'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_payday', 'Safe' => 'cf2', 'Grade' => $l['epic']), //Safe Crasher
-'new_m4_skullimov' => array( 'Name' => $l['new_m4_skullimov'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_skullimov', 'Safe' => 'compos', 'Grade' => $l['rare']), //Fade Zebra
+'new_m4_bloodbath' => array( 'Name' => $l['new_m4_bloodbath'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_bloodbath', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['new_m4_bloodbath-mods'], 'Description' => $l['new_m4_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['uncommon']), //Danger Ahead
+'new_m4_goldstripes' => array( 'Name' => $l['new_m4_goldstripes'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_goldstripes', 'StatB' => 'Concealment +1', 'TeamB' => 0, 'Mods' => $l['new_m4_goldstripes-mods'], 'Description' => $l['new_m4_goldstripes-desc'], 'Safe' => 'sput', 'Grade' => $l['uncommon']), //Stripe On
+'new_m4_payday' => array( 'Name' => $l['new_m4_payday'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_payday', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['new_m4_payday-mods'], 'Description' => $l['new_m4_payday-desc'], 'Safe' => 'cf2', 'Grade' => $l['epic']), //Safe Crasher
+'new_m4_skullimov' => array( 'Name' => $l['new_m4_skullimov'] , 'WVar' => 'new_m4', 'Image' => 'new_m4_skullimov', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['new_m4_skullimov-mods'], 'Description' => $l['new_m4_skullimov-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Fade Zebra
 ),
  
 'new_raging_bull' => array(
-'new_raging_bull_bloodbath' => array( 'Name' => $l['new_raging_bull_bloodbath'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['common']), //Victim Shower
-'new_raging_bull_goldstripes' => array( 'Name' => $l['new_raging_bull_goldstripes'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_goldstripes', 'Safe' => 'sput', 'Grade' => $l['uncommon']), //Black Bull
-'new_raging_bull_bloodsplat' => array( 'Name' => $l['new_raging_bull_bloodsplat'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['epic']), //Extra Vaganza
-'new_raging_bull_dallas' => array( 'Name' => $l['new_raging_bull_dallas'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_dallas', 'Safe' => 'dalls', 'Grade' => $l['common']), //Quickdrawn Hunter
+'new_raging_bull_bloodbath' => array( 'Name' => $l['new_raging_bull_bloodbath'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_bloodbath', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['new_raging_bull_bloodbath-mods'], 'Description' => $l['new_raging_bull_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['common']), //Victim Shower
+'new_raging_bull_goldstripes' => array( 'Name' => $l['new_raging_bull_goldstripes'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_goldstripes', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['new_raging_bull_goldstripes-mods'], 'Description' => $l['new_raging_bull_goldstripes-desc'], 'Safe' => 'sput', 'Grade' => $l['uncommon']), //Black Bull
+'new_raging_bull_bloodsplat' => array( 'Name' => $l['new_raging_bull_bloodsplat'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_bloodsplat', 'StatB' => 'Concealment +3', 'TeamB' => 1, 'Mods' => $l['new_raging_bull_bloodsplat-mods'], 'Description' => $l['new_raging_bull_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Extra Vaganza
+'new_raging_bull_dallas' => array( 'Name' => $l['new_raging_bull_dallas'] , 'WVar' => 'new_raging_bull', 'Image' => 'new_raging_bull_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['new_raging_bull_dallas-mods'], 'Description' => $l['new_raging_bull_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['common']), //Quickdrawn Hunter
 ),
  
 'p90' => array(
-'p90_golddigger' => array( 'Name' => $l['p90_golddigger'] , 'WVar' => 'p90', 'Image' => 'p90_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['common']), //Prospector
-'p90_luxury' => array( 'Name' => $l['p90_luxury'] , 'WVar' => 'p90', 'Image' => 'p90_luxury', 'Safe' => 'cf2', 'Grade' => $l['rare']), //Bullet Breakout
-'p90_woodland' => array( 'Name' => $l['p90_woodland'] , 'WVar' => 'p90', 'Image' => 'p90_woodland', 'Safe' => 'sput', 'Grade' => $l['common']), //Red Stars
-'p90_skullimov' => array( 'Name' => $l['p90_skullimov'] , 'WVar' => 'p90', 'Image' => 'p90_skullimov', 'Safe' => 'compos', 'Grade' => $l['rare']), //Overskill
-'p90_dallas_sallad' => array( 'Name' => $l['p90_dallas_sallad'] , 'WVar' => 'p90', 'Image' => 'p90_dallas_sallad', 'Safe' => 'dalls', 'Grade' => $l['legendary']), //Alamo Dallas
+'p90_golddigger' => array( 'Name' => $l['p90_golddigger'] , 'WVar' => 'p90', 'Image' => 'p90_golddigger', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['p90_golddigger-mods'], 'Description' => $l['p90_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['common']), //Prospector
+'p90_luxury' => array( 'Name' => $l['p90_luxury'] , 'WVar' => 'p90', 'Image' => 'p90_luxury', 'StatB' => 'Concealment +2', 'TeamB' => 0, 'Mods' => $l['p90_luxury-mods'], 'Description' => $l['p90_luxury-desc'], 'Safe' => 'cf2', 'Grade' => $l['rare']), //Bullet Breakout
+'p90_woodland' => array( 'Name' => $l['p90_woodland'] , 'WVar' => 'p90', 'Image' => 'p90_woodland', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['p90_woodland-mods'], 'Description' => $l['p90_woodland-desc'], 'Safe' => 'sput', 'Grade' => $l['common']), //Red Stars
+'p90_skullimov' => array( 'Name' => $l['p90_skullimov'] , 'WVar' => 'p90', 'Image' => 'p90_skullimov', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['p90_skullimov-mods'], 'Description' => $l['p90_skullimov-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Overskill
+'p90_dallas_sallad' => array( 'Name' => $l['p90_dallas_sallad'] , 'WVar' => 'p90', 'Image' => 'p90_dallas_sallad', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['p90_dallas_sallad-mods'], 'Description' => $l['p90_dallas_sallad-desc'], 'Safe' => 'dalls', 'Grade' => $l['legendary']), //Alamo Dallas
 ),
  
 'plainsrider' => array(
-'plainsrider_bloodbath' => array( 'Name' => $l['plainsrider_bloodbath'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['common']), //Blood Drenched
-'plainsrider_linked' => array( 'Name' => $l['plainsrider_linked'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_linked', 'Safe' => 'cf2', 'Grade' => $l['epic']), //The Link
-'plainsrider_woodland' => array( 'Name' => $l['plainsrider_woodland'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_woodland', 'Safe' => 'sput', 'Grade' => $l['common']), //Arctic Plains
-'plainsrider_skullimov' => array( 'Name' => $l['plainsrider_skullimov'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_skullimov', 'Safe' => 'compos', 'Grade' => $l['rare']), //Hypno Scalp
+'plainsrider_bloodbath' => array( 'Name' => $l['plainsrider_bloodbath'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_bloodbath', 'StatB' => 'Concealment +1', 'TeamB' => 0, 'Mods' => $l['plainsrider_bloodbath-mods'], 'Description' => $l['plainsrider_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['common']), //Blood Drenched
+'plainsrider_linked' => array( 'Name' => $l['plainsrider_linked'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_linked', 'StatB' => 'Ammo +8', 'TeamB' => 0, 'Mods' => $l['plainsrider_linked-mods'], 'Description' => $l['plainsrider_linked-desc'], 'Safe' => 'cf2', 'Grade' => $l['epic']), //The Link
+'plainsrider_woodland' => array( 'Name' => $l['plainsrider_woodland'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_woodland', 'StatB' => 'Concealment +1', 'TeamB' => 0, 'Mods' => $l['plainsrider_woodland-mods'], 'Description' => $l['plainsrider_woodland-desc'], 'Safe' => 'sput', 'Grade' => $l['common']), //Arctic Plains
+'plainsrider_skullimov' => array( 'Name' => $l['plainsrider_skullimov'] , 'WVar' => 'plainsrider', 'Image' => 'plainsrider_skullimov', 'StatB' => 'Ammo +8', 'TeamB' => 1, 'Mods' => $l['plainsrider_skullimov-mods'], 'Description' => $l['plainsrider_skullimov-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Hypno Scalp
+),
+
+'polymer' => array(
+'polymer_waves' => array( 'Name' => $l['polymer_waves'] , 'WVar' => 'polymer', 'Image' => 'polymer_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['polymer_waves-mods'], 'Description' => $l['polymer_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['rare']), //Aerodynamic
 ),
  
 'ppk' => array(
-'ppk_golddigger' => array( 'Name' => $l['ppk_golddigger'] , 'WVar' => 'ppk', 'Image' => 'ppk_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['common']), //Classic Tiles
-'ppk_luxury' => array( 'Name' => $l['ppk_luxury'] , 'WVar' => 'ppk', 'Image' => 'ppk_luxury', 'Safe' => 'cf2', 'Grade' => $l['rare']), //Cloakerize
-'ppk_woodland' => array( 'Name' => $l['ppk_woodland'] , 'WVar' => 'ppk', 'Image' => 'ppk_woodland', 'Safe' => 'sput', 'Grade' => $l['common']), //Little Leopard
-'ppk_bloodsplat' => array( 'Name' => $l['ppk_bloodsplat'] , 'WVar' => 'ppk', 'Image' => 'ppk_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['epic']), //Crimson Kiss
-'ppk_dallas' => array( 'Name' => $l['ppk_dallas'] , 'WVar' => 'ppk', 'Image' => 'ppk_dallas', 'Safe' => 'dalls', 'Grade' => $l['rare']), //Chromed Sparrow
+'ppk_golddigger' => array( 'Name' => $l['ppk_golddigger'] , 'WVar' => 'ppk', 'Image' => 'ppk_golddigger', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['ppk_golddigger-mods'], 'Description' => $l['ppk_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['common']), //Classic Tiles
+'ppk_luxury' => array( 'Name' => $l['ppk_luxury'] , 'WVar' => 'ppk', 'Image' => 'ppk_luxury', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['ppk_luxury-mods'], 'Description' => $l['ppk_luxury-desc'], 'Safe' => 'cf2', 'Grade' => $l['rare']), //Cloakerize
+'ppk_woodland' => array( 'Name' => $l['ppk_woodland'] , 'WVar' => 'ppk', 'Image' => 'ppk_woodland', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['ppk_woodland-mods'], 'Description' => $l['ppk_woodland-desc'], 'Safe' => 'sput', 'Grade' => $l['common']), //Little Leopard
+'ppk_bloodsplat' => array( 'Name' => $l['ppk_bloodsplat'] , 'WVar' => 'ppk', 'Image' => 'ppk_bloodsplat', 'StatB' => 'Concealment +3', 'TeamB' => 1, 'Mods' => $l['ppk_bloodsplat-mods'], 'Description' => $l['ppk_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Crimson Kiss
+'ppk_dallas' => array( 'Name' => $l['ppk_dallas'] , 'WVar' => 'ppk', 'Image' => 'ppk_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['ppk_dallas-mods'], 'Description' => $l['ppk_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['uncommon']), //Chromed Sparrow
+),
+ 
+'r870' => array(
+'r870_waves' => array( 'Name' => $l['r870_waves'] , 'WVar' => 'r870', 'Image' => 'r870_waves', 'StatB' => 'Accuracy -4', 'TeamB' => 0, 'Mods' => $l['r870_waves-mods'], 'Description' => $l['r870_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['legendary']), //Big Kahuna
 ),
  
 'r93' => array(
-'r93_forest' => array( 'Name' => $l['r93_forest'] , 'WVar' => 'r93', 'Image' => 'r93_forest', 'Safe' => 'cf2', 'Grade' => $l['common']), //Fire Pixel
-'r93_golddigger' => array( 'Name' => $l['r93_golddigger'] , 'WVar' => 'r93', 'Image' => 'r93_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['common']), //Golden Flakes
-'r93_bloodsplat' => array( 'Name' => $l['r93_bloodsplat'] , 'WVar' => 'r93', 'Image' => 'r93_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //Death From Above
-'r93_wooh' => array( 'Name' => $l['r93_wooh'] , 'WVar' => 'r93', 'Image' => 'r93_wooh', 'Safe' => 'compos', 'Grade' => $l['epic']), //Grenade Repellant
-'r93_dallas' => array( 'Name' => $l['r93_dallas'] , 'WVar' => 'r93', 'Image' => 'r93_dallas', 'Safe' => 'dalls', 'Grade' => $l['common']), //Reptilian Sting
+'r93_forest' => array( 'Name' => $l['r93_forest'] , 'WVar' => 'r93', 'Image' => 'r93_forest', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['r93_forest-mods'], 'Description' => $l['r93_forest-desc'], 'Safe' => 'cf2', 'Grade' => $l['common']), //Fire Pixel
+'r93_golddigger' => array( 'Name' => $l['r93_golddigger'] , 'WVar' => 'r93', 'Image' => 'r93_golddigger', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['r93_golddigger-mods'], 'Description' => $l['r93_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['common']), //Golden Flakes
+'r93_bloodsplat' => array( 'Name' => $l['r93_bloodsplat'] , 'WVar' => 'r93', 'Image' => 'r93_bloodsplat', 'StatB' => 'Stability +4', 'TeamB' => 1, 'Mods' => $l['r93_bloodsplat-mods'], 'Description' => $l['r93_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Death From Above
+'r93_wooh' => array( 'Name' => $l['r93_wooh'] , 'WVar' => 'r93', 'Image' => 'r93_wooh', 'StatB' => 'Stability +4', 'TeamB' => 1, 'Mods' => $l['r93_wooh-mods'], 'Description' => $l['r93_wooh-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Grenade Repellant
+'r93_dallas' => array( 'Name' => $l['r93_dallas'] , 'WVar' => 'r93', 'Image' => 'r93_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['r93_dallas-mods'], 'Description' => $l['r93_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['common']), //Reptilian Sting
 ),
  
 'rpg7' => array(
-'rpg7_bloodbath' => array( 'Name' => $l['rpg7_bloodbath'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodbath', 'Safe' => 'slauts', 'Grade' => $l['rare']), //Fair Warning
-'rpg7_woodland' => array( 'Name' => $l['rpg7_woodland'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_woodland', 'Safe' => 'sput', 'Grade' => $l['common']), //Headline
-'rpg7_boom' => array( 'Name' => $l['rpg7_boom'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_boom', 'Safe' => 'compos', 'Grade' => $l['legendary']), //Green Grin
-'rpg7_bloodsplat' => array( 'Name' => $l['rpg7_bloodsplat'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodsplat', 'Safe' => 'compos', 'Grade' => $l['rare']), //Dinomagedoon
+'rpg7_bloodbath' => array( 'Name' => $l['rpg7_bloodbath'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodbath', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['rpg7_bloodbath-mods'], 'Description' => $l['rpg7_bloodbath-desc'], 'Safe' => 'slauts', 'Grade' => $l['rare']), //Fair Warning
+'rpg7_woodland' => array( 'Name' => $l['rpg7_woodland'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_woodland', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['rpg7_woodland-mods'], 'Description' => $l['rpg7_woodland-desc'], 'Safe' => 'sput', 'Grade' => $l['common']), //Headline
+'rpg7_boom' => array( 'Name' => $l['rpg7_boom'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_boom', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['rpg7_boom-mods'], 'Description' => $l['rpg7_boom-desc'], 'Safe' => 'compos', 'Grade' => $l['legendary']), //Green Grin
+'rpg7_bloodsplat' => array( 'Name' => $l['rpg7_bloodsplat'] , 'WVar' => 'rpg7', 'Image' => 'rpg7_bloodsplat', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['rpg7_bloodsplat-mods'], 'Description' => $l['rpg7_bloodsplat-desc'], 'Safe' => 'compos', 'Grade' => $l['rare']), //Dinomagedoon
 ),
  
 'serbu' => array(
-'serbu_camohex' => array( 'Name' => $l['serbu_camohex'] , 'WVar' => 'serbu', 'Image' => 'serbu_camohex', 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Greed
-'serbu_golddigger' => array( 'Name' => $l['serbu_golddigger'] , 'WVar' => 'serbu', 'Image' => 'serbu_golddigger', 'Safe' => 'fwbs', 'Grade' => $l['rare']), //Fleur de Lys
-'serbu_woodland' => array( 'Name' => $l['serbu_woodland'] , 'WVar' => 'serbu', 'Image' => 'serbu_woodland', 'Safe' => 'sput', 'Grade' => $l['common']), //Cosmonaut
-'serbu_stunner' => array( 'Name' => $l['serbu_stunner'] , 'WVar' => 'serbu', 'Image' => 'serbu_stunner', 'Safe' => 'compos', 'Grade' => $l['epic']), //Carpet Bombing
-'serbu_dallas' => array( 'Name' => $l['serbu_dallas'] , 'WVar' => 'serbu', 'Image' => 'serbu_dallas', 'Safe' => 'dalls', 'Grade' => $l['rare']), //Power Patriot
+'serbu_camohex' => array( 'Name' => $l['serbu_camohex'] , 'WVar' => 'serbu', 'Image' => 'serbu_camohex', 'StatB' => 'Accuracy -4', 'TeamB' => 0, 'Mods' => $l['serbu_camohex-mods'], 'Description' => $l['serbu_camohex-desc'], 'Safe' => 'cf2', 'Grade' => $l['uncommon']), //Greed
+'serbu_golddigger' => array( 'Name' => $l['serbu_golddigger'] , 'WVar' => 'serbu', 'Image' => 'serbu_golddigger', 'StatB' => 'Accuracy -4', 'TeamB' => 0, 'Mods' => $l['serbu_golddigger-mods'], 'Description' => $l['serbu_golddigger-desc'], 'Safe' => 'fwbs', 'Grade' => $l['rare']), //Fleur de Lys
+'serbu_woodland' => array( 'Name' => $l['serbu_woodland'] , 'WVar' => 'serbu', 'Image' => 'serbu_woodland', 'StatB' => 'Stability +4', 'TeamB' => 0, 'Mods' => $l['serbu_woodland-mods'], 'Description' => $l['serbu_woodland-desc'], 'Safe' => 'sput', 'Grade' => $l['common']), //Cosmonaut
+'serbu_stunner' => array( 'Name' => $l['serbu_stunner'] , 'WVar' => 'serbu', 'Image' => 'serbu_stunner', 'StatB' => 'Accuracy +4', 'TeamB' => 1, 'Mods' => $l['serbu_stunner-mods'], 'Description' => $l['serbu_stunner-desc'], 'Safe' => 'compos', 'Grade' => $l['epic']), //Carpet Bombing
+'serbu_dallas' => array( 'Name' => $l['serbu_dallas'] , 'WVar' => 'serbu', 'Image' => 'serbu_dallas', 'StatB' => false, 'TeamB' => 3, 'Mods' => $l['serbu_dallas-mods'], 'Description' => $l['serbu_dallas-desc'], 'Safe' => 'dalls', 'Grade' => $l['rare']), //Power Patriot
+),
+
+'s552' => array(
+'s552_waves' => array( 'Name' => $l['s552_waves'] , 'WVar' => 's552', 'Image' => 's552_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['s552_waves-mods'], 'Description' => $l['s552_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['common']), //Hang Loose
+),
+
+'scar' => array(
+'scar_waves' => array( 'Name' => $l['scar_waves'] , 'WVar' => 'scar', 'Image' => 'scar_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['scar_waves-mods'], 'Description' => $l['scar_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['uncommon']), //Kapu
+),
+
+'striker' => array(
+'striker_waves' => array( 'Name' => $l['striker_waves'] , 'WVar' => 'striker', 'Image' => 'striker_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['striker_waves-mods'], 'Description' => $l['striker_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['epic']), //Riptide
+),
+
+'usp' => array(
+'usp_waves' => array( 'Name' => $l['usp_waves'] , 'WVar' => 'usp', 'Image' => 'usp_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['usp_waves-mods'], 'Description' => $l['usp_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['common']), //Lip Jibber
+),
+
+'x_g22c' => array(
+'x_g22c_waves' => array( 'Name' => $l['x_g22c_waves'] , 'WVar' => 'x_g22c', 'Image' => 'x_g22c_waves', 'StatB' => 'Accuracy +4', 'TeamB' => 0, 'Mods' => $l['x_g22c_waves-mods'], 'Description' => $l['x_g22c_waves-desc'], 'Safe' => 'bodhis', 'Grade' => $l['epic']), //Tribal Feud
 ),
  
 );
@@ -533,6 +709,32 @@ foreach ($weapons_skin as $weapontype => $row) {
 }
 
 $safes = array(
+'slauts' => array( 'Name' => $l['slauts'], 'Info' => $l['slauts-info'], 'SafeImg' => 'Slaughter_Safe', 'DrillImg' => 'Slaughter_Drill', 'Content' => array(
+$weapons_skin['deagle']['deagle_bloodbath'],
+$weapons_skin['judge']['judge_bloodbath'],
+$weapons_skin['new_raging_bull']['new_raging_bull_bloodbath'],
+$weapons_skin['plainsrider']['plainsrider_bloodbath'],
+$weapons_skin['b92fs']['b92fs_bloodbath'],
+$weapons_skin['flamethrower_mk2']['flamethrower_mk2_bloodbath'],
+$weapons_skin['new_m4']['new_m4_bloodbath'],
+$weapons_skin['mg42']['mg42_bloodbath'],
+$weapons_skin['rpg7']['rpg7_bloodbath'],
+$weapons_skin['g36']['g36_bloodbath'],
+$weapons_skin['ak74']['ak74_rodina'],
+)),
+'fwbs' => array( 'Name' => $l['fwbs'], 'Info' => $l['fwbs-info'], 'SafeImg' => 'FWB_Safe', 'DrillImg' => 'FWB_Drill', 'Content' => array(
+$weapons_skin['huntsman']['huntsman_golddigger'],
+$weapons_skin['p90']['p90_golddigger'],
+$weapons_skin['ppk']['ppk_golddigger'],
+$weapons_skin['r93']['r93_golddigger'],
+$weapons_skin['m134']['m134_golddigger'],
+$weapons_skin['m95']['m95_golddigger'],
+$weapons_skin['new_m14']['new_m14_golddigger'],
+$weapons_skin['ak74']['ak74_golddigger'],
+$weapons_skin['serbu']['serbu_golddigger'],
+$weapons_skin['famas']['famas_golddigger'],
+$weapons_skin['deagle']['deagle_bling'],
+)),
 'cf2' => array( 'Name' => $l['cf2'], 'Info' => $l['cf2-info'], 'SafeImg' => 'Crimefest_2_Safe', 'DrillImg' => 'Crimefest_2_Drill', 'Content' => array(
 $weapons_skin['b92fs']['b92fs_forest'],
 $weapons_skin['famas']['famas_forest'],
@@ -569,32 +771,6 @@ $weapons_skin['famas']['famas_hypno'],
 $weapons_skin['huntsman']['huntsman_hypno'],
 $weapons_skin['ak74']['ak74_rodina'],
 )),
-'slauts' => array( 'Name' => $l['slauts'], 'Info' => $l['slauts-info'], 'SafeImg' => 'Slaughter_Safe', 'DrillImg' => 'Slaughter_Drill', 'Content' => array(
-$weapons_skin['deagle']['deagle_bloodbath'],
-$weapons_skin['judge']['judge_bloodbath'],
-$weapons_skin['new_raging_bull']['new_raging_bull_bloodbath'],
-$weapons_skin['plainsrider']['plainsrider_bloodbath'],
-$weapons_skin['b92fs']['b92fs_bloodbath'],
-$weapons_skin['flamethrower_mk2']['flamethrower_mk2_bloodbath'],
-$weapons_skin['new_m4']['new_m4_bloodbath'],
-$weapons_skin['mg42']['mg42_bloodbath'],
-$weapons_skin['rpg7']['rpg7_bloodbath'],
-$weapons_skin['g36']['g36_bloodbath'],
-$weapons_skin['ak74']['ak74_rodina'],
-)),
-'fwbs' => array( 'Name' => $l['fwbs'], 'Info' => $l['fwbs-info'], 'SafeImg' => 'FWB_Safe', 'DrillImg' => 'FWB_Drill', 'Content' => array(
-$weapons_skin['huntsman']['huntsman_golddigger'],
-$weapons_skin['p90']['p90_golddigger'],
-$weapons_skin['ppk']['ppk_golddigger'],
-$weapons_skin['r93']['r93_golddigger'],
-$weapons_skin['m134']['m134_golddigger'],
-$weapons_skin['m95']['m95_golddigger'],
-$weapons_skin['new_m14']['new_m14_golddigger'],
-$weapons_skin['ak74']['ak74_golddigger'],
-$weapons_skin['serbu']['serbu_golddigger'],
-$weapons_skin['famas']['famas_golddigger'],
-$weapons_skin['deagle']['deagle_bling'],
-)),
 'dalls' => array( 'Name' => $l['dalls'], 'Info' => $l['dalls-info'], 'SafeImg' => 'Dallas_Safe', 'DrillImg' => 'Dallas_Drill', 'Content' => array(
 $weapons_skin['famas']['famas_dallas'],
 $weapons_skin['flamethrower_mk2']['flamethrower_mk2_dallas'],
@@ -612,6 +788,24 @@ $weapons_skin['serbu']['serbu_dallas'],
 $weapons_skin['g36']['g36_dallas'],
 $weapons_skin['m95']['m95_dallas'],
 $weapons_skin['p90']['p90_dallas_sallad'],
+)),
+'bodhis' => array( 'Name' => $l['bodhis'], 'Info' => $l['bodhis-info'], 'SafeImg' => 'Bodhi_Safe', 'DrillImg' => 'Bodhi_Drill', 'Content' => array(
+$weapons_skin['akm']['akm_waves'],
+$weapons_skin['asval']['asval_waves'],
+$weapons_skin['baka']['baka_waves'],
+$weapons_skin['m16']['m16_waves'],
+$weapons_skin['s552']['s552_waves'],
+$weapons_skin['usp']['usp_waves'],
+$weapons_skin['aug']['aug_waves'],
+$weapons_skin['colt_1911']['colt_1911_waves'],
+$weapons_skin['mac10']['mac10_waves'],
+$weapons_skin['scar']['scar_waves'],
+$weapons_skin['ak5']['ak5_waves'],
+$weapons_skin['mosin']['mosin_waves'],
+$weapons_skin['polymer']['polymer_waves'],
+$weapons_skin['striker']['striker_waves'],
+$weapons_skin['x_g22c']['x_g22c_waves'],
+$weapons_skin['r870']['r870_waves'],
 )),
 'compos' => array( 'Name' => $l['compos'], 'Info' => $l['compos-info'], 'SafeImg' => 'COP_Safe', 'DrillImg' => 'COP_Drill', 'Content' => array(
 $weapons_skin['b92fs']['b92fs_bloodsplat'],
@@ -640,6 +834,33 @@ $weapons_skin['m134']['m134_bulletstorm'],
 $weapons_skin['rpg7']['rpg7_boom'],
 $weapons_skin['flamethrower_mk2']['flamethrower_mk2_fire'],
 )),
+);
+
+$dlc_store= array(
+'Armored_Transport' => 264610,
+'Gage_Weapon_Pack_01' => 267380,
+'Gage_Weapon_Pack_02' => 275590,
+'Gage_Sniper_Pack' => 259380,
+'Big_Bank_Heist' => 306690,
+'Gage_Shotgun_Pack' => 311050,
+'Gage_Assault_Pack' => 320030,
+'hotline_miami' => 323500,
+'Gage_Historical' => 331900,
+'diamondheistdlc' => 337660,
+'cloverpack' => 337661,
+'thebombpack' => 339480,
+'draganpack' => 344140,
+'overkillpack' => 348090,
+'akcarmodpack' => 351890,
+'bbq' => 358150,
+'westpack' => 349830,
+'alessoheist' => 366660,
+'casinodlc' => 374300,
+'sokolpack' => 374301,
+'ninjapack' => 384021,
+'yakuzapack' => 384020,
+'chivalrypack' => 401650,
+'thepointbreakpack' => 422400,
 );
 
 //
@@ -1428,47 +1649,47 @@ array( 'Name' => $l['jiro'], 'Wiki' => 'Jiro', 'Image' => 'jiro', 'Description' 
 );
 
 $enemies = array(
-array( 'Name' => $l['e-cop'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_cop ),
-array( 'Name' => $l['e-cop_heavy'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_cop_heavy ),
-array( 'Name' => $l['e-cop_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_cop_swat ),
-array( 'Name' => $l['e-city_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_city_swat ),
-array( 'Name' => $l['e-fbi'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi ),
-array( 'Name' => $l['e-fbi-host'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hostage_rescue ),
-array( 'Name' => $l['e-fbi_office'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi_office ),
-array( 'Name' => $l['e-fbi_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi_swat ),
-array( 'Name' => $l['e-fbi_heavy_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_fbi_heavy_swat ),
-array( 'Name' => $l['e-swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_swat ),
-array( 'Name' => $l['e-heavy_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_heavy_swat ),
-array( 'Name' => $l['e-murky_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_murkywater ),
-array( 'Name' => $l['e-security'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_security ),
-array( 'Name' => $l['e-gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_gensec ),
-array( 'Name' => $l['e-gensec_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_gensec_swat ),
-array( 'Name' => $l['e-gensec_heavy_swat'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_gensec_heavy_swat ),
-array( 'Name' => $l['e-gangster'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_gangster ),
-array( 'Name' => $l['e-biker'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_biker ),
-array( 'Name' => $l['e-mobster'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_mobster ),
-array( 'Name' => $l['e-mobster_boss'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_mobster_boss ),
-array( 'Name' => $l['e-prison_guard'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_prison_guard ),
-array( 'Name' => $l['e-sniper'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_sniper ),
-array( 'Name' => $l['e-sniper_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_sniper_gensec ),
-array( 'Name' => $l['e-shield'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_shield ),
-array( 'Name' => $l['e-shield_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_shield_gensec ),
-array( 'Name' => $l['e-spooc'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_spooc ),
-array( 'Name' => $l['e-spooc_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_spooc_gensec ),
-array( 'Name' => $l['e-tank'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_green ),
-array( 'Name' => $l['e-tank_black'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_black ),
-array( 'Name' => $l['e-tank_skull'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_skull ),
-array( 'Name' => $l['e-tank_hw'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_tank_hw ),
-array( 'Name' => $l['e-taser'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_taser ),
-array( 'Name' => $l['e-taser_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_taser_gensec ),
-array( 'Name' => $l['e-civilian'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_civilian ),
-array( 'Name' => $l['e-civilian_female'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_civilian_female ),
-array( 'Name' => $l['e-turret_gensec'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_turret_gensec ),
-array( 'Name' => $l['e-fbi-fieldagent'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_fbi ),
-array( 'Name' => $l['e-hector'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_boss ),
-array( 'Name' => $l['e-hector-no-armor'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_hector_boss_no_armor ),
-array( 'Name' => $l['e-phalanx_vip'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_phalanx_vip ),
-array( 'Name' => $l['e-phalanx_minion'], 'Wiki' => '', 'Description' => '', 'Value' => $enemy_kills_phalanx_minion )
+array( 'Name' => $l['e-cop'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_cop ),
+array( 'Name' => $l['e-cop_heavy'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_cop_heavy ),
+array( 'Name' => $l['e-cop_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_cop_swat ),
+array( 'Name' => $l['e-city_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_city_swat ),
+array( 'Name' => $l['e-fbi'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_fbi ),
+array( 'Name' => $l['e-fbi-host'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_hostage_rescue ),
+array( 'Name' => $l['e-fbi_office'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_fbi_office ),
+array( 'Name' => $l['e-fbi_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_fbi_swat ),
+array( 'Name' => $l['e-fbi_heavy_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_fbi_heavy_swat ),
+array( 'Name' => $l['e-swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_swat ),
+array( 'Name' => $l['e-heavy_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_heavy_swat ),
+array( 'Name' => $l['e-murky_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_murkywater ),
+array( 'Name' => $l['e-security'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_security ),
+array( 'Name' => $l['e-gensec'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_gensec ),
+array( 'Name' => $l['e-gensec_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_gensec_swat ),
+array( 'Name' => $l['e-gensec_heavy_swat'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_gensec_heavy_swat ),
+array( 'Name' => $l['e-gangster'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_gangster ),
+array( 'Name' => $l['e-biker'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_biker ),
+array( 'Name' => $l['e-mobster'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_mobster ),
+array( 'Name' => $l['e-mobster_boss'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_mobster_boss ),
+array( 'Name' => $l['e-prison_guard'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_prison_guard ),
+array( 'Name' => $l['e-sniper'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_sniper ),
+array( 'Name' => $l['e-sniper_gensec'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_sniper_gensec ),
+array( 'Name' => $l['e-shield'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_shield ),
+array( 'Name' => $l['e-shield_gensec'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_shield_gensec ),
+array( 'Name' => $l['e-spooc'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_spooc ),
+array( 'Name' => $l['e-spooc_gensec'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_spooc_gensec ),
+array( 'Name' => $l['e-tank'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_tank_green ),
+array( 'Name' => $l['e-tank_black'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_tank_black ),
+array( 'Name' => $l['e-tank_skull'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_tank_skull ),
+array( 'Name' => $l['e-tank_hw'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_tank_hw ),
+array( 'Name' => $l['e-taser'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_taser ),
+array( 'Name' => $l['e-taser_gensec'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_taser_gensec ),
+array( 'Name' => $l['e-civilian'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_civilian ),
+array( 'Name' => $l['e-civilian_female'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_civilian_female ),
+array( 'Name' => $l['e-turret_gensec'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_turret_gensec ),
+array( 'Name' => $l['e-fbi-fieldagent'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_hector_fbi ),
+array( 'Name' => $l['e-hector'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_hector_boss ),
+array( 'Name' => $l['e-hector-no-armor'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_hector_boss_no_armor ),
+array( 'Name' => $l['e-phalanx_vip'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_phalanx_vip ),
+array( 'Name' => $l['e-phalanx_minion'], 'Wiki' => '', 'Description' => $l['BLOBL-desc'], 'Value' => $enemy_kills_phalanx_minion )
 );
 
 //Temporary

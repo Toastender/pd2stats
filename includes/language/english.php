@@ -1258,6 +1258,13 @@ $l['hoxtonrevenge'] = 'Hoxton Revenge';
 $l['shoutout_raid'] = 'Meltdown';
 $l['alesos'] = 'Alesso Heist';
 $l['kenaz'] = 'Golden Grin Casino';
+$l['nail'] = 'Lab Rats';
+$l['jolly'] = 'Aftershock';
+$l['red2'] = 'First World Bank';
+$l['dinner'] = 'Slaughterhouse';
+$l['pbr'] = 'Beneath the Mountain';
+$l['pbr2'] = 'Birth of Sky';
+$l['cane'] = 'Santa\'s Workshop';
 //Escapes
 $l['escapeparknight'] = 'Park (Night)';
 $l['escapeparkday'] = 'Park';
